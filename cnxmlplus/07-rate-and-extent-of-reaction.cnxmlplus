@@ -1,0 +1,3521 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml/0.4" xmlns:style="http://siyavula.com/cnxml/style/0.1">
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule translate="no" selector="//link"/>
+    <its:translateRule translate="no" selector="//url"/>
+    <its:translateRule translate="no" selector="//latex"/>
+    <its:translateRule translate="no" selector="//number"/>
+    <its:translateRule translate="no" selector="//unit"/>
+    <its:translateRule translate="no" selector="//unit_number"/>
+    <its:translateRule translate="no" selector="//percentage"/>
+    <its:translateRule translate="no" selector="//symbol"/>
+    <its:translateRule translate="no" selector="//currency"/>
+    <its:translateRule translate="no" selector="//chem_compound"/>
+    <its:translateRule translate="no" selector="//spec_note"/>
+    <its:translateRule translate="no" selector="//nuclear_notation"/>
+    <its:translateRule translate="no" selector="//mass_number"/>
+    <its:translateRule translate="no" selector="//atomic_number"/>
+    <its:translateRule translate="no" selector="//code"/>
+    <its:translateRule translate="no" selector="//m:math"/>
+    <its:translateRule translate="no" selector="//shortcode"/>
+    <its:translateRule translate="no" selector="//metadata"/>
+    <its:translateRule translate="no" selector="//image"/>
+    <its:translateRule translate="no" selector="//video"/>
+    <its:translateRule translate="no" selector="//figure/type"/>
+    <its:translateRule translate="no" selector="//simulation"/>
+</its:rules>
+  <metadata>
+    <cnxml-version>0.1</cnxml-version>
+    <pspicture-generator-version>1.1</pspicture-generator-version>
+  </metadata>
+  <content>
+    <section type="chapter">
+      <title>Rate and Extent of Reaction</title>
+	<teachers-guide>
+	  <para>In this chapter learners will look at the rates of different reactions and the factors that affect those rates. In grade 11 learners were introduced to the energies involved in chemical reactions as well as activation energy graphs. These topics will be explored more thoroughly in this chapter. It is important that this section is covered thoroughly to give the learners a deep understanding that they can use in the following chapters (particularly Chapter 8).</para>
+	  <para>The following topics are covered in this chapter.</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para><emphasis effect="bold">What the term <emphasis effect="italics">reaction rate</emphasis> means</emphasis></para>
+	    <para>In this section learners will look at what a reaction rate is and the different ways of determining the rate of a reaction. They will do calculations based on the rates of different reactions.</para>
+	  </item>
+	  <item>
+	    <para><emphasis effect="bold">The factors affecting reaction rates</emphasis></para>
+	    <para>Learners will be introduced to the concept of collision theory as a way of understanding why certain factors affect the rate of a reaction. They will investigate (with experiments) how the nature, the surface area, the concentration and the temperature affect the rate of a reaction. The effect of a catalyst will also be studied.</para>
+	  </item>
+	  <item>
+	    <para><emphasis effect="bold">How to measure rates of reaction</emphasis></para>
+	    <para>In this section learners will look at methods of measuring reaction rates including the collection of gas, the formation of precipitate, a change in colour and a change in mass. They will perform experiments and calculate reaction rates to better understand these concepts.</para>
+	  </item>
+	  <item>
+	    <para><emphasis effect="bold">The mechanisms of reaction and the effect of catalysts</emphasis></para>
+	    <para>In this section learners will explore the mechanisms behind reaction rates, specifically focusing on activation energy. The effect of catalysts on activation energy will be covered in detail.</para>
+	  </item>
+	</list>
+	<para>There are several experiments in this chapter. The learners will be using dangerous chemicals and should be properly instructed on the correct use of safety equipment, including safety goggles, gloves and protective clothing. They should also be reminded not to sniff any chemicals as the fumes can be dangerous as well. More information on laboratory procedures as well as safety precautions is provided in <link url="todo">Chapter 1</link> (Science skills).</para>
+	<para>In the informal assessment the learners must determine a quantitative reaction rate in the reaction of <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> and <chem_compound>HCl</chem_compound>. Learners are required to perform the experiment, calculate quantitative reaction rates (using the formation of precipitate), and plot a graph of their results.</para>
+      </teachers-guide>
+      <section type="section">
+	<title>Introduction</title>
+	<shortcode>Shortcode</shortcode>
+	<para>A car slowly rusting away, a match burning, a tablet dissolving in water. All of these are chemical reactions and all of these take place at different rates. If you were to hold a race between these three reactions you would find that the match wins (it burns quickly), while the car rusting would lose (it may take years to rust).</para>
+	<figure id="fig:reactionrates:physical">
+	  <type>figure</type>
+	  <image>
+	    <src>photos/physical.jpg</src>
+	    <attribution>Photos by jeffk, JefferyTurner and inid.ca on Flicr</attribution>
+	  </image>
+	  <caption>
+	    <para>A rusting car, a match burning and a tablet dissolving in water.</para>
+	  </caption>
+	</figure>
+	<para>In this chapter we will look at why reactions proceed at different rates (speeds) and how we can change the rate of the reaction.</para>
+	<note type="aside">
+	  <para>In physics, speed is the scalar measurement that tells us how fast or slow an object is moving (position vs. time). For reactions the speed (or rate) of a reaction means how fast or slow the reaction is and indicates the amount of product and the amount of reactants used per unit time.</para>
+	</note>
+      </section>
+      <section type="section">
+        <title>Rates of reaction and factors affecting rate</title>
+        <shortcode>ESCAQ</shortcode>
+        <para>Firstly, let's think about some different types of reactions and how quickly or slowly they occur.</para>
+        <exercises>
+	  <title>Thinking about reaction rates</title>
+          <multi-part>
+	  <shortcode>01pv, 0243, 0244, 0245</shortcode>
+            <header>
+	      <para>Think about each of the following reactions:</para>
+	      <para>(Hint: look at your Grade 11 textbook for a reminder on these processes)</para>
+              <list list-type="bulleted">
+		<item>corrosion (e.g. the rusting of iron)</item>
+		<item>photosynthesis</item>
+		<item>weathering of rocks (e.g. limestone rocks being worn away by water)</item>
+		<item>combustion (e.g. propane burning in <chem_compound>O_{2}</chem_compound>)</item>
+	      </list>
+	    </header>
+             <entry>
+	      <problem>
+		<para>For each of the reactions above, write a balanced chemical equation for the reaction that takes place.</para>
+	      </problem>
+	      <solution>
+		<list list-type="bulleted">
+		  <item>
+		    <para>Choosing iron as an example of a metal that rusts:</para>
+		    <para><chem_compound>4Fe(s) + 3O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>2Fe_{2}O_{3}(s)</chem_compound></para>
+		  </item>
+		  <item>
+		    <para>Photosynthesis:</para>
+		    <para><chem_compound>6CO_{2}(g) + 6H_{2}O(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>C_{6}H_{12}O_{6}(s) + 6O_{2}(g)</chem_compound></para>
+		  </item>
+		  <item>
+		    <para>For weathering of rocks we will use limestone (calcium carbonate) as an example:</para>
+		    <para><chem_compound>CaCO_{3}(s) + CO_{2}(g) + 2H_{2}O(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>Ca^{2+}(aq) + 2HCO_{3}^{-}(aq)</chem_compound></para>
+		  </item>
+		  <item>
+		    <para>Combustion (e.g. of carbon):</para>
+		    <para><chem_compound>C(s) + O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>CO_{2}(g)</chem_compound></para>
+		  </item>
+		</list>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Rank these reactions in order from the fastest to the slowest.</para>
+	      </problem>
+	      <solution>
+		<para>Combustion is the fastest and weathering is the slowest. The order of reactivity from fastest to slowest is: combustion, photosynthesis, rusting, weathering.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>How did you decide which reaction was the fastest and which was the slowest?</para>
+	      </problem>
+	      <solution>
+		<para>Answers could include mention of the fact that coal and paper burn fast, whereas rocks do not disappear overnight. Also plants use photosynthesis to make food and this process has to happen relatively fast but not too fast.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Think of some other examples of chemical reactions. How fast or slow is each of these reactions, compared with those listed earlier?</para>
+	      </problem>
+	      <solution>
+		<list list-type="bulleted">
+		  <item>
+		    <para>Decomposition of hydrogen peroxide, relatively fast</para>
+		  </item>
+		  <item>
+		    <para>Synthesis of water, very fast</para>
+		  </item>
+		  <item>
+		    <para>Any other reasonable answers</para>
+		  </item>
+		</list>
+	      </solution>
+	      <correct/>
+	    </entry>
+	  </multi-part>
+	</exercises>
+	<para>This video is a simple demonstration of how a change in <emphasis effect="bold">surface area</emphasis> can affect the average rate of a reaction.</para>
+        <video>
+	  <title>Chapter introduction</title>
+          <shortcode>Shortcode 1</shortcode>
+	  <url>http://www.youtube.com/embed/pNAf5s-C414</url>
+	  <width>300</width>
+    	  <height>245</height>
+	</video>
+	<para>You can see how quickly the fuel burns when spread over the table. Think about how much more fuel would be needed to cook a meal if you had it spread over a large surface area rather than kept in a container with a small surface area.</para>
+	<section type="subsection">
+          <title>What is a reaction rate?</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>In a chemical reaction, the substances that are undergoing the reaction are called the <emphasis effect="bold">reactants</emphasis>, while the substances that form as a result of the reaction are called the <emphasis effect="bold">products</emphasis>. The <emphasis effect="bold">reaction rate</emphasis> describes how quickly or slowly the reaction takes place. So how do we know whether a reaction is slow or fast? One way of knowing is to look either at how quickly the <emphasis effect="italics">reactants are used</emphasis> during the reaction or at how quickly the <emphasis effect="italics">products form</emphasis>. For example, iron and sulfur react according to the following equation:</para>
+	  <para><chem_compound>Fe(s) + S(s)</chem_compound> <latex>\rightarrow</latex> <chem_compound>FeS(s)</chem_compound></para>
+        <para>In this reaction, we can observe the speed of the reaction by measuring how long it takes before there is no iron or sulfur left in the reaction vessel. In other words, the reactants have been used. Alternatively, one could see how quickly the iron sulfide (the product) forms. Since iron sulfide looks very different from either of its reactants, this is easy to do.</para>
+	<image style:width="0.8">
+	  <src>photos/FeSformation.png</src>
+	  <attribution>Photos by Megan Beckett and Ondrej Mangl on wikimedia</attribution>
+	</image>
+	<para>In another example:</para>
+	<para><chem_compound>2Mg(s) + O_2(g)</chem_compound> <latex>\rightarrow</latex> <chem_compound>2MgO(s)</chem_compound></para>
+        <para>In this case, the reaction rate depends on the speed at which the reactants (oxygen gas and solid magnesium) are used, or the speed at which the product (magnesium oxide) is formed.</para>
+        <definition>
+          <term>Reaction rate</term>
+          <meaning>
+	    <para>The average rate of a reaction describes how quickly <emphasis effect="italics">reactants are used</emphasis> or how quickly <emphasis effect="italics">products are formed</emphasis> during a chemical reaction.</para>
+          </meaning>
+        </definition>
+	<para>The average rate of a reaction is expressed as the number of moles of reactant used, divided by the total reaction time, or as the number of moles of product formed, divided by the total reaction time.</para>
+	<para>Average reaction rate for:</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para>the use of a reactant = <latex>\dfrac{\text{moles reactant used}}{\text{reaction time (s)}}</latex></para>
+	  </item>
+	  <item>
+	    <para>the formation of a product = <latex>\dfrac{\text{moles product formed}}{\text{reaction time (s)}}</latex></para>
+	  </item>
+	</list>
+	<para>Using the magnesium reaction shown earlier:</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para>Average reaction rate of Mg being used = <latex>\dfrac{\text{moles Mg used}}{\text{reaction time (s)}}</latex></para>
+	  </item>
+	  <item>
+	    <para>Average reaction rate of <chem_compound>O_2</chem_compound> being used = <latex>\dfrac{\text{moles O}_2\text{ used}}{\text{reaction time (s)}}</latex></para>
+	  </item>
+	  <item>
+	    <para>Average reaction rate of MgO being formed = <latex>\dfrac{\text{moles MgO formed}}{\text{reaction time (s)}}</latex></para>
+	  </item>
+	</list>
+        <worked_example>
+          <title>Reaction rates</title>
+          <question>
+            <para>The following reaction takes place:</para>
+	    <para><chem_compound>4Li(s) + O_{2}(g)</chem_compound>  <latex>\to</latex> <chem_compound>2Li_{2}O(s)</chem_compound></para>
+            <para>After two minutes, <unit_number><number>4</number><unit>g</unit></unit_number> of lithium has been used. Calculate the rate of the reaction.</para>
+          </question>
+          <answer>
+            <workstep>
+              <title>Calculate the number of moles of lithium that are used in the reaction</title>
+	      <para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+	      <para><latex>\phantom{\rule{6.pt}{0ex}}=\dfrac{<unit_number><number>4</number><unit>g</unit></unit_number>}{<unit_number><number>6.94</number><unit>g.mol<sup>-1</sup></unit></unit_number>}</latex></para>
+	      <para><latex>\phantom{\rule{6.pt}{0ex}}=</latex> <unit_number><number>0.58</number><unit>mol</unit></unit_number></para>
+            </workstep>
+            <workstep>
+              <title>Calculate the time (in seconds) for the reaction</title>
+	      <para>t = <unit_number><number>2</number><unit>minutes</unit></unit_number> = <number>2</number> <latex>\times</latex> <unit_number><number>60</number><unit>s</unit></unit_number> = <unit_number><number>120</number><unit>seconds</unit></unit_number></para>
+            </workstep>
+            <workstep>
+              <title>Calculate the rate of the reaction</title>
+	      <para>Rate of reaction of <chem_compound>Li</chem_compound> used <latex>= \dfrac{\text{moles of lithium used}}{\text{time}}</latex></para>
+	      <para><latex>\phantom{\rule{73.pt}{0ex}} = \dfrac{<unit_number><number>0.58</number><unit>mol</unit></unit_number>}{<unit_number><number>120</number><unit>s</unit></unit_number>}</latex></para>
+	      <para><latex>\phantom{\rule{73.pt}{0ex}} = </latex> <unit_number><number>0.005</number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+              <para>The rate of the reaction is <unit_number><number>0.005</number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+            </workstep>
+          </answer>
+        </worked_example>
+        <exercises>
+	  <title>Reaction rates</title>
+          <multi-part>
+	  <shortcode>01pw</shortcode>
+	    <header>
+            <para>A number of different reactions take place. The table below shows the number of moles of reactant that are used in a particular time for each reaction.</para>
+            <table>
+              <tgroup cols="4">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <colspec colname="c3" colnum="3"/>
+                <colspec colname="c4" colnum="4"/>
+                <tbody>
+                  <row>
+                    <entry><emphasis effect="bold">Reaction</emphasis></entry>
+                    <entry><emphasis effect="bold">Reactants used (mol)</emphasis></entry>
+                    <entry><emphasis effect="bold">Time (s)</emphasis></entry>
+		    <entry>
+		      <para><emphasis effect="bold">Reaction rate</emphasis></para>
+		      <para><emphasis effect="bold">(<unit>mol.s<sup>-1</sup></unit>)</emphasis></para>
+		    </entry>
+                  </row>
+                  <row>
+                    <entry><number>1</number></entry>
+                    <entry><number>2</number></entry>
+                    <entry><number>30</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>2</number></entry>
+                    <entry><number>5</number></entry>
+                    <entry><number>120</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>3</number></entry>
+                    <entry><number>1</number></entry>
+                    <entry><number>90</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>4</number></entry>
+                    <entry><number>3.2</number></entry>
+                    <entry><number>90</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>5</number></entry>
+                    <entry><number>5.9</number></entry>
+                    <entry><number>30</number></entry>
+                    <entry/>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>Complete the table by calculating the average rate of each reaction.</para>
+	    </problem>
+	    <solution>
+	      <para>The reaction rate is the number of moles used up divided by the time in seconds.</para>
+	      <table>
+		<tgroup cols="4">
+		  <colspec colname="c1" colnum="1"/>
+		  <colspec colname="c2" colnum="2"/>
+		  <colspec colname="c3" colnum="3"/>
+		  <colspec colname="c4" colnum="4"/>
+		  <tbody>
+		    <row>
+		      <entry><emphasis effect="bold">Reaction</emphasis></entry>
+		      <entry><emphasis effect="bold">Reactants used (mol)</emphasis></entry>
+		      <entry><emphasis effect="bold">Time (s)</emphasis></entry>
+		      <entry>
+			<para><emphasis effect="bold">Reaction rate</emphasis></para>
+			<para><emphasis effect="bold">(<unit>mol.s<sup>-1</sup></unit>)</emphasis></para>
+		      </entry>
+		    </row>
+		    <row>
+		      <entry><number>1</number></entry>
+		      <entry><number>2</number></entry>
+		      <entry><number>30</number></entry>
+		      <entry><number>0.067</number></entry>
+		    </row>
+		    <row>
+		      <entry><number>2</number></entry>
+		      <entry><number>5</number></entry>
+		      <entry><number>120</number></entry>
+		      <entry><number>0.042</number></entry>
+		    </row>
+		    <row>
+		      <entry><number>3</number></entry>
+		      <entry><number>1</number></entry>
+		      <entry><number>90</number></entry>
+		      <entry><number>0.011</number></entry>
+		    </row>
+		    <row>
+		      <entry><number>4</number></entry>
+		      <entry><number>3.2</number></entry>
+		      <entry><number>90</number></entry>
+		      <entry><number>0.036</number></entry>
+		    </row>
+		    <row>
+		      <entry><number>5</number></entry>
+		      <entry><number>5.9</number></entry>
+		      <entry><number>30</number></entry>
+		      <entry><number>0.2</number></entry>
+		    </row>
+		  </tbody>
+		</tgroup>
+	      </table>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Which is the <emphasis effect="italics">fastest</emphasis> reaction?</para>
+	    </problem>
+	    <solution>
+	      <para>The fastest reaction is reaction <number>5</number></para>
+	    </solution>
+	    <correct><number>5</number></correct>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Which is the <emphasis effect="italics">slowest</emphasis> reaction?</para>
+	    </problem>
+	    <solution>
+	      <para>The slowest reaction is reaction <number>3</number></para>
+	    </solution>
+	    <correct><number>3</number></correct>
+	  </entry>
+	</multi-part>
+	<multi-part>
+	  <shortcode>Shortcode</shortcode>
+	  <header>
+	    <para>Iron reacts with oxygen as shown in the balanced reaction:</para>
+	    <para><chem_compound>2Fe(s) + O_{2}(g)</chem_compound> <latex>\rightarrow</latex> <chem_compound>2FeO(s)</chem_compound></para>
+	    <para><unit_number><number>2</number><unit>g</unit></unit_number> of <chem_compound>Fe</chem_compound> and <unit_number><number>0.57</number><unit>g</unit></unit_number> of <chem_compound>O_{2}</chem_compound> are used during the reaction. <unit_number><number>2.6</number><unit>g</unit></unit_number> of <chem_compound>FeO</chem_compound> is produced. The reaction takes <unit_number><number>30</number><unit>minutes</unit></unit_number> to go to completion.</para>
+	    <para>Calculate the average rate of reaction for:</para>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>the use of <chem_compound>Fe</chem_compound>.</para>
+	    </problem>
+	    <solution>
+	      <para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+	      <para>M(<chem_compound>Fe</chem_compound>) = <unit_number><number>55.8</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+	      <para><latex>\text{n} = \dfrac{<unit_number><number>2</number><unit>g</unit></unit_number>}{<unit_number><number>55.8</number><unit>g.mol<sup>-1</sup></unit></unit_number>}=</latex> <unit_number><number>0.0358</number><unit>mol</unit></unit_number></para>
+	      <para>Rate of reaction is number of moles <chem_compound>Fe</chem_compound> used up per second.</para>
+	      <para>time = <unit_number><number>30</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> \text{ s}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>1800</number><unit>s</unit></unit_number></para>
+	      <para>Average rate of reaction for <chem_compound>Fe</chem_compound> = <latex>\dfrac{<unit_number><number>0.0358</number><unit>mol</unit></unit_number>}{<unit_number><number>1800</number><unit>s</unit></unit_number>}=<correct><unit_number><number><coeff>1.99</coeff><exp>-5</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></latex></para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>the use of <chem_compound>O_{2}</chem_compound>.</para>
+	    </problem>
+	    <solution>
+	      <para><latex>\text{n}=\dfrac{\text{m}}{\text{M}}</latex></para>
+	      <para>M(<chem_compound>O_{2}</chem_compound>) = <latex><unit_number><number>16</number><unit>g.mol<sup>-1</sup></unit></unit_number>\times 2</latex> = <unit_number><number>32</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+	      <para><latex>\text{n} = \dfrac{<unit_number><number>0.57</number><unit>g</unit></unit_number>}{<unit_number><number>32</number><unit>g.mol<sup>-1</sup></unit></unit_number>}=</latex> <unit_number><number>0.0178</number><unit>mol</unit></unit_number></para>
+	      <para>Rate of reaction is number of moles <chem_compound>O_{2}</chem_compound> used up per second.</para>
+	      <para>Average rate of reaction for <chem_compound>O_{2}</chem_compound> = <latex>\dfrac{<unit_number><number>0.0178</number><unit>mol</unit></unit_number>}{<unit_number><number>1800</number><unit>s</unit></unit_number>}=<correct><unit_number><number><coeff>9.89</coeff><exp>-6</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></latex></para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>the formation of <chem_compound>FeO</chem_compound>.</para>
+	    </problem>
+	    <solution>
+	      <para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+	      <para>M(<chem_compound>FeO</chem_compound>) = <unit_number><number>55.8</number><unit>g.mol<sup>-1</sup></unit></unit_number> + <unit_number><number>16</number><unit>g.mol<sup>-1</sup></unit></unit_number> = <unit_number><number>71.8</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+	      <para><latex>\text{n} = \dfrac{<unit_number><number>2.6</number><unit>g</unit></unit_number>}{<unit_number><number>71.8</number><unit>g.mol<sup>-1</sup></unit></unit_number>}=</latex> <unit_number><number>0.0362</number><unit>mol</unit></unit_number></para>
+	      <para>Rate of reaction is number of moles <chem_compound>FeO</chem_compound> produced per second.</para>
+	      <para>Average rate of reaction for <chem_compound>FeO</chem_compound> = <latex>\dfrac{<unit_number><number>0.0362</number><unit>mol</unit></unit_number>}{<unit_number><number>1800</number><unit>s</unit></unit_number>}=<correct><unit_number><number><coeff>2.01</coeff><exp>-5</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></latex></para>
+	      <para>Note that the rates of the individual reactions follow the stoichiometric rates in the balanced equation:</para>
+	      <para><latex><number><coeff>1.99</coeff><exp>-5</exp></number>:<number><coeff>9.89</coeff><exp>-6</exp></number>:<number><coeff>2.01</coeff><exp>-5</exp></number></latex> is <latex>2:1:2</latex></para>
+	    </solution>
+	  </entry>
+	</multi-part>
+	<multi-part>
+	  <shortcode>01px</shortcode>
+	  <header>
+	    <para>Two reactions occur simultaneously in separate reaction vessels. The reactions are as follows:</para>
+	    <para><chem_compound>Mg(s) + Cl_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>MgCl_{2}(s)</chem_compound></para>
+	    <para><chem_compound>2Na(s) + Cl_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>2NaCl(s)</chem_compound></para>
+	    <para>After <unit_number><number>1</number><unit>minute</unit></unit_number>, <unit_number><number>2</number><unit>g</unit></unit_number> of <chem_compound>MgCl_{2}</chem_compound> has been produced in the first reaction.</para>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>How many moles of <chem_compound>MgCl_{2}</chem_compound> are produced after <unit_number><number>1</number><unit>minute</unit></unit_number>?</para>
+	    </problem>
+	    <solution>
+	      <para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+	      <para>M(<chem_compound>MgCl_{2}</chem_compound>) = <unit_number><number>24.3</number><unit>g.mol<sup>-1</sup></unit></unit_number> + <number>2</number> x <unit_number><number>35.45</number><unit>g.mol<sup>-1</sup></unit></unit_number> = <unit_number><number>95.2</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+	      <para><latex>\text{n} = \dfrac{<unit_number><number>2</number><unit>g</unit></unit_number>}{<unit_number><number>95.2</number><unit>g.mol<sup>-1</sup></unit></unit_number>}</latex> = <unit_number><number>0.021</number><unit>mol</unit></unit_number></para>
+	    </solution>
+	    <correct><para><unit_number><number>0.021</number><unit>mol</unit></unit_number></para></correct>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Calculate the average rate of the reaction, using the amount of product that is produced.</para>
+	    </problem>
+	    <solution>
+	      <para>time = <unit_number><number>1</number><unit>minute</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{minute}}}</latex> = <unit_number><number>60</number><unit>s</unit></unit_number></para>
+	      <para>Average rate = <latex>\dfrac{\text{moles product}}{\text{time (s)}} = \dfrac{<unit_number><number>0.021</number><unit>mol</unit></unit_number>}{<unit_number><number>60</number><unit>s</unit></unit_number>}</latex> = <unit_number><number><coeff>3.5</coeff><exp>-4</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+	    </solution>
+	    <correct><para><unit_number><number>0.00035</number><unit>mol.s<sup>-1</sup></unit></unit_number></para></correct>
+	  </entry>
+	  <multi-part>
+	    <header>
+	      <para>Assuming that the second reaction also proceeds at the same rate, calculate:</para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>the number of moles of <chem_compound>NaCl</chem_compound> produced after <unit_number><number>1</number><unit>minute</unit></unit_number>.</para>
+	      </problem>
+	      <solution>
+		<para>n = rate <latex>\times</latex> time = <unit_number><number><coeff>3.5</coeff><exp>-4</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number> <latex>\times</latex> <unit_number><number>60</number><unit>s</unit></unit_number> = <correct><unit_number><number>0.021</number><unit>mol</unit></unit_number></correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>the minimum mass (in g) of sodium that is needed for this reaction to take place for <unit_number><number>1</number><unit>min</unit></unit_number>.</para>
+	      </problem>
+	      <solution>
+		<para>For every <number>2</number> moles of <chem_compound>NaCl</chem_compound> produced <number>2</number> moles of <chem_compound>Na</chem_compound> is required.</para>
+		<para>n(<chem_compound>Na</chem_compound>) required = <unit_number><number>0.021</number><unit>mol</unit></unit_number></para>
+		<para>M(<chem_compound>Na</chem_compound>) = <unit_number><number>23.0</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>m = n <latex>\times</latex> M = <unit_number><number>0.021</number><unit>mol</unit></unit_number> <latex>\times</latex> <unit_number><number>23.0</number><unit>g.mol<sup>-1</sup></unit></unit_number> = <correct><unit_number><number>0.48</number><unit>g</unit></unit_number></correct></para>
+	      </solution>
+	    </entry>
+	  </multi-part>
+	</multi-part>
+      </exercises>
+    </section>
+    <section type="subsection">
+      <title>Reaction rates and collision theory</title>
+      <shortcode>ESCAS</shortcode>
+      <para>It should be clear now that the average rate of a reaction varies depending on a number of factors. But how can we explain why reactions take place at different speeds under different conditions? <emphasis effect="bold">Collision theory</emphasis> is used to explain the rate of a reaction.</para>
+      <para>For a reaction to occur, the particles that are reacting must collide with one another. Only a fraction of all the collisions that take place actually cause a chemical change. These are called <emphasis effect="italics">successful</emphasis> or <emphasis effect="italics">effective</emphasis> collisions.</para>
+      <definition>
+	<term>Collision theory</term>
+	<meaning>
+	  <para>Reactant particles must collide with the correct energy and orientation for the reactants to change into products.</para>
+	</meaning>
+      </definition>
+      <para>Collision theory explains how chemical reactions occur and why reaction rates differ for different reactions. It states that for a reaction to occur the reactant particles must:</para>
+      <list list-type="bulleted">
+	<item>
+	  <para>collide</para>
+	</item>
+	<item>
+	  <para>have enough energy</para>
+	</item>
+	<item>
+	  <para>have the right orientation at the moment of impact</para>
+	</item>
+      </list>
+      <para>These <emphasis effect="italics">successful collisions</emphasis> and are necessary to break the existing bonds (in the reactants) and form new bonds (in the products).</para>
+      <activity type="activity">
+	<title>Collision Theory</title>
+	<section>
+	  <title>Aim</title>
+	  <para>To determine the best way to approach your friend, in order to link your <emphasis effect="bold">right</emphasis> arm with their <emphasis effect="bold">left</emphasis> arm.</para>
+	</section>
+	<section>
+	  <title>Method</title>
+	  <para>Try different ways of approaching your friend:</para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para>back to back</para>
+	      <pspicture>
+		<code>
+		  (1.3,-0.4)(4.7,2.5)
+		  \def\stickmanside{
+		  \pscircle(2,2){0.4}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  \psarc(2.25,2.1){0.3}{245}{290}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.7,-0.2)
+		  \psline(2,0.6)(2.3,-0.1)
+		  \psline[linearc=0.2](2,1.2)(2.2,1.25)(2.25,0.95)
+		  \psline[linearc=0.2](1.75,0.85)(1.8,1.15)(2,1.2)
+		  }
+		  \rput(4,0){\scalebox{-1}[1]{\stickmanside}}
+		  \rput(2,0){\stickmanside}
+		  \psline[linearc=0.2,linecolor=green](4,1.2)(4.2,1.25)(4.25,0.95)
+		  \scalebox{-1}[1]{\psline[linearc=0.2,linecolor=red](-2,1.2)(-1.8,1.25)(-1.75,0.95)}
+		</code>
+	      </pspicture>
+	    </item>
+	    <item>
+	      <para>front to back</para>
+	      <pspicture>
+		<code>
+		  (3.3,-0.4)(6.7,2.5)
+		  \def\stickmanside{
+		  \pscircle(2,2){0.4}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  \psarc(2.25,2.1){0.3}{245}{290}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.7,-0.2)
+		  \psline(2,0.6)(2.3,-0.1)
+		  \psline[linearc=0.2](2,1.2)(2.2,1.25)(2.25,0.95)
+		  \psline[linearc=0.2](1.75,0.85)(1.8,1.15)(2,1.2)
+		  }
+		  \rput(4,0){\stickmanside}
+		  \rput(2,0){\stickmanside}
+		  \psline[linearc=0.2,linecolor=green](6,1.2)(6.2,1.25)(6.25,0.95)
+		  \psline[linearc=0.2,linecolor=red](3.75,0.85)(3.8,1.15)(4,1.2)
+		</code>
+	      </pspicture>
+	    </item>
+	    <item>
+	      <para>side to front</para>
+	      <pspicture>
+		<code>
+		  (1.3,-0.4)(9.7,2.5)
+		  \def\stickmanside{
+		  \pscircle(2,2){0.4}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  \psarc(2.25,2.1){0.3}{245}{290}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.7,-0.2)
+		  \psline(2,0.6)(2.3,-0.1)
+		  \psline[linearc=0.2](2,1.2)(2.2,1.25)(2.25,0.95)
+		  \psline[linearc=0.2](1.75,0.85)(1.8,1.15)(2,1.2)
+		  }
+		  \def\stickmanfront{
+		  \pscircle(2,2){0.4}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.5,-0.2)
+		  \psline(2,0.6)(2.5,-0.2)
+		  \psline[linearc=0.3](1.5,0.9)(1.7,1.2)(2,1.2)
+		  \psline[linearc=0.3](2,1.2)(2.3,1.2)(2.5,0.9)
+		  \psarc(2,2){0.3}{245}{295}
+		  \pscircle[fillstyle=solid,fillcolor=black](1.85,2.1){0.04}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  }
+		  \rput(0,0){\stickmanside}
+		  \rput(2,0){\stickmanfront}
+		  \scalebox{-1}[1]{\rput(-11,0){\stickmanside}}
+		  \rput(5.5,1){or}
+		  \rput(5,0){\stickmanfront}
+		  \psline[linearc=0.2,linecolor=red](1.75,0.85)(1.8,1.15)(2,1.2)
+		  \psline[linearc=0.3,linecolor=green](4,1.2)(4.3,1.2)(4.5,0.9)
+		  \psline[linearc=0.3,linecolor=green](7,1.2)(7.3,1.2)(7.5,0.9)
+		  \scalebox{-1}[1]{\psline[linearc=0.2,linecolor=red](-9,1.2)(-8.8,1.25)(-8.75,0.95)}
+		</code>
+	      </pspicture>
+	    </item>
+	    <item>
+	      <para>side to side</para>
+	      <pspicture>
+		<code>
+		  (1.3,-0.4)(4.7,2.5)
+		  \def\stickmanfront{
+		  \pscircle(2,2){0.4}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.5,-0.2)
+		  \psline(2,0.6)(2.5,-0.2)
+		  \psline[linearc=0.3](1.5,0.9)(1.7,1.2)(2,1.2)
+		  \psline[linearc=0.3](2,1.2)(2.3,1.2)(2.5,0.9)
+		  \psarc(2,2){0.3}{245}{295}
+		  \pscircle[fillstyle=solid,fillcolor=black](1.85,2.1){0.04}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  }
+		  \rput(0,0){\stickmanfront}
+		  \rput(2,0){\stickmanfront}
+		  \psline[linearc=0.3,linecolor=red](3.5,0.9)(3.7,1.2)(4,1.2)
+		  \psline[linearc=0.3,linecolor=green](2,1.2)(2.3,1.2)(2.5,0.9)
+		</code>
+	      </pspicture>
+	    </item>
+	    <item>
+	      <para>front to front</para>
+	      <pspicture>
+		<code>
+		  (1.3,-0.4)(4.7,2.5)
+		  \def\stickmanside{
+		  \pscircle(2,2){0.4}
+		  \pscircle[fillstyle=solid,fillcolor=black](2.15,2.1){0.04}
+		  \psarc(2.25,2.1){0.3}{245}{290}
+		  \psline(2,1.6)(2,0.6)
+		  \psline(2,0.6)(1.7,-0.2)
+		  \psline(2,0.6)(2.3,-0.1)
+		  \psline[linearc=0.2](2,1.2)(2.2,1.25)(2.25,0.95)
+		  \psline[linearc=0.2](1.75,0.85)(1.8,1.15)(2,1.2)
+		  }
+		  \rput(0,0){\stickmanside}
+		  \rput(6,0){\scalebox{-1}[1]{\stickmanside}}
+		  \psline[linearc=0.2,linecolor=red](1.75,0.85)(1.8,1.15)(2,1.2)
+		  \scalebox{-1}[1]{\psline[linearc=0.2,linecolor=green](-4.25,0.85)(-4.2,1.15)(-4,1.2)}
+		</code>
+	      </pspicture>
+	    </item>
+	    <item>
+	      <para>etc</para>
+	    </item>
+	  </list>
+	</section>
+	<section>
+	  <title>Results</title>
+	  <para>Determine how hard it is to link arms in each of these positions.</para>
+	</section>
+	<section>
+	  <title>Discussion</title>
+	  <para>If you approach your friend from behind (facing their back) it is hard to link arms. Approaching from their left (sideways so that your right side is on their left), it is easy to link up.</para>
+	</section>
+	<section>
+	  <title>Conclusion</title>
+	  <para>You should have found that each method had a different level of difficulty for linking arms. This is similar to how molecules (compounds) approach in a reaction. The different ways you approached your friend represent the different orientations of the molecules. The correct orientation makes successful collisions possible.</para>
+	</section>
+      </activity>
+    </section>
+      <section type="subsection">
+        <title>Factors affecting reaction rates</title>
+        <shortcode>ESCAR</shortcode>
+        <para>Several factors affect the average rate of a reaction. It is important to know these factors so that reaction rates can be controlled. This is particularly important when it comes to industrial reactions, where greater productivity leads to greater profits for companies. The following are some of the factors that affect the average rate of a reaction.</para>
+	<section type="subsubsection">
+	  <title>Nature of reactants</title>
+	  <para>Substances have different chemical properties and therefore react differently, and at different rates (e.g. the rusting of iron vs. the tarnishing of silver).</para>
+	  <video>
+	    <title>Nature of reactants</title>
+	    <shortcode>Shortcode 2</shortcode>
+	    <url>http://www.youtube.com/embed/qDsD0neTXIc</url>
+	  </video>
+        <note type="aside">
+          <para>Oxalic acids are abundant in many plants. The leaves of the tea plant (<emphasis effect="italics">Camellia sinensis</emphasis>) contain very high concentrations of oxalic acid relative to other plants. Oxalic acid also occurs in small amounts in foods such as parsley, chocolate, nuts and berries. Oxalic acid irritates the lining of the gut when it is eaten, and can be fatal in very large doses.</para>
+	  <image style:width="0.25">
+	    <src>/photos/teaplants.jpg</src>
+	    <attribution>Photo by adil113 on Flickr</attribution>
+	  </image>
+        </note>
+	<teachers-guide>
+	  <para>In the nature of reactants, surface area and concentration experiments learners are required to work with concentrated, strong acids. These acids can cause serious burns. Please remind the learners to be careful and wear the appropriate safety equipment when handling all chemicals, especially concentrated acids. The safety equipment includes gloves, safety glasses and protective clothing.</para>
+	</teachers-guide>
+        <activity type="g_experiment">
+          <title>The nature of reactants</title>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of the nature of reactants on the average rate of a reaction.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <para>You will need the following items for this experiment:</para>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Oxalic acid <chem_compound>((COOH)_{2}) </chem_compound>, iron(II) sulfate <chem_compound>(FeSO_{4})</chem_compound>, potassium permanganate <chem_compound>(KMnO_{4}) </chem_compound> and concentrated sulfuric acid <chem_compound>(H_{2}SO_{4})</chem_compound></para>
+	      </item>
+	      <item>
+		<para>a spatula, two test tubes, a medicine dropper, a glass beaker and a glass rod.</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Concentrated <chem_compound>H_{2}SO_{4}</chem_compound> can cause serious burns. We suggest using gloves and safety glasses whenever you work with an acid. Remember to add the acid to the water and to avoid sniffing the acid. Handle all chemicals with care.</para>
+	    </note>
+            <list list-type="enumerated">
+              <item>
+		<para>Label one test tube <emphasis effect="bold"><number>1</number></emphasis>. Prepare an iron(II) sulfate solution in test tube <number>1</number> by dissolving two spatula tips of iron(II) sulfate in <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of water.</para>
+		<pspicture style:width="0.3">
+		  <code>
+		    (-1.4,0)(5.2,4.6)
+		    \newrgbcolor{skyblue}{0.53 0.81 0.98}
+		    \newrgbcolor{seagreen}{0.24 0.7 0.44}
+		    \psframe(0,0.15)(5,0.5)
+		    \psframe(0.2,0.5)(0.5,2)
+		    \psframe(4.8,0.5)(4.5,2)
+		    \psframe(0.1,2)(4.9,2.2)
+		    \rput(0.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1.5)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \psline{-&gt;}(0.3,3.8)(1.15,3.2)
+		    \rput(0.3,4){iron(II) sulfate}
+		    \rput(0.3,4.4){two spatula tips}
+		    \psline{-&gt;}(-0.5,1)(1.25,1)
+		    \rput(-1,1.2){10 cm$^{3}$}
+		    \rput(-1,0.8){water}
+		    \rput(1.25,2.5){\textbf{1}}
+		    }
+		  </code>
+		</pspicture>
+              </item>
+              <item>
+		<para>Label the other test tube <emphasis effect="bold"><number>2</number></emphasis>. Prepare a solution of oxalic acid in test tube <number>2</number> in the same way.</para>
+		<pspicture style:width="0.3">
+		  <code>
+		    (-0.2,0)(6.6,4.6)
+		    \newrgbcolor{skyblue}{0.53 0.81 0.98}
+		    \newrgbcolor{seagreen}{0.24 0.7 0.44}
+		    \psframe(0,0.15)(5,0.5)
+		    \psframe(0.2,0.5)(0.5,2)
+		    \psframe(4.8,0.5)(4.5,2)
+		    \psframe(0.1,2)(4.9,2.2)
+		    \rput(0.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1.5)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \rput(1.25,2.5){\textbf{1}}
+		    }
+		    \rput(2.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \psline{-&gt;}(2.2,3.8)(1.35,3.2)
+		    \rput(2.2,4){oxalic acid}
+		    \rput(2.2,4.4){two spatula tips}
+		    \psline{&gt;}(1.25,0.8)(3.25,0.8)
+		    \rput(3.8,1){4 cm$^{3}$}
+		    \rput(3.75,0.6){water}
+		    \rput(1.25,2.5){\textbf{2}}
+		    }
+		  </code>
+		</pspicture>
+              </item>
+              <item>
+                <para>Prepare a separate solution of sulfuric acid by adding <unit_number><number>2</number><unit>cm<sup>3</sup></unit></unit_number> of the concentrated acid to <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of water. Remember always to add the <emphasis effect="bold">acid to the water</emphasis>, and never the other way around.</para>
+		<pspicture style:width="0.32">
+		  <code>
+		    (0.4,-0.2)(8,4.1)
+		    \pstTubeEssais[glassType=flacon,niveauLiquide1=60,etiquette,Numero={H$_{2}$SO$_{4}$},bouchon=true]
+		    \pstTubeEssais[glassType=becher,niveauLiquide1=20]
+		    \psline[arrowsize=4pt]{-&gt;}(0.2,0.4)(-1.2,0.4)
+		    \rput(1,0.65){10 cm$^{3}$}
+		    \rput(1,0.25){water}
+		    \psline[arrowsize=4pt]{-&gt;}(-2.4,3.6)(-1.6,2.8)
+		    \rput(-2.4,3.8){2 cm$^{3}$ H$_{2}$SO$_{4}$}
+		  </code>
+		</pspicture>
+              </item>
+              <item>
+                <para>Add <unit_number><number>2</number><unit>cm<sup>3</sup></unit></unit_number> of the sulfuric acid solution to the iron(II) sulfate and oxalic acid solutions respectively.</para>
+		<pspicture style:width="0.4">
+		  <code>
+		    (-1.2,0)(6.4,4.6)
+		    \newrgbcolor{skyblue}{0.53 0.81 0.98}
+		    \newrgbcolor{seagreen}{0.24 0.7 0.44}
+		    \psframe(0,0.15)(5,0.5)
+		    \psframe(0.2,0.5)(0.5,2)
+		    \psframe(4.8,0.5)(4.5,2)
+		    \psframe(0.1,2)(4.9,2.2)
+		    \rput(0.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1.5)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \rput(1.25,2.5){\textbf{1}}
+		    \psline{-&gt;}(0.7,3.8)(1.15,3.2)
+		    \rput(0.3,4.1){2 cm$^{3}$ sulfuric acid}
+		    }
+		    \rput(2.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \rput(1.25,2.5){\textbf{2}}
+		    \psline{-&gt;}(1.8,3.8)(1.35,3.2)
+		    \rput(2.2,4.1){2 cm$^{3}$ sulfuric acid}
+		    }
+		  </code>
+		</pspicture>
+              </item>
+              <item>
+                <para>Using the medicine dropper, add a few drops of potassium permanganate to the two test tubes. Observe how quickly the potassium permanganate solution discolours in each solution.</para>
+		<pspicture style:width="0.4">
+		  <code>
+		    (-1.2,0)(6.4,4.6)
+		    \newrgbcolor{skyblue}{0.53 0.81 0.98}
+		    \newrgbcolor{seagreen}{0.24 0.7 0.44}
+		    \psframe(0,0.15)(5,0.5)
+		    \psframe(0.2,0.5)(0.5,2)
+		    \psframe(4.8,0.5)(4.5,2)
+		    \psframe(0.1,2)(4.9,2.2)
+		    \rput(0.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1.6)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \rput(1.25,2.5){\textbf{1}}
+		    \psline{-&gt;}(0.7,3.8)(1.15,3.2)
+		    \rput(0.3,4.1){few drops KMnO$_{4}$}
+		    }
+		    \rput(2.25,0){
+		    \psframe[fillcolor=skyblue,fillstyle=solid,linestyle=none](0.95,0.8)(1.55,1.1)
+		    \psline(0.95,0.8)(0.95,2)
+		    \psline(0.95,2.2)(0.95,3)
+		    \psline(1.55,0.8)(1.55,2)
+		    \psline(1.55,2.2)(1.55,3)
+		    \psellipse(1.25,3)(0.32,0.1)
+		    \psarc[fillstyle=solid,fillcolor=skyblue](1.25,0.8){0.3}{180}{360}
+		    \rput(1.25,2.5){\textbf{2}}
+		    \psline{-&gt;}(1.8,3.8)(1.35,3.2)
+		    \rput(2.2,4.1){few drops KMnO$_{4}$}
+		    }
+		  </code>
+		</pspicture>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Results</title>
+            <list list-type="bulleted">
+              <item>
+                <para>You should have seen that the the potassium permanganate discolours in the oxalic acid solution much more slowly than in the iron(II) sulfate solution.</para>
+		<pspicture>
+		  <code>
+		    (-5.8,-1.7)(5.6,1.8)
+		    \rput(-3,0){\includegraphics{photos/KMnO4Oxalic.eps}}
+		    \rput(-3,1.5){KMnO$_{4}$ + oxalic acid}
+		    \rput(-3,-1.5){reaction takes a few minutes}
+		    \rput(3,0){\scalebox{0.8}[0.8]{\includegraphics{photos/KMnO4IronSulfate.eps}}}
+		    \rput(3,1.5){KMnO$_{4}$ + iron(II) sulfate}
+		    \rput(3,-1.5){reaction takes a few seconds}
+		  </code>
+		</pspicture>
+		<para>These reactions can be seen in the following videos:</para>
+		<video>
+		  <title>Potassium permanganate and oxalic acid</title>
+		  <shortcode>Shortcode</shortcode>
+		  <url>www.youtube.com/embed/HkGmIXB1ijE</url>
+		  <width>560</width>
+		  <height>315</height>
+		</video>
+		<video>
+		  <title>Potassium permanganate and iron(II) sulfate</title>
+		  <shortcode>Shortcode</shortcode>
+		  <url>www.youtube.com/embed/_nTH04f5sVY</url>
+		  <width>560</width>
+		  <height>315</height>
+		</video>
+              </item>
+              <item>
+                <para>It is the oxalate ions <chem_compound>(C_{2}O_{4}^{2-})</chem_compound> and the <chem_compound>Fe^{2+}</chem_compound> ions that cause the discolouration. It is clear that the <chem_compound>Fe^{2+}</chem_compound>ions react much more quickly with the permanganate than the <chem_compound>(C_{2}O_{4}^{2-})</chem_compound> ions. The reason for this is that there are no covalent bonds to be broken in the iron ions before the reaction can take place. In the case of the oxalate ions, covalent bonds between carbon and oxygen atoms must be broken first.</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusions</title>
+	    <para>Despite the fact that both these reactants (oxalic acid and iron(II) sulfate) are in aqueous solutions, with similar concentrations and at the same temperature, the reaction rates are very different. This is because the nature of the reactants can affect the average rate of a reaction.</para>
+	    <para>The nature of the iron(II) sulfate in solution (iron ions, ready to react) is very different to the nature of oxalic acid in solution (oxalate ions with covalent bonds that must be broken). This results in significantly different reaction rates.</para>
+          </section>
+        </activity>
+	<note type="aside">
+	  <para>The <chem_compound>KMnO_{4}</chem_compound> with oxalic acid and iron(II) sulfate pictures are screenshots from videos by katalofuromai and  Aaron Huggard on Youtube.</para>
+	</note>
+	</section>
+	<section type="subsubsection">
+	  <title>Surface area (of solid reactants)</title>
+        <activity type="g_experiment">
+          <title>Surface area and reaction rate</title>
+          <para>Marble <chem_compound>(CaCO_{3})</chem_compound> reacts with hydrochloric acid <chem_compound>(HCl)</chem_compound> to form calcium chloride, water and carbon dioxide gas according to the following equation:</para>
+	  <para><chem_compound>CaCO_{3}(s) + 2HCl(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>CaCl_{2}(s) + H_{2}O(ℓ) + CO_{2}(g)</chem_compound></para>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of the surface area of reactants on the average rate of the reaction.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	      <list list-type="bulleted">
+		<item>
+		  <para><unit_number><number>2</number><unit>g</unit></unit_number> marble chips, <unit_number><number>2</number><unit>g</unit></unit_number> powdered marble, concentrated hydrochloric acid (<chem_compound>HCl</chem_compound>)</para>
+		</item>
+		<item>
+		  <para>one beaker, two test tubes.</para>
+		</item>
+	      </list>
+	      <pspicture>
+		<code>
+		  (-2.6,-5.2)(3.8,0.5)
+		  \psset{unit=0.6cm}
+		  \newrgbcolor{LightBlue}{0.68 0.85 1}
+		  \newpsstyle{aspectLiquide1} {linestyle=none,fillstyle=solid,fillcolor=LightBlue}
+		  \rput(0,0){\pstTubeEssais[glassType=becher,niveauLiquide1=40]}
+		  \rput(3.9,-0.3){\small beaker containing}
+		  \rput(3.3,-1){\small dilute HCl}
+		  \newrgbcolor{Grey}{0.84 0.84 0.84}
+		  \newpsstyle{aspectLiquide2} {linestyle=none,fillstyle=solid,fillcolor=Grey}
+		  \rput(2.5,-5){\pstTubeEssais[solide={\pstBullesChampagne[200]},niveauLiquide2=70]}
+		  \rput(-2.5,-5){\pstTubeEssais[solide={\pstGrenailleZinc[220]},niveauLiquide2=70]}
+		  \rput(-2.5,-7.5){\small Test tube 1}
+		  \rput(-2.5,-8.2){\small marble chips}
+		  \rput(2.5,-7.5){\small Test tube 2}
+		  \rput(2.5,-8.2){\small powdered marble}
+		</code>
+	      </pspicture>
+	    </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Concentrated <chem_compound>HCl</chem_compound> can cause serious burns. We suggest using gloves and safety glasses whenever you work with an acid. Remember to add the acid to the water and handle with care.</para>
+	    </note>
+            <list list-type="enumerated">
+              <item>
+                <para>Prepare a solution of hydrochloric acid in the beaker by adding <unit_number><number>2</number><unit>cm<sup>3</sup></unit></unit_number> of the concentrated acid to <unit_number><number>20</number><unit>cm<sup>3</sup></unit></unit_number> of water.</para>
+              </item>
+              <item>
+                <para>Place the marble chips into one test tube and the powdered marble into a separate test tube.</para>
+              </item>
+              <item>
+		<para>Add <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of the dilute hydrochloric acid to each of the test tubes and observe the rate at which carbon dioxide gas (<chem_compound>CO_{2}</chem_compound>) is produced (you should see bubbles of <chem_compound>CO_{2}</chem_compound>).</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Results</title>
+	    <para>Note (write down) what you observe.</para>
+	  </section>
+	  <section>
+	    <title>Questions and discussion</title>
+            <list list-type="bulleted">
+              <item>
+                <para>Which reaction proceeds faster?</para>
+              </item>
+              <item>
+                <para>Can you explain this?</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusion</title>
+	    <para>The reaction with powdered marble is faster. The smaller the pieces of marble are (in this case the powdered form is smallest), the greater the surface area for the reaction to take place.</para>
+	    <para>Only the molecules at the surface of the solid can react with the hydrochloric acid. The next layer of molecules can only react once the surface molecules have reacted. That is, the next layer of molecules becomes the surface.</para>
+	    <para>The chips of marble are relatively large, so only a small percentage of the molecules are at the surface and can react initially. The powdered marble has much smaller solid pieces, so there are many more surface molecules exposed to the hydrochloric acid. The more molecules exposed on the surface (the greater the surface area) the faster the reaction will be.</para>
+	    <para>For the same amount of mass, smaller pieces of solid react faster as shown in Figure <link target-id="fig:reactionrates:surfacearea"/>.</para>
+	    <figure id="fig:reactionrates:surfacearea">
+	      <type>figure</type>
+	      <pspicture style:width="0.6">
+		<code>
+		  (-0.6,-1)(13.2,4.5)
+		  \rput(1.6,-0.7){\textbf{\LARGE a)}}
+		  \rput(6.3,-0.7){\textbf{\LARGE b)}}
+		  \rput(11,-0.7){\textbf{\LARGE c)}}
+		  \psframe[linecolor=red](9,0)(10,1)
+		  \psframe[linecolor=red](9,1)(10,2)
+		  \psframe[linecolor=red](9,2)(10,3)
+		  \psframe[linecolor=red](9,3)(10,4)
+		  \psframe[linecolor=red](10,0)(11,1)
+		  \psframe[linecolor=red](10,1)(11,2)
+		  \psframe[linecolor=red](10,2)(11,3)
+		  \psframe[linecolor=red](10,3)(11,4)
+		  \psframe[linecolor=red](11,0)(12,1)
+		  \psframe[linecolor=red](11,1)(12,2)
+		  \psframe[linecolor=red](11,2)(12,3)
+		  \psframe[linecolor=red](11,3)(12,4)
+		  \psframe[linecolor=red](12,0)(13,1)
+		  \psframe[linecolor=red](12,1)(13,2)
+		  \psframe[linecolor=red](12,2)(13,3)
+		  \psframe[linecolor=red](12,3)(13,4)
+		  \psframe[linecolor=blue](9,0)(13,4)
+		  \psframe[linecolor=blue](-0.4,0)(3.6,4)
+		  \psframe[linecolor=red](4,-0.3)(5,0.7)
+		  \psframe[linecolor=red](4,0.9)(5,1.9)
+		  \psframe[linecolor=red](4,2.1)(5,3.1)
+		  \psframe[linecolor=red](4,3.3)(5,4.3)
+		  \psframe[linecolor=red](5.2,-0.3)(6.2,0.7)
+		  \psframe[linecolor=red](5.2,0.9)(6.2,1.9)
+		  \psframe[linecolor=red](5.2,2.1)(6.2,3.1)
+		  \psframe[linecolor=red](5.2,3.3)(6.2,4.3)
+		  \psframe[linecolor=red](6.4,-0.3)(7.4,0.7)
+		  \psframe[linecolor=red](6.4,0.9)(7.4,1.9)
+		  \psframe[linecolor=red](6.4,2.1)(7.4,3.1)
+		  \psframe[linecolor=red](6.4,3.3)(7.4,4.3)
+		  \psframe[linecolor=red](7.6,-0.3)(8.6,0.7)
+		  \psframe[linecolor=red](7.6,0.9)(8.6,1.9)
+		  \psframe[linecolor=red](7.6,2.1)(8.6,3.1)
+		  \psframe[linecolor=red](7.6,3.3)(8.6,4.3)
+		</code>
+	      </pspicture>
+	      <caption>
+		<para><emphasis effect="bold">a)</emphasis> A large particle, <emphasis effect="bold">b)</emphasis> small particles with the same volume as the large particle.</para>
+		<para><emphasis effect="bold">c)</emphasis> The surface area of large particles (shown in blue) is much smaller than that of small particles (shown in red).</para>
+	      </caption>
+	    </figure>
+          </section>
+        </activity>
+	  <video>
+	    <title>Surface area</title>
+	    <shortcode>Shortcode 3</shortcode>
+	    <url>http://www.youtube.com/embed/FBF7auCMy58</url>
+	  </video>
+	  <para>Calcium carbonate reacts with hydrochloric acid according to the following reaction:</para>
+	  <para><chem_compound>CaCO_{3}(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>CaCl_{2}(aq) + H_{2}O(ℓ) + CO_{2}(g)</chem_compound></para>
+	  <para>Consider the solid calcium carbonate.</para>
+	  <para>If we react <unit_number><number>1</number><unit>g</unit></unit_number> of <chem_compound>CaCO_{3}</chem_compound> we find that the reaction is faster if the <chem_compound>CaCO_{3}</chem_compound> is powdered when compared with the <chem_compound>CaCO_{3}</chem_compound> being large lumps.</para>
+	  <para><emphasis effect="bold">Explanation:</emphasis></para>
+	  <para>The large lump of <chem_compound>CaCO_{3}</chem_compound> has a small surface area relative to the same mass of powdered <chem_compound>CaCO_{3}</chem_compound>. This means that more particles of <chem_compound>CaCO_{3}</chem_compound> will be in contact with <chem_compound>HCl</chem_compound> in the powdered <chem_compound>CaCO_{3}</chem_compound> than in the lumps. As a result, there can be more <emphasis effect="italics">successful</emphasis> collisions per unit time and the reaction of powdered <chem_compound>CaCO_{3}</chem_compound> is faster.</para>
+	  <para><latex>\textcolor{red}{\textbf{Increasing the surface area of the reactants increases the rate of the reaction.}}</latex></para>
+	  <para>The following video shows the effect of surface area on the time an effervescent tablet takes to fully dissolve. The tablet is fully dissolved once the bubbles (<chem_compound>CO_{2}</chem_compound> gas) stop forming.</para>
+	  <video>
+	    <title>Effect of surface area on reaction rate</title>
+	    <shortcode>Shortcode 8</shortcode>
+	    <url>http://www.youtube.com/embed/YFapSO1gdT8</url>
+	  </video>
+	</section>
+	<section type="subsubsection">
+	  <title>Concentration (of solutions)</title>
+      <note type="aside">
+	<para>Surface area, concentration and pressure all have the same effect on reaction rate (an increase leads to a faster reaction rate). This is because in each case an increase in the property leads to an increase in the number of collisions in that phase of matter.</para>
+      </note>
+	  <para>As the concentration of the reactants increases, so does the reaction rate.</para>
+  <note type="aside">
+    <pspicture style:width="0.25">
+      <code>
+	(-4.5,-14.3)(1.3,5)
+	\rput(0,2){
+	\pstTubeEssais[niveauLiquide1=40,aspectLiquide2=Sang,niveauLiquide2=10]
+	\rput(-4.5,0.15){\Large 1 part red}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,1)(-1.5,1)
+	\rput(-4.5,1){\Large 10 parts blue}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,0.15)(-1.5,0.15)
+	}
+	\rput(0,-2){
+	\pstTubeEssais[niveauLiquide1=80,aspectLiquide2=Sang,niveauLiquide2=20]
+	\rput(-4.5,0.15){\Large 2 parts red}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,1)(-1.5,1)
+	\rput(-4.5,1){\Large 20 parts blue}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,0.15)(-1.5,0.15)
+	}
+	\rput(-1.5,4.6){\textbf{\Large both solutions have}}
+	\rput(-1.5,4.1){\textbf{\Large the same concentration}}
+	\rput(0,-10){
+	\rput(0,2){
+	\pstTubeEssais[niveauLiquide1=40,aspectLiquide2=Sang,niveauLiquide2=10]
+	\rput(-4.5,0.15){\Large 1 part red}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,1)(-1.5,1)
+	\rput(-4.5,1){\Large 10 parts blue}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,0.15)(-1.5,0.15)
+	}
+	\rput(0,-2){
+	\pstTubeEssais[niveauLiquide1=75,aspectLiquide2=Sang,niveauLiquide2=10]
+	\rput(-4.5,0.15){\Large 1 part red}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,1)(-1.5,1)
+	\rput(-4.5,1){\Large 20 parts blue}
+	\psline[linewdith=2.5pt]{-&gt;}(-2.8,0.15)(-1.5,0.15)
+	}
+	\rput(-1.5,4.6){\textbf{\Large these solutions have}}
+	\rput(-1.5,4.1){\textbf{\Large different concentrations}}
+	}
+      </code>
+    </pspicture>
+  </note>
+        <activity type="g_experiment">
+          <title>Concentration and reaction rate</title>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of reactant concentration on reaction rate.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Concentrated hydrochloric acid <chem_compound>(HCl)</chem_compound>, magnesium ribbon</para>
+	      </item>
+	      <item>
+		<para>Two beakers, two test tubes and a measuring cylinder.</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Do not get hydrochloric acid (<chem_compound>HCl</chem_compound>) on your hands. We suggest you use gloves and safety glasses whenever handling acids and handle with care.</para>
+	    </note>
+            <list list-type="enumerated">
+              <item>
+		<para>When diluting a solution remember that if you want a  1:10 solution (1 part original solution in 10 parts water) measure <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of water in a measuring cylinder and pour it into a beaker, then add <unit_number><number>1</number><unit>cm<sup>3</sup></unit></unit_number> of the original solution to the beaker as well. <number>2</number> parts concentrated acid to <number>20</number> parts water will also be a 1:10 solution. Remember to always add the <emphasis effect="italics">acid</emphasis> to the <emphasis effect="italics">water</emphasis>, and not the other way around.</para>
+		<list list-type="bulleted">
+		  <item>
+		    <para>Prepare a solution of 1 part acid to 10 parts water (1:10). Label a test tube <emphasis effect="bold"><emphasis effect="italics">A</emphasis></emphasis> and pour <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of this solution into the test tube.</para>
+		  </item>
+		  <item>
+		    <para>Prepare a solution of 1 part acid to 20 parts water (1:20). Label a test tube <emphasis effect="bold"><emphasis effect="italics">B</emphasis></emphasis> and pour <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> of this solution into the test tube.</para>
+		  </item>
+		</list>
+              </item>
+              <item>
+                <para>Take two pieces of magnesium ribbon of the <emphasis effect="bold">same length</emphasis>. At the same time, put one piece of magnesium ribbon into test tube A and the other into test tube B, and pay close attention to what happens.</para>
+		<para><emphasis effect="bold">Make sure that the magnesium ribbon is long enough so that your hand is not close to the <chem_compound>HCl</chem_compound>.</emphasis></para>
+              </item>
+            </list>
+	    <pspicture style:width="0.5">
+	      <code>
+		(-4.8,-2.7)(8.8,2.5)
+		\rput(0,0){
+		\pstTubeEssais[niveauLiquide1=40,etiquette,Numero={\Large A}]
+		\rput(-4.5,2.5){\Large Mg ribbon}
+		\psframe(-6,3)(-3,3.5)
+		\psline[linearc=1]{-&gt;}(-3.5,3.7)(-2.5,4.4)(-1.5,3.7)
+		\rput(-1.5,-0.4){\Large 1:10 HCl solution}
+		}
+		\rput(6.5,0){
+		\pstTubeEssais[niveauLiquide1=40,etiquette,Numero={\Large B}]
+		\rput(-4.5,2.5){\Large Mg ribbon}
+		\psframe(-6,3)(-3,3.5)
+		\psline[linearc=1]{-&gt;}(-3.5,3.7)(-2.5,4.4)(-1.5,3.7)
+		\rput(-1.5,-0.4){\Large 1:20 HCl solution}
+		}
+              </code>
+            </pspicture>
+            <para>The equation for the reaction is:</para>
+	    <para><chem_compound>2HCl(ℓ) + Mg(s)</chem_compound> <latex>\to</latex> <chem_compound>MgCl_{2}(s) + H_{2}(g)</chem_compound></para>
+          </section>
+          <section>
+            <title>Results</title>
+	    <para>Write down what happened (what did you observe?) in each test tube.</para>
+	  </section>
+	  <section>
+	    <title>Questions and discussion</title>
+            <list list-type="bulleted">
+              <item>
+                <para>Which of the two solutions is more concentrated, the <number>1</number>:<number>10</number> or <number>1</number>:<number>20</number> hydrochloric acid solution?</para>
+              </item>
+              <item>
+                <para>In which of the test tubes is the reaction faster? Suggest a reason for this.</para>
+              </item>
+              <item>
+                <para>How can you measure the average rate of this reaction?</para>
+              </item>
+              <item>
+                <para>Name the gas that is produced?</para>
+              </item>
+              <item>
+                <para>Why is it important that the same length of magnesium ribbon is used for each reaction?</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusions</title>
+            <para>The <number>1</number>:<number>10</number> solution is more concentrated and therefore this reaction proceeds faster. The greater the concentration of the reactants, the faster the average rate of the reaction. The average rate of the reaction can be measured by the rate at which the magnesium ribbon disappears.</para>
+          </section>
+        </activity>
+	<video>
+	  <title>Effervescent tablet in sealed container</title>
+          <shortcode>Shortcode 9</shortcode>
+	  <url>http://www.youtube.com/embed/afxwDTz_JTk</url>
+	  <width>300</width>
+    	  <height>245</height>
+	</video>
+	  <para><emphasis effect="bold">Explanation:</emphasis></para>
+	  <para>The greater concentration of the reactant means that there are more particles of reactant (<chem_compound>HCl</chem_compound>) per unit volume of solution. Therefore the chance that <chem_compound>HCl</chem_compound> particles will collide with the <chem_compound>Mg</chem_compound> particles will be higher for the solution with the greater concentration. The number of successful collisions per unit time will be higher and so the rate of the reaction will be faster.</para>
+	  <video>
+	    <title>Concentration elephants toothpaste</title>
+	    <shortcode>Shortcode 4</shortcode>
+	    <url>http://www.youtube.com/embed/kjKyEdrVXJA</url>
+	  </video>
+	  <teachers-guide>
+	    <para>In this project the learners should design their own experiment in the following format:</para>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Aim</para>
+	      </item>
+	      <item>
+		<para>Apparatus</para>
+	      </item>
+	      <item>
+		<para>Method</para>
+	      </item>
+	    </list>
+	    <para>They can also perform the experiment and write up results and conclusions as well.</para>
+	    <para>This experiment should focus on the effect of <emphasis effect="bold">concentration</emphasis> on the rate. The easiest way to do this is to vary the concentration of the vinegar and keep the mass of baking soda constant.</para>
+	  </teachers-guide>
+	<activity type="project">
+	  <title>Concentration and rate</title>
+	  <para>Design an experiment to determine the effect of concentration on rate using vinegar and baking soda.</para>
+	  <para><emphasis effect="bold">Hint:</emphasis> mix water and vinegar to change concentration but keep the total volume constant.</para>
+	</activity>
+	</section>
+	<section type="subsubsection">
+	  <title>Pressure (of gaseous reactants)</title>
+	  <para>As the pressure of the reactants increase, so does the reaction rate.</para>
+	  <para>The higher the pressure, the more particles of gas per unit volume. Therefore there are more collisions per unit time. The number of successful collisions per unit time will be higher and so the rate of the reaction will be faster.</para>
+	  <video>
+	    <title>Pressure boiling water</title>
+	    <shortcode>Shortcode 5</shortcode>
+	    <url>http://www.youtube.com/embed/Val4Vo3fVFY</url>
+	  </video>
+	</section>
+	<section type="subsubsection">
+	  <title>Temperature</title>
+	  <para>If the temperature of the reaction increases, so does the average rate of the reaction.</para>
+	  <teachers-guide>
+	    <para>In the temperature and reaction rate experiment make sure the learners do not shake the test tubes. Shaking gives energy to the reaction and affects the rate. The test tubes should be left as still as possible once the effervescent tablets have been added.</para>
+	    <para>Plastic bottles, such as those shown in the picture, can be used instead of test tubes.</para>
+	  </teachers-guide>
+        <activity type="g_experiment">
+          <title>Temperature and reaction rate</title>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of temperature on reaction rate.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Two effervescent tablets (e.g. Cal-C-Vita)</para>
+	      </item>
+	      <item>
+		<para>An ice-bath, two test tubes</para>
+	      </item>
+	      <item>
+		<para>Two balloons, two rubber bands</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+            <list list-type="enumerated">
+	      <item>
+		<para>Half fill two large test tubes with water. Label them <emphasis effect="italics">A</emphasis> and <emphasis effect="italics">B</emphasis>.</para>
+              </item>
+              <item>
+                <para>Break two effervescent tablets in two or three pieces and place them in the two balloons.</para>
+		<para>Fit one of these balloons tightly to test tube A and one to test tube B, being careful not to drop the contents into the water. You can stand the test tube in a beaker to help you do this.</para>
+	      </item>
+	      <item>
+		<para>Place <emphasis effect="italics">only</emphasis> test tube A into an ice-bath and leave to equilibrate (come to the same temperature). Approximately 10 minutes should be enough.</para>
+	      </item>
+	      <item>
+		<para>At the same time lift the balloons on test tubes A and B so that the tablets go into the water. <emphasis effect="bold">Do not</emphasis> shake either test tube.</para>		
+		<image style:width="0.2">
+		  <src>photos/calcvitaexp1.jpg</src>
+		</image>		 
+		<para><chem_compound>CO_{2}</chem_compound>(g) is released during this reaction.</para>
+	    <para>Observe how quickly the balloons increase in size and write down your observations (which increases in size faster).</para>
+	      </item>
+            </list>
+          </section>
+          <section>
+            <title>Results</title>
+	    <para>Note (write down) your observations.</para>
+	  </section>
+	  <section>
+	    <title>Questions and discussion</title>
+            <list list-type="bulleted">
+	      <item>
+		<para>Which balloon expanded faster?</para>
+              </item>
+              <item>
+                <para>Suggest a reason for the difference in rates.</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusions</title>
+	    <para>The balloon on test tube B will expand faster. This is because the higher temperature (room temperature rather than an ice bath) leads to an increase in the average rate of <chem_compound>CO_{2}</chem_compound> gas production.</para>
+          </section>
+        </activity>
+	<para>The video below shows how much pressure can build up when <chem_compound>CO_{2}</chem_compound>(g) is released during the reaction of an effervescent tablet with water.</para>
+	<video>
+	  <title>Effervescent tablet in sealed container</title>
+          <shortcode>Shortcode 10</shortcode>
+	  <url>http://www.youtube.com/embed/7piN3jk93tM</url>
+	  <width>300</width>
+    	  <height>245</height>
+	</video>
+	<para>The higher the temperature, the greater the average kinetic energy of the particles, which means that the particles are moving faster.</para>
+	<para>Therefore:</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para>particles moving faster means more collisions per unit time (collision theory)</para>
+	  </item>
+	  <item>
+	    <para>particles with higher kinetic energy are also more likely to react on colliding as they have enough energy for the reaction to occur (see <link url="ESCAU">Section 1.4</link> on the mechanism of reaction).</para>
+	  </item>
+	</list>
+	  <video>
+	    <title>Temperature glowsticks</title> 
+	    <shortcode>Shortcode 6</shortcode>
+	    <url>http://www.youtube.com/embed/t0xl0CXjB04</url>
+	  </video>
+	</section>
+	<section type="subsubsection">
+	  <title>Catalyst</title>
+	  <para>Adding a catalyst increases the reaction rate by lowering the energy required for a successful reaction to take place. A catalyst speeds up a reaction and is released at the end of the reaction, completely unchanged.</para>
+	  <teachers-guide>
+	    <para>In the first catalyst and reaction rate experiment (with manganese dioxide and hydrogen peroxide) it is important to note that hydrogen peroxide can cause burns. The learners should wear safety equipment, as always when handling chemicals. If the concentration of hydrogen peroxide is too high the liquid hydrogen peroxide may splash out of the container along with the oxygen gas. As a result the learners should be particularly careful around the mouth of the containers.</para>
+	    <para>In the second experiment the learners are again working with a strong acid and should follow all the usual safety procedures.</para>
+	  </teachers-guide>
+	<activity type="g_experiment">
+          <title>Catalysts and reaction rate</title>
+          <section>
+            <title>Aim</title>
+            <para>Hydrogen peroxide decomposes slowly over time into water and oxygen. The aim of this experiment is to determine the effect a catalyst has on the reaction rate.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para><percentage>3</percentage> hydrogen peroxide (<chem_compound>H_{2}O_{2}</chem_compound>), manganese dioxide (<chem_compound>MnO_{2}</chem_compound>) powder, yeast powder</para>
+	      </item>
+	      <item>
+		<para>two beakers or large measuring cylinders</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Be careful when handling <chem_compound>H_{2}O_{2}</chem_compound> as it can burn you. We recommend wearing gloves and safety glasses.</para>
+	    </note>
+            <list list-type="enumerated">
+	      <item>
+		<para>Pour <unit_number><number>30</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>H_{2}O_{2}</chem_compound> into two seperate containers.</para>
+              </item>
+              <item>
+		<para>Add a spatula tip of yeast to one container.</para>
+	      </item>
+	      <item>
+		<para>Time how long it takes for the bubbles to stop.</para>
+	      </item>
+	      <item>
+		<para>Repeat with <chem_compound>MnO_{2}</chem_compound> in the second container.</para>
+	      </item>
+	      <item>
+		<para>Compare the effect of the two catalysts.</para>
+	      </item>
+            </list>
+	    <para>The balanced equation for this reaction is:</para>
+	    <para><chem_compound>2H_{2}O_{2}(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>2H_{2}O(ℓ) + O_{2}(g)</chem_compound></para>
+	    <para>This can also be written:</para>
+	    <para><chem_compound>2H_{2}O_{2}(ℓ) + catalyst</chem_compound> <latex>\to</latex> <chem_compound>2H_{2}O(ℓ) + O_{2}(g) + catalyst</chem_compound></para>
+	    <figure id="fig:reactionrates:hydrogenperoxide">
+	      <type>figure</type>
+	      <image style:width="0.2">
+		<src>photos/hydrogenperoxide.jpg</src>
+		<attribution>Screenshot from video by steveabitom on Youtube</attribution>
+	      </image>
+	      <caption>
+		<para><chem_compound>H_{2}O_{2}</chem_compound> before the addition of <chem_compound>MnO_{2}</chem_compound> (left) and after the addition of <chem_compound>MnO_{2}</chem_compound> (right).</para>
+	      </caption>
+	    </figure>
+          </section>
+          <section>
+            <title>Results</title>
+            <list list-type="bulleted">
+	      <item>
+		<para>Which chemical compounds are acting as catalysts in these reactions?</para>
+              </item>
+              <item>
+                <para>What causes the bubbles that form in the reaction?</para>
+              </item>
+            </list>
+	    </section>
+          <section>
+            <title>Conclusions</title>
+	    <para>The bubbles that form are oxygen gas formed through the decomposition of hydrogen peroxide. This would happen over time without the presence of the catalyst. The manganese dioxide speeds up the reaction significantly. The yeast speeds up the reaction, but not as much as the manganese dioxide.</para>
+          </section>
+        </activity>
+	    <video>
+	      <title>Catalyst decomposition of <chem_compound>H_{2}O_{2}</chem_compound></title>
+	      <shortcode>Shortcode 7</shortcode>
+	      <url>http://www.youtube.com/embed/7_X8c2b0BB0</url>
+	    </video>
+        <activity type="g_experiment">
+          <title>Catalysts and reaction rate</title>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of a catalyst on the average rate of a reaction</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Zinc granules, <unit_number><number>0.1</number><unit>mol.dm<sup>-3</sup></unit></unit_number> hydrochloric acid, copper pieces</para>
+	      </item>
+	      <item>
+		<para>One test tube, a glass beaker, tongs</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Do not get hydrochloric acid (<chem_compound>HCl</chem_compound>) on your hands. We suggest you use gloves and safety glasses whenever handling acids. Be especially careful when removing the copper pieces from the test tube.</para>
+	    </note>
+            <list list-type="enumerated">
+              <item>
+                <para>Place a few of the zinc granules in the test tube, using tongs.</para>
+              </item>
+              <item>
+                <para>Measure the mass of a few pieces of copper and, using tongs, keep them separate from the rest of the copper.</para>
+              </item>
+              <item>
+                <para>Add <unit_number><number>20</number><unit>cm<sup>3</sup></unit></unit_number> of <chem_compound>HCl</chem_compound> to the test tube. You will see that a gas is released. Take note of how quickly or slowly this gas is released (use a stopwatch or your cellphone to time this). Write a balanced chemical equation for the chemical reaction that takes place.</para>
+		<pspicture style:width="0.4">
+		  <code>
+		    (-2.1,-0.3)(5.3,3.7)
+		    \pstTubeEssais[solide={\pstGrenailleZinc[55]},substance={\pstBullesChampagne[100]},niveauLiquide1=60]
+		    \psline[arrowsize=4.5pt]{-&gt;}(0,0.4)(-1,0.4)
+		    \rput(1.1,0.4){zinc granules}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3,1)(-1.7,1)
+		    \rput(-4,1){gas bubbles}
+		    \psline[arrowsize=4.5pt]{-&gt;}(0,1.5)(-1.4,1.5)
+		    \rput(1,1.5){20 cm$^{3}$ HCl}
+		  </code>
+		</pspicture>
+              </item>
+              <item>
+                <para>Now add the copper pieces to the same test tube. What happens to the rate at which the gas is produced?</para>
+              </item>
+              <item>
+                <para>Carefully remove the copper pieces from the test tube (use tongs), rinse them in water and alcohol and then weigh them again. Has the mass of the copper changed since the start of the experiment?</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Results</title>
+            <para>During the reaction, the gas that is released is hydrogen. The rate at which the hydrogen is produced <emphasis effect="italics">increases</emphasis> when the copper pieces (the catalyst) are added. The mass of the copper does not change during the reaction.</para>
+          </section>
+          <section>
+            <title>Conclusions</title>
+            <para>The copper acts as a <emphasis effect="italics">catalyst</emphasis> during the reaction. It speeds up the average rate of the reaction, but is not changed itself in any way.</para>
+          </section>
+        </activity>
+	  <para>We will return to catalysts in more detail once we have explored the mechanism of reactions <link url="todo">later in this chapter</link>.</para>
+	</section>
+	<teachers-guide>
+	  <para>In the iodine clock experiment it is important that the learners start timing the experiment as soon as the sulfuric acid and hydrogen peroxide solution is added to the potassium iodide solution. There should be a sudden colour change from colourless to purple when the sodium thiosulfate is used up and free iodine is available in the solution. The free iodine is what gives the reaction the purple colour.</para>
+	  <para>This experiment is best done in groups (<number>3</number> - <number>4</number> if often a good size). You can divide your class into groups and assign each group a different experiment. Afterwards the groups can present their results and conclusions to the class. If you have time you can also vary the concentration of the hydrogen peroxide.</para>
+	  <para>As always, learners need to work carefully with acids, in particular with the concentrated acids. Remind them to always add the acid to the water.</para>
+	</teachers-guide>
+	 <activity type="g_experiment">
+          <title>Temperature, concentration and reaction rate</title>
+          <section>
+            <title>Aim</title>
+            <para>To determine the effect of temperature and concentration on the average reaction rate of the iodine clock experiment. This experiment is best done in groups.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Potassium iodide (<chem_compound>KI</chem_compound>), soluble starch, sodium thiosulfate solution (<chem_compound>Na_{2}S_{2}O_{3}</chem_compound>), dilute (around <unit_number><number>0.2</number><unit>mol.dm<sup>-3</sup></unit></unit_number>) sulfuric acid (<chem_compound>H_{2}SO_{4}</chem_compound>), <percentage>3</percentage> hydrogen peroxide (<chem_compound>H_{2}O_{2}</chem_compound>) solution</para>
+	      </item>
+	      <item>
+		<para>Five beakers, a measuring cylinder, a hotplate, an ice bath, a glass stirring rod, a stop-watch</para>
+	      </item>
+	    </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <list list-type="bulleted">
+	    <item>
+	    <para>Preheat the hotplate to <unit_number><number>40</number><unit>℃</unit></unit_number></para>
+	  </item>
+	    <item>
+	      <para>Label a beaker solution <emphasis effect="italics">1</emphasis>. Measure <unit_number><number>75</number><unit>ml</unit></unit_number> <chem_compound>H_{2}SO_{4}</chem_compound> into the beaker. Add <unit_number><number>25</number><unit>ml</unit></unit_number> <percentage>3</percentage> <chem_compound>H_{2}O_{2}</chem_compound>. Remember to use dilute (<unit_number><number>0.2</number><unit>mol.dm<sup>-3</sup></unit></unit_number>) sulfuric acid.</para>
+	      </item>
+	    </list>
+	    <para>The equations for what is occuring in this reaction are given below:</para>
+	    <para><chem_compound>H_{2}O_{2}(ℓ) + 2KI(s) + H_{2}SO_{4}(ℓ)</chem_compound> <latex>\to</latex> <latex>\textcolor{red}{\text{I}_{2}{\text{(s)}}}</latex> <chem_compound>+ K_{2}SO_{4}(aq) + 2H_{2}O(ℓ)</chem_compound></para>
+	    <para><latex>\textcolor{red}{\text{I}_{2}{\text{(s)}}}</latex> <chem_compound>+ 2Na_{2}S_{2}O_{3}(aq)</chem_compound> <latex>\to</latex> <chem_compound>Na_{2}S_{4}O_{6}(aq) + 2NaI(aq)</chem_compound></para>
+	    <para>It is good scientific practice to vary only one factor at a time during an experiment. Therefore, this experiment has two parts. First we will vary the concentration of <chem_compound>KI</chem_compound>, then we will vary the temperature:</para>
+	    <list list-type="bulleted">
+	      <item>
+		<para><emphasis effect="bold">Varying the concentration</emphasis></para>
+	      <list list-type="enumerated">
+	      <item>
+		<para>Weigh out <unit_number><number>0.5</number><unit>g</unit></unit_number> of <chem_compound>KI</chem_compound> into a beaker and label it <emphasis effect="italics">A</emphasis>.</para>
+		<pspicture style:width="0.25">
+		  <code>
+		    (-3.1,-2.3)(1.5,1)
+		    \rput(0,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large A}},solide={\pstGrenailleZinc[15]},niveauLiquide1=20,aspectLiquide1=none]
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3.2,0.2)(-2.15,0.2)
+		    \rput(-3.9,0.2){0,5 g KI}
+		    }
+		  </code>
+		</pspicture>
+              </item>
+	      <item>
+		<para>Weigh out <unit_number><number>1</number><unit>g</unit></unit_number> of <chem_compound>KI</chem_compound> into a different beaker and label it <emphasis effect="italics">B</emphasis>.</para>
+		<pspicture style:width="0.25">
+		  <code>
+		    (3.6,-2.3)(8,1)
+		    \rput(6.5,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large B}},solide={\pstGrenailleZinc[30]},niveauLiquide1=25,aspectLiquide1=none]
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3.2,0.2)(-2.15,0.2)
+		    \rput(-3.8,0.2){1 g KI}
+		    }
+		  </code>
+		</pspicture>
+	      </item>
+              <item>
+		<para>Add <unit_number><number>20</number><unit>ml</unit></unit_number> <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> to both beaker A and beaker B.</para>
+		<pspicture style:width="0.7">
+		  <code>
+		    (-3,-2.3)(9.9,1)
+		    \rput(6.5,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large B}},solide={\pstGrenailleZinc[30]},niveauLiquide1=30]
+		    \psline[arrowsize=4.5pt]{-&gt;}(0.3,0.8)(-0.95,0.8)
+		    \rput(1,0.95){20 ml}
+		    \rput(1,0.55){Na$_{2}$S$_{2}$O$_{3}$}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3.2,0.2)(-2.05,0.2)
+		    \rput(-3.8,0.2){1 g KI}
+		    }
+		    \rput(0,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large A}},solide={\pstGrenailleZinc[15]},niveauLiquide1=30]
+		    \psline[arrowsize=4.5pt]{-&gt;}(0.3,0.8)(-0.85,0.8)
+		    \rput(1,0.95){20 ml}
+		    \rput(1,0.55){Na$_{2}$S$_{2}$O$_{3}$}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3,0.2)(-1.85,0.2)
+		    \rput(-3.8,0.2){0,5 g KI}
+		    }
+		  </code>
+		</pspicture>
+	      </item>
+	      <item>
+		<para>Add a spatula of soluble starch to both beaker A and beaker B and stir with a glass rod.</para>
+		<pspicture style:width="0.7">
+		  <code>
+		    (-3.3,-2.3)(9.9,2.5)
+		    \rput(6.5,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large B}},solide={\pstGrenailleZinc[30]},niveauLiquide1=30]
+		    \psline[arrowsize=4.5pt]{-&gt;}(0.3,0.8)(-0.95,0.8)
+		    \rput(1,0.95){20 ml}
+		    \rput(1,0.55){Na$_{2}$S$_{2}$O$_{3}$}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3.2,0.2)(-2.05,0.2)
+		    \rput(-3.8,0.2){1 g KI}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-2.6,3.6)(-2,2.8)
+		    \rput(-2.6,4.2){add spatula soluble starch}
+		    \rput(-2.6,3.8){stir with glass rod}
+		    }
+		    \rput(0,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large A}},solide={\pstGrenailleZinc[15]},niveauLiquide1=30]
+		    \psline[arrowsize=4.5pt]{-&gt;}(0.3,0.8)(-0.85,0.8)
+		    \rput(1,0.95){20 ml}
+		    \rput(1,0.55){Na$_{2}$S$_{2}$O$_{3}$}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-3,0.2)(-1.85,0.2)
+		    \rput(-3.8,0.2){0,5 g KI}
+		    \psline[arrowsize=4.5pt]{-&gt;}(-2.6,3.6)(-2,2.8)
+		    \rput(-2.6,4.2){add spatula soluble starch}
+		    \rput(-2.6,3.8){stir with glass rod}
+		    }
+		  </code>
+		</pspicture>
+	      </item>
+	      <item>
+		<para>Measure <unit_number><number>15</number><unit>ml</unit></unit_number> of solution <emphasis effect="italics">1</emphasis> with the measuring cylinder. Get your stopwatch ready. Pour the <unit_number><number>15</number><unit>ml</unit></unit_number> of solution 1 into beaker A and start timing.</para>
+		<para>Stop timing when the solution starts to change colour. Write down your time in the table below.</para>
+		<pspicture style:width="0.28">
+		  <code>
+		    (-1.4,-2.8)(3.7,2.7)
+		    \def\stopwatch{
+		    \pscircle[linewidth=2pt](0,0){1}
+		    \psline[linewidth=2pt](0.6,0)(0.9,0)
+		    \psline[linewidth=2pt](-0.6,0)(-0.9,0)
+		    \psline[linewidth=2pt](0,0.6)(0,0.9)
+		    \psline[linewidth=2pt](0,-0.6)(0,-0.9)
+		    \psline(0.45,0.77)(0.32,0.5)
+		    \psline(0.8,0.4)(0.55,0.27)
+		    \psline(-0.45,-0.77)(-0.32,-0.5)
+		    \psline(-0.8,-0.4)(-0.55,-0.27)
+		    \psline(-0.45,0.77)(-0.32,0.5)
+		    \psline(-0.8,0.4)(-0.55,0.27)
+		    \psline(0.45,-0.77)(0.32,-0.5)
+		    \psline(0.8,-0.4)(0.55,-0.27)
+		    \pscircle[fillstyle=solid,fillcolor=red,linecolor=red](0,0){0.05}
+		    \pspolygon[fillstyle=solid,fillcolor=red,linecolor=red](-0.035,0)(0.05,0)(0.6,0.6)(-0.035,0)
+		    \pspolygon[fillstyle=solid,fillcolor=black](0.7,0.7)(0.5,0.9)(0.6,1.1)(0.9,0.85)(0.7,0.7)
+		    }
+		    \rput(0,0){
+		    \pstTubeEssais[glassType=becher,etiquette,Numero={\textbf{\Large A}},niveauLiquide1=30]
+		    \rput(1,4.5){\scalebox{0.8}[0.8]{\pstTubeEssais[niveauLiquide1=44,tubePenche=70,etiquette,Numero={\textbf{\Large 1}}]}}
+		    \rput(-2,4.1){add 15 ml}
+		    \rput(-2,3.7){solution 1}
+		    \rput(1,1){\scalebox{0.8}[0.8]{\stopwatch}}
+		    \rput(1,-0.2){start timing}
+		    \rput(1,-0.6){immediately}
+		    }
+		  </code>
+		</pspicture>
+	      </item>
+	      <item>
+		<para>Repeat step <number>5</number> with beaker B.</para>
+	      </item>
+	    </list>
+		<table>
+		  <tgroup cols="4">
+		    <colspec colnum="1" colname="c1"/>
+		    <colspec colnum="2" colname="c2"/>
+		    <colspec colnum="3" colname="c3"/>
+		    <colspec colnum="4" colname="c4" style:latex-alignment="p{0.15\textwidth}"/>
+		    <tbody>
+		      <row>
+			<entry>
+			  <para><emphasis effect="bold">Beaker</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Concentration (M)</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Temperature (℃)</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Time (s)</emphasis></para>
+			</entry>
+		      </row>
+		      <row>
+			<entry>
+			  <para>A</para>
+			</entry>
+			<entry>
+			  <para>approx. 0.15</para>
+			</entry>
+			<entry>
+			  <para>room temperature</para>
+			</entry>
+			<entry>
+			  <para></para>
+			</entry>
+		      </row>
+		      <row>
+			<entry>
+			  <para>B</para>
+			</entry>
+			<entry>
+			  <para>approx. 0.3</para>
+			</entry>
+			<entry>
+			  <para>room temperature</para>
+			</entry>
+			<entry>
+			  <para></para>
+			</entry>
+		      </row>
+		    </tbody>
+		  </tgroup>
+		</table>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Varying the temperature</emphasis></para>
+	      <list list-type="enumerated">
+		<item>
+		  <para>Weigh out <unit_number><number>0.5</number><unit>g</unit></unit_number> of <chem_compound>KI</chem_compound> into a new beaker and label it <emphasis effect="italics">C</emphasis>.</para>
+		</item>
+		<item>
+		  <para>Add <unit_number><number>20</number><unit>ml</unit></unit_number> <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> to beaker C.</para>
+	      </item>
+	      <item>
+		<para>Add a spatula of soluble starch to beaker C and stir with a glass rod.</para>
+	      </item>
+	      <item>
+		<para>Measure <unit_number><number>15</number><unit>ml</unit></unit_number> of solution <emphasis effect="italics">1</emphasis> with the measuring cylinder.</para>
+	      </item>
+	      <item>
+		<para><emphasis effect="italics">Place beaker C in the ice bath</emphasis>.</para>
+	      </item>
+	      <item>
+		<para>Get your stopwatch ready. Pour the <unit_number><number>15</number><unit>ml</unit></unit_number> of solution 1 into beaker C and start timing. Stop timing when the solution starts to change colour. Write down your time in the table below.</para>
+	      </item>
+	      <item>
+		<para>Repeat steps 1 - 4 (label the beaker <emphasis effect="italics">D</emphasis>).</para>
+		<para><emphasis effect="italics">Place beaker D on the hotplate</emphasis>. Then repeat step 6</para>
+	      </item>
+	    </list>
+	      <table>
+		  <tgroup cols="4">
+		    <colspec colnum="1" colname="c1"/>
+		    <colspec colnum="2" colname="c2"/>
+		    <colspec colnum="3" colname="c3"/>
+		    <colspec colnum="4" colname="c4" style:latex-alignment="p{0.15\textwidth}"/>
+		    <tbody>
+		      <row>
+			<entry>
+			  <para><emphasis effect="bold">Beaker</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Concentration (M)</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Temperature (℃)</emphasis></para>
+			</entry>
+			<entry>
+			  <para><emphasis effect="bold">Time (s)</emphasis></para>
+			</entry>
+		      </row>
+		      <row>
+			<entry>
+			  <para>A</para>
+			</entry>
+			<entry>
+			  <para>approx. 0.15</para>
+			</entry>
+			<entry>
+			  <para>room temperature</para>
+			</entry>
+			<entry>
+			  <para></para>
+			</entry>
+		      </row>
+		      <row>
+			<entry>
+			  <para>C</para>
+			</entry>
+			<entry>
+			  <para>approx. 0.15</para>
+			</entry>
+			<entry>
+			  <para>0</para>
+			</entry>
+			<entry>
+			  <para></para>
+			</entry>
+		      </row>
+		      <row>
+			<entry>
+			  <para>D</para>
+			</entry>
+			<entry>
+			  <para>approx. 0.15</para>
+			</entry>
+			<entry>
+			  <para>40</para>
+			</entry>
+			<entry>
+			  <para></para>
+			</entry>
+		      </row>
+		    </tbody>
+		  </tgroup>
+		</table>
+		<para>Beaker A has been included here because it has the same concentration as beakers C and D, but is at a different temperature.</para>
+	  </item>
+	</list>
+          </section>
+          <section>
+            <title>Results</title>
+	    <para>Make a table with the information for all the beakers. Include columns for concentration, temperature, time, and reaction rate.</para>
+	  </section>
+	  <section>
+	    <title>Questions and discussion</title>
+            <list list-type="bulleted">
+	      <item>
+		<para>Did beaker A or B have the faster reaction rate?</para>
+	      </item>
+	      <item>
+		<para>Why did it have a faster reaction rate?</para>
+	      </item>
+              <item>
+		<para>Did beaker A, C or D have the fastest reaction rate? Why?</para>
+	      </item>
+	      <item>
+		<para>Did beaker A, C or D have the slowest reaction rate? Why?</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusions</title>
+	    <para>You will notice that the faster reaction rate occurs in the beaker with the higher concentration of <chem_compound>KI</chem_compound>. You should also see that the higher the temperature, the faster the reaction rate.</para>
+          </section>
+        </activity>
+	<video>
+	  <title>Iodine clock</title>
+	  <shortcode>Shortcode 11</shortcode>
+	  <url>http://www.youtube.com/embed/kw-Lt9-WmTg</url>
+	  <width>300</width>
+	  <height>245</height>
+	</video>
+	<para>This video shows how this experiment can be used as a clock with the concentration chosen so that the experiment changes colour at a specific time (or with a particular part of a song). This is why this experiment is known as the <emphasis effect="italics">iodine clock reaction</emphasis>.</para>
+	<video>
+	  <title>Iodine clock to music</title>
+	  <shortcode>Shortcode 12</shortcode>
+	  <url>http://player.vimeo.com/video/38297047</url>
+	  <width>300</width>
+	  <height>245</height>
+	</video>
+	    
+          <worked_example>
+            <title>Reaction rates</title>
+            <question>
+              <para>Write a balanced equation for the exothermic reaction between <chem_compound>Zn(s)</chem_compound> and <chem_compound>HCl(ℓ)</chem_compound>. Also name three ways to increase the rate of this reaction.</para>
+            </question>
+	    <answer>
+	      <workstep>
+		<title>Write the equation for zinc and hydrochloric acid</title>
+		<para>The products must be a salt and hydrogen gas. Zinc ions have a charge of 2+ while chloride ions have a charge of 1-. Therefore the salt must be <chem_compound>ZnCl_{2}</chem_compound>.</para>
+		<para><chem_compound>Zn(s) + HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>ZnCl_{2}(aq) + H_{2}(g)</chem_compound></para>
+	      </workstep>
+	      <workstep>
+		<title>Balance the equation if necessary</title>
+		<para>There are more chloride ions and hydrogen atoms on the right side of the equation. Therefore there must be <number>2</number> <chem_compound>HCl</chem_compound> on the left side of the equation.</para>
+		<para><chem_compound>Zn(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>ZnCl_{2}(aq) + H_{2}(g)</chem_compound></para>
+	      </workstep>
+	      <workstep>
+		<title>Think about the methods mentioned in this section that would increase reaction rate</title>
+		<list list-type="bulleted">
+		  <item>
+		    <para>A catalyst could be added</para>
+		  </item>
+		  <item>
+		    <para>The zinc solid could be ground into a fine powder to increase its surface area</para>
+		  </item>
+		  <item>
+		    <para>The <chem_compound>HCl</chem_compound> concentration could be increased</para>
+		  </item>
+		</list>
+	      </workstep>
+	    </answer>
+          </worked_example>
+        <exercises>
+	  <title>Rates of reaction</title>
+	  <multi-part>
+	    <shortcode>01py, 0246, 0247, 0248, 0249, 024a</shortcode>
+	    <header>
+	      <para>Hydrochloric acid and calcium carbonate react according to the following equation:</para>
+	      <para><chem_compound>CaCO_{3}(s) + 2HCl(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>CaCl_{2}(s) + H_{2}O(ℓ) + CO_{2}(g)</chem_compound></para>
+	      <para>The volume of carbon dioxide that is produced during the reaction is measured at different times. The results are shown in the table below.</para>
+	      <table>
+		<tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                  <row>
+                    <entry><emphasis effect="bold">Time (mins)</emphasis></entry>
+                    <entry><emphasis effect="bold">Total Volume of <chem_compound>CO_{2}</chem_compound> produced (<unit>cm<sup>3</sup></unit>)</emphasis></entry>
+                  </row>
+                  <row>
+                    <entry><number>1</number></entry>
+                    <entry><number>14</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>2</number></entry>
+                    <entry><number>26</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>3</number></entry>
+                    <entry><number>36</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>4</number></entry>
+                    <entry><number>44</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>5</number></entry>
+                    <entry><number>50</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>6</number></entry>
+                    <entry><number>58</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>7</number></entry>
+                    <entry><number>65</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>8</number></entry>
+                    <entry><number>70</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>9</number></entry>
+                    <entry><number>74</number></entry>
+                  </row>
+                  <row>
+                    <entry><number>10</number></entry>
+                    <entry><number>77</number></entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <para><emphasis effect="italics">Note: On a graph of production against time, it is the gradient of the tangent to the graph that shows the rate of the reaction at that time.</emphasis></para>
+	    <para>e.g.</para>
+	    <pspicture style:width="0.2">
+	      <code>
+		(-0.6,-0.6)(5.4,5.7)
+		\pcline[arrowlength=2,arrowsize=0.2cm]{-&gt;}(0,0)(0,5.5)
+		\pcline[arrowlength=2,arrowsize=0.2cm]{-&gt;}(0,0)(5,0)
+		\pscurve[showpoints=false,curvature=1 1 1](0,0)(1,3)(3,3.9)(4,4)
+		\psline(4,4)(5,4)
+		\psline[linecolor=red](0,2)(1,3)(2,4)
+		\rput(2.2,5.2){\LARGE tangent to slope}
+		\rput(1.4,4.6){\LARGE at point X}
+		\rput(1.3,2.8){\LARGE X}
+		\pscircle[fillstyle=solid,fillcolor=black](1,3){0.05}
+		\psline[arrowlength=2,arrowsize=0.2cm]{-&gt;}(0.9,4.3)(1.4,3.5)
+	      </code>
+            </pspicture>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>Use the data in the table to draw a graph showing the volume of gas that is produced in the reaction, over a period of 10 minutes.</para>
+	      <para>(Remember to label the axes and plot the graph on graphing paper)</para>
+	    </problem>
+	    <solution>
+	      <pspicture style:width="0.8">
+		<code>
+		  (-0.5,-5.7)(19.5,5.5)
+\newrgbcolor{grey}{0.5 0.5 0.5}
+\psline[linecolor=grey,linestyle=dashed](2.5,-4.5)(2.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](4,-4.5)(4,4.5)
+\psline[linecolor=grey,linestyle=dashed](5.5,-4.5)(5.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](7,-4.5)(7,4.5)
+\psline[linecolor=grey,linestyle=dashed](8.5,-4.5)(8.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](10,-4.5)(10,4.5)
+\psline[linecolor=grey,linestyle=dashed](11.5,-4.5)(11.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](13,-4.5)(13,4.5)
+\psline[linecolor=grey,linestyle=dashed](14.5,-4.5)(14.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](16,-4.5)(16,4.5)
+\psline[linecolor=grey,linestyle=dashed](17.5,-4.5)(17.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](19,-4.5)(19,4.5)
+
+\psline[linecolor=grey,linestyle=dashed](1,-3.5)(19,-3.5)
+\psline[linecolor=grey,linestyle=dashed](1,-2.5)(19,-2.5)
+\psline[linecolor=grey,linestyle=dashed](1,-1.5)(19,-1.5)
+\psline[linecolor=grey,linestyle=dashed](1,-0.5)(19,-0.5)
+\psline[linecolor=grey,linestyle=dashed](1,0.5)(19,0.5)
+\psline[linecolor=grey,linestyle=dashed](1,1.5)(19,1.5)
+\psline[linecolor=grey,linestyle=dashed](1,2.5)(19,2.5)
+\psline[linecolor=grey,linestyle=dashed](1,3.5)(19,3.5)
+\psline[linecolor=grey,linestyle=dashed](1,4.5)(19,4.5)
+
+\psaxes[linewidth=0.08,dx=1.5cm,dy=1.0cm,Dy=10,Dx=1](1,-4.5)(1,-4.5)(19,4.5)
+\psdots[dotsize=0.15,linecolor=red](2.5,-3.1)
+\psdots[dotsize=0.15,linecolor=red](4,-1.9)
+\psdots[dotsize=0.15,linecolor=red](5.5,-0.9)
+\psdots[dotsize=0.15,linecolor=red](7,-0.1)
+\psdots[dotsize=0.15,linecolor=red](8.5,0.5)
+\psdots[dotsize=0.15,linecolor=red](10,1.3)
+\psdots[dotsize=0.15,linecolor=red](11.5,2)
+\psdots[dotsize=0.15,linecolor=red](13,2.5)
+\psdots[dotsize=0.15,linecolor=red](14.5,2.9)
+\psdots[dotsize=0.15,linecolor=red](16,3.2)
+\psline[linewidth=0.02cm,linecolor=red](1,-4.5)(2.5,-3.1)
+\psline[linewidth=0.02cm,linecolor=red](2.5,-3.1)(4,-1.9)
+\psline[linewidth=0.02cm,linecolor=red](4,-1.9)(5.5,-0.9)
+\psline[linewidth=0.02cm,linecolor=red](5.5,-0.9)(7,-0.1)
+\psline[linewidth=0.02cm,linecolor=red](7,-0.1)(8.5,0.5)
+\psline[linewidth=0.02cm,linecolor=red](8.5,0.5)(10,1.3)
+\psline[linewidth=0.02cm,linecolor=red](10,1.3)(11.5,2)
+\psline[linewidth=0.02cm,linecolor=red](11.5,2)(13,2.5)
+\psline[linewidth=0.02cm,linecolor=red](13,2.5)(14.5,2.9)
+\psline[linewidth=0.02cm,linecolor=red](14.5,2.9)(16,3.2)
+\rput(10,-5.4){Time (min)}
+\rput{-270.0}(0,0){Total volume of CO$_{2}$ produced (cm$^{3}$)}
+\rput(10,5){\textbf{Time vs. volume carbon dioxide}}
+</code>
+</pspicture>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>At which of the following times is the reaction <emphasis effect="italics">fastest</emphasis>: <unit_number><number>1</number><unit>minute</unit></unit_number>; <unit_number><number>6</number><unit>minutes</unit></unit_number> or <unit_number><number>8</number><unit>minutes</unit></unit_number>. Explain.</para>
+	    </problem>
+	    <solution>
+	      <pspicture style:width="0.8">
+		<code>
+		  (-0.5,-5.7)(19.5,5.5)
+\newrgbcolor{grey}{0.5 0.5 0.5}
+\psline[linecolor=grey,linestyle=dashed](2.5,-4.5)(2.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](4,-4.5)(4,4.5)
+\psline[linecolor=grey,linestyle=dashed](5.5,-4.5)(5.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](7,-4.5)(7,4.5)
+\psline[linecolor=grey,linestyle=dashed](8.5,-4.5)(8.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](10,-4.5)(10,4.5)
+\psline[linecolor=grey,linestyle=dashed](11.5,-4.5)(11.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](13,-4.5)(13,4.5)
+\psline[linecolor=grey,linestyle=dashed](14.5,-4.5)(14.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](16,-4.5)(16,4.5)
+\psline[linecolor=grey,linestyle=dashed](17.5,-4.5)(17.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](19,-4.5)(19,4.5)
+
+\psline[linecolor=grey,linestyle=dashed](1,-3.5)(19,-3.5)
+\psline[linecolor=grey,linestyle=dashed](1,-2.5)(19,-2.5)
+\psline[linecolor=grey,linestyle=dashed](1,-1.5)(19,-1.5)
+\psline[linecolor=grey,linestyle=dashed](1,-0.5)(19,-0.5)
+\psline[linecolor=grey,linestyle=dashed](1,0.5)(19,0.5)
+\psline[linecolor=grey,linestyle=dashed](1,1.5)(19,1.5)
+\psline[linecolor=grey,linestyle=dashed](1,2.5)(19,2.5)
+\psline[linecolor=grey,linestyle=dashed](1,3.5)(19,3.5)
+\psline[linecolor=grey,linestyle=dashed](1,4.5)(19,4.5)
+
+\psaxes[linewidth=0.08,dx=1.5cm,dy=1.0cm,Dy=10,Dx=1](1,-4.5)(1,-4.5)(19,4.5)
+\psdots[dotsize=0.15,linecolor=red](2.5,-3.1)
+\psdots[dotsize=0.15](4,-1.9)
+\psdots[dotsize=0.15](5.5,-0.9)
+\psdots[dotsize=0.15](7,-0.1)
+\psdots[dotsize=0.15](8.5,0.5)
+\psdots[dotsize=0.15,linecolor=blue](10,1.3)
+\psdots[dotsize=0.15](11.5,2)
+\psdots[dotsize=0.15,linecolor=blue](13,2.5)
+\psdots[dotsize=0.15](14.5,2.9)
+\psdots[dotsize=0.15](16,3.2)
+\psline[linewidth=0.02cm](2.5,-3.1)(4,-1.9)
+\psline[linewidth=0.05cm,linecolor=red](1,-4.5)(7,1.09)
+\psline[linewidth=0.02cm](4,-1.9)(5.5,-0.9)
+\psline[linewidth=0.02cm](5.5,-0.9)(7,-0.1)
+\psline[linewidth=0.02cm](7,-0.1)(8.5,0.5)
+\psline[linewidth=0.02cm](8.5,0.5)(10,1.3)
+\psline[linewidth=0.05cm,linecolor=blue](2,-2.43)(14,3.16)
+\psline[linewidth=0.02cm](10,1.3)(11.5,2)
+\psline[linewidth=0.02cm](11.5,2)(13,2.5)
+\psline[linewidth=0.05cm,linecolor=blue](5,-0.17)(17,3.83)
+\psline[linewidth=0.02cm](13,2.5)(14.5,2.9)
+\psline[linewidth=0.02cm](14.5,2.9)(16,3.2)
+\rput(10,-5.4){Time (min)}
+\rput{-270.0}(0,0){Total volume of CO$_{2}$ produced (cm$^{3}$)}
+\rput(10,5){\textbf{Time vs. volume carbon dioxide}}
+</code>
+</pspicture>
+<para>Time = <correct>1 minute</correct>. This is where the the gradient of a tangent to the graph is the steepest (the red line on the graph). The steeper the gradient the faster the rate at that time.</para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Suggest a reason why the reaction slows down over time.</para>
+	    </problem>
+	    <solution>
+	      <para>As the reaction proceeds the reactants are used up (form products). With a lower concentration of reactants the rate of the reaction decreases.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Use the graph to estimate the volume of gas that will have been produced after 11 minutes.</para>
+	    </problem>
+	    <solution>
+	      <para>Approximately <correct><unit_number><number>79</number><unit>cm<sup>3</sup></unit></unit_number></correct></para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>How long do you think the reaction will take to stop (give a time in minutes)?</para>
+	    </problem>
+	    <solution>
+	      <para>Any answer between 15 and 25 minutes is reasonable. To see this extend the line and find approximate the time that the gradient flattens out.</para>
+	    </solution>
+	    <correct><number>15</number> - <unit_number><number>25</number><unit>min</unit></unit_number></correct>
+	  </entry>
+	  <multi-part>
+	    <header>
+	      <para>If the experiment was repeated using a more concentrated hydrochloric acid solution:</para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>would the average rate of the reaction increase or decrease from the one shown in the graph?</para>
+	      </problem>
+	      <solution>
+		<para>The rate would <correct>increase</correct>.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>draw a line on the same set of axes to show how you would expect the reaction to proceed with a more concentrated <chem_compound>HCl</chem_compound> solution.</para>
+	      </problem>
+	      <solution>
+		<para>The red line indicates roughly how the reaction would proceed. Note that the reaction does not produce more carbon dioxide, it just reacts faster.</para>
+	      <pspicture style:width="0.8">
+		<code>
+		  (-0.5,-5.7)(19.5,5.5)
+\newrgbcolor{grey}{0.5 0.5 0.5}
+\psline[linecolor=grey,linestyle=dashed](2.5,-4.5)(2.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](4,-4.5)(4,4.5)
+\psline[linecolor=grey,linestyle=dashed](5.5,-4.5)(5.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](7,-4.5)(7,4.5)
+\psline[linecolor=grey,linestyle=dashed](8.5,-4.5)(8.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](10,-4.5)(10,4.5)
+\psline[linecolor=grey,linestyle=dashed](11.5,-4.5)(11.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](13,-4.5)(13,4.5)
+\psline[linecolor=grey,linestyle=dashed](14.5,-4.5)(14.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](16,-4.5)(16,4.5)
+\psline[linecolor=grey,linestyle=dashed](17.5,-4.5)(17.5,4.5)
+\psline[linecolor=grey,linestyle=dashed](19,-4.5)(19,4.5)
+
+\psline[linecolor=grey,linestyle=dashed](1,-3.5)(19,-3.5)
+\psline[linecolor=grey,linestyle=dashed](1,-2.5)(19,-2.5)
+\psline[linecolor=grey,linestyle=dashed](1,-1.5)(19,-1.5)
+\psline[linecolor=grey,linestyle=dashed](1,-0.5)(19,-0.5)
+\psline[linecolor=grey,linestyle=dashed](1,0.5)(19,0.5)
+\psline[linecolor=grey,linestyle=dashed](1,1.5)(19,1.5)
+\psline[linecolor=grey,linestyle=dashed](1,2.5)(19,2.5)
+\psline[linecolor=grey,linestyle=dashed](1,3.5)(19,3.5)
+\psline[linecolor=grey,linestyle=dashed](1,4.5)(19,4.5)
+
+\psaxes[linewidth=0.08,dx=1.5cm,dy=1.0cm,Dy=10,Dx=1](1,-4.5)(1,-4.5)(19,4.5)
+\psdots[dotsize=0.15](2.5,-3.1)
+\psdots[dotsize=0.15](4,-1.9)
+\psdots[dotsize=0.15](5.5,-0.9)
+\psdots[dotsize=0.15](7,-0.1)
+\psdots[dotsize=0.15](8.5,0.5)
+\psdots[dotsize=0.15](10,1.3)
+\psdots[dotsize=0.15](11.5,2)
+\psdots[dotsize=0.15](13,2.5)
+\psdots[dotsize=0.15](14.5,2.9)
+\psdots[dotsize=0.15](16,3.2)
+\psline[linewidth=0.02cm](1,-4.5)(2.5,-3.1)
+\psline[linewidth=0.02cm](2.5,-3.1)(4,-1.9)
+\psline[linewidth=0.02cm](4,-1.9)(5.5,-0.9)
+\psline[linewidth=0.02cm](5.5,-0.9)(7,-0.1)
+\psline[linewidth=0.02cm](7,-0.1)(8.5,0.5)
+\psline[linewidth=0.02cm](8.5,0.5)(10,1.3)
+\psline[linewidth=0.02cm](10,1.3)(11.5,2)
+\psline[linewidth=0.02cm](11.5,2)(13,2.5)
+\psline[linewidth=0.02cm](13,2.5)(14.5,2.9)
+\psline[linewidth=0.02cm](14.5,2.9)(16,3.2)
+
+\psdots[dotsize=0.15,linecolor=red](2.5,-2.4)
+\psdots[dotsize=0.15,linecolor=red](4,-1.1)
+\psdots[dotsize=0.15,linecolor=red](5.5,-0.3)
+\psdots[dotsize=0.15,linecolor=red](7,0.4)
+\psdots[dotsize=0.15,linecolor=red](8.5,1)
+\psdots[dotsize=0.15,linecolor=red](10,1.7)
+\psdots[dotsize=0.15,linecolor=red](11.5,2.3)
+\psdots[dotsize=0.15,linecolor=red](13,2.6)
+\psdots[dotsize=0.15,linecolor=red](14.5,2.9)
+\psdots[dotsize=0.15,linecolor=red](16,3.2)
+\psline[linewidth=0.02cm,linecolor=red](1,-4.5)(2.5,-2.4)
+\psline[linewidth=0.02cm,linecolor=red](2.5,-2.4)(4,-1.1)
+\psline[linewidth=0.02cm,linecolor=red](4,-1.1)(5.5,-0.3)
+\psline[linewidth=0.02cm,linecolor=red](5.5,-0.3)(7,0.4)
+\psline[linewidth=0.02cm,linecolor=red](7,0.4)(8.5,1)
+\psline[linewidth=0.02cm,linecolor=red](8.5,1)(10,1.7)
+\psline[linewidth=0.02cm,linecolor=red](10,1.7)(11.5,2.3)
+\psline[linewidth=0.02cm,linecolor=red](11.5,2.3)(13,2.6)
+\psline[linewidth=0.02cm,linecolor=red](13,2.6)(14.5,2.9)
+\psline[linewidth=0.02cm,linecolor=red](14.5,2.9)(16,3.2)
+\rput(10,-5.4){Time (min)}
+\rput{-270.0}(0,0){Total volume of CO$_{2}$ produced (cm$^{3}$)}
+\rput(10,5){\textbf{Time vs. volume carbon dioxide}}
+</code>
+</pspicture>
+	      </solution>
+	      <correct/>
+	    </entry>
+	  </multi-part>
+	</multi-part>
+      </exercises>
+      </section>
+    </section>
+      <section type="section">
+        <title>Measuring rates of reaction</title>
+        <shortcode>ESCAT</shortcode>
+        <para>How the average rate of a reaction is measured will depend on what the reaction is, what the reactants are, and what product forms. Look back at the reactions that have been discussed so far. In each case, how was the average rate of the reaction measured? The following examples will give you some ideas about other ways to measure the average rate of a reaction:</para>
+	<section type="subsection">
+          <title>Measuring the volume of gas produced per unit time</title>
+          <shortcode>Shortcode</shortcode>
+	  <para>The volume of gas produced in a reaction may be measured by collecting the gas in a gas syringe (Figure <link target-id="fig:reactionrates:gassyringe"/>).</para>
+	  <figure id="fig:reactionrates:gassyringe">
+	    <type>figure</type>
+	    <pspicture style:width="0.6">
+	      <code>
+		(-2,-0.2)(8.2,6.4)
+		\SpecialCoor
+		\def\syringe{
+		\psframe[fillstyle=solid,fillcolor=white,linestyle=none](0,0)(5.5,1)
+		\multirput(0.5,0)(0.5,0){5}{\psline(0,0.4)(0,0.6)}
+		\psline(3.5,1.1)(3.5,1)(0,1)(0,0.5)
+		\psline(3.5,-0.1)(3.5,0)(0,0)(0,0.4)
+		\pspolygon[linewidth=0.05cm](5.6,1.2)(5.6,0.95)(3,0.95)(3,0.05)(5.6,0.05)(5.6,-0.2)(5.8,-0.2)(5.8,1.2)
+		}
+		\rput(2,2){\pstTubeEssais[glassType=erlen,niveauLiquide1=40,tubeCoude]}
+		\rput(2.2,5){\syringe}
+		\uput[d](4.5,5){Gas Syringe System}
+		\rput(-0.5,0.5){Reactants}
+		\pcline{-&gt;}(-0.5,1.6)(-0.5,2.2)
+		\aput{:U}{Gas}
+	      </code>
+	    </pspicture>
+	    <caption>
+	      <para>The gas syringe method.</para>
+	    </caption>
+	  </figure>
+	<video>
+	  <title>Gas syringe method</title>
+	  <shortcode>Shortcode 13</shortcode>
+	  <url>http://www.youtube.com/embed/2Nqf-QSGoDg</url>
+	</video>
+	  <para>As more gas is produced, the plunger is pushed out and the volume of the gas in the syringe can be recorded.</para>
+	  <para>By measuring the volume at set time intervals, we can graph the data (Figure <link target-id="fig:reactionrates:gasgraph"/>) and hence determine the rate of the reaction.</para>
+	  <figure id="fig:reactionrates:gasgraph">
+	    <type>figure</type>
+	    <pspicture>
+	      <code>
+		(-0.6,-0.5)(10,5.2)
+		\newrgbcolor{purple}{0.63 0.13 0.94}
+		\psline(0,0)(0,5)
+		\psline(0,0)(8,0)
+		\rput{90}(-0.3,2.7){Volume of gas (cm$^{3}$)}
+		\rput(7,-0.3){Time (s)}
+		\pscurve(0,0)(0.5,1.5)(1,2.5)(3,4)(7,4.5)
+		\psline(7,4.5)(8,4.5)
+		\psline[linecolor=red]{-&gt;}(2,1)(0.35,1)
+		\rput(3.8,1.1){\red steep gradient at start}
+		\rput(3.65,0.75){\red fastest reaction rate}
+		\psframe[linecolor=red](2,0.5)(5.6,1.4)
+		\psline[linecolor=purple]{-&gt;}(2.6,2.4)(1.8,3.2)
+		\rput(5,2.35){\purple gradient decreases with time}
+		\rput(4.4,2){\purple as reaction rate slows}
+		\psframe[linecolor=purple](2.6,1.8)(7.5,2.6)
+		\rput(7,3.8){\blue gradient becomes zero}
+		\rput(7.4,3.45){\blue shows reaction has stopped}
+		\rput(7.4,3.1){\blue i.e. no more gas is produced}
+		\psline[linecolor=blue]{-&gt;}(7.5,4)(7.5,4.5)
+		\psframe[linecolor=blue](4.9,2.8)(9.9,4)
+	      </code>
+	    </pspicture>
+	    <caption>
+	      <para>A plot of the volume of gas collected at set time intervals.</para>
+	    </caption>
+	  </figure>
+	  <para>Examples of reactions that produce gas are listed below:</para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para><emphasis effect="italics">Reactions that produce hydrogen gas:</emphasis></para>
+	      <para>When a <emphasis effect="italics">metal reacts with an acid</emphasis>, hydrogen gas is produced. The hydrogen can be collected in a test tube. A <emphasis effect="bold">lit splint</emphasis> can be used to test for hydrogen. The '<emphasis effect="bold">pop</emphasis>' sound shows that hydrogen is present.</para>
+	      <para>For example, magnesium reacts with sulfuric acid to produce magnesium sulfate and hydrogen.</para>
+	      <para><chem_compound>Mg(s) + H_{2}SO_{4}(aq)</chem_compound> <latex>\to</latex> <chem_compound>MgSO_{4}(aq) + H_{2}(g)</chem_compound></para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="italics">Reactions that produce carbon dioxide:</emphasis></para>
+	      <para>When a <emphasis effect="italics">carbonate reacts with an acid</emphasis>, carbon dioxide gas is produced. When carbon dioxide is passed through <emphasis effect="bold">limewater</emphasis>, it turns the limewater <emphasis effect="bold">milky</emphasis>. A burning splint will also <emphasis effect="bold">stop burning</emphasis> (be extinguished) in the presence of <chem_compound>CO_{2}</chem_compound> gas. These are a simple tests for the presence of carbon dioxide.</para>
+	      <para>For example, calcium carbonate reacts with hydrochloric acid to produce calcium chloride, water and carbon dioxide.</para>
+	      <para><chem_compound>CaCO_{3}(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>CaCl_{2}(aq) + H_{2}O(ℓ) + CO_{2}(g)</chem_compound></para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="italics">Reactions that produce oxygen:</emphasis></para>
+	      <para>Hydrogen peroxide decomposes in the presence of a manganese(IV) oxide catalyst to produce oxygen and water.</para>
+	      <pspicture>
+		<code>
+		  (-1,-0.5)(12,0.5)
+		  \rput(0,0){2H$_{2}$O$_{2}$(aq)}
+		  \rput(3.5,0){2H$_{2}$O(ℓ) + O$_{2}$(g)}
+		  \psline(1,0)(2,0)
+		  \psline(2,0)(1.83,0.1)
+		  \psline(2,0)(1.83,-0.1)
+		  \rput(1.5,-0.2){\tiny MnO$_{2}$}
+		</code>
+	      </pspicture>
+          </item>
+	</list>
+	<teachers-guide>
+	  <para>In the zinc and hydrochloric acid experiment the learners collect gas in a balloon. <emphasis effect="bold">Do not</emphasis> light the gas in the balloon or allow it to be near flame. There will be an explosion.</para>
+	</teachers-guide>
+	<activity type="g_experiment">
+	  <title>Measuring reaction rates</title>
+	  <section>
+	    <title>Aim</title>
+	    <para>To measure the effect of concentration on the average rate of a reaction.</para>
+	  </section>
+	  <section>
+	    <title>Apparatus</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Solid zinc granules, <unit_number><number>1</number><unit>mol.dm<sup>-3</sup></unit></unit_number> hydrochloric acid <chem_compound>(HCl)</chem_compound></para>
+	      </item>
+	      <item>
+		<para>Two conical flasks, two beakers, two balloons, bunsen burner, splint of wood</para>
+	      </item>
+	    </list>
+	  </section>
+	  <section>
+	    <title>Method</title>
+	    <note type="warning">
+	      <para>Do not get hydrochloric acid (<chem_compound>HCl</chem_compound>) on your hands. We suggest you use gloves and safety glasses whenever handling acids and handle with care.</para>
+	    </note>
+	    <list list-type="enumerated">
+	      <item>
+		<para>Label a conical flask <emphasis effect="italics">A</emphasis>. Weigh <unit_number><number>5</number><unit>g</unit></unit_number> zinc granules into it.</para>
+		<para>Repeat with the second conical flask but label it <emphasis effect="italics">B</emphasis>.</para>
+		<pspicture>
+		  <code>
+		    (-1,-1.2)(3.4,1)
+		    \psset{unit=0.5cm,glassType=erlen}
+		    \rput(0,0){\pstTubeEssais[solide={\pstGrenailleZinc[50]},etiquette,Numero={\small A},niveauLiquide1=30]}
+		    \psset{unit=0.5cm,glassType=erlen}
+		    \rput(5,0){\pstTubeEssais[solide={\pstGrenailleZinc[50]},etiquette,Numero={\small B},niveauLiquide1=30]}
+		  </code>
+		</pspicture>
+	      </item>
+	      <item>
+		<para>Label a beaker <emphasis effect="italics"><number>1</number></emphasis>. Pour <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>HCl</chem_compound> into it.</para>
+		<para>Label the other beaker <emphasis effect="italics"><number>2</number></emphasis>. Pour <unit_number><number>5</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>H_{2}O</chem_compound> into it. Add <unit_number><number>5</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>HCl</chem_compound> to this second beaker.</para>
+		<pspicture>
+		  <code>
+		    (-1,-2)(3.5,0.8)
+		    \psset{unit=0.5cm,glassType=becher}
+		    \rput(0,0){\pstTubeEssais[etiquette,Numero={1},niveauLiquide1=20]}
+		    \psset{unit=0.5cm,glassType=becher}
+		    \rput(5,0){\pstTubeEssais[etiquette,Numero={2},niveauLiquide1=20]}
+		    \rput(0,-2.8){\small 10 cm$^{3}$ HCl}
+		    \rput(5,-2.5){\small 5 cm$^{3}$ H$_{2}$O}
+		    \rput(5,-3.2){\small 5 cm$^{3}$ HCl}
+		  </code>
+		</pspicture>
+	      </item>
+	      <item>
+		<para><emphasis effect="bold">Quickly:</emphasis> Pour the liquid in beaker <emphasis effect="bold"><number>1</number></emphasis> into conical flask <emphasis effect="bold">A</emphasis> and pour the liquid in beaker <emphasis effect="bold"><number>2</number></emphasis> into conical flask <emphasis effect="bold">B</emphasis>. Attach one balloon firmly to each conical flask.</para>
+		<pspicture>
+		  <code>
+		    (-0.4,-1.2)(5.7,2.4)
+		    \psset{unit=0.5cm,glassType=becher}
+		    \rput(3,4.5){\pstTubeEssais[etiquette,Numero={1},niveauLiquide1=20,tubePenche=65]}
+		    \psset{unit=0.5cm,glassType=becher}
+		    \rput(10,4.5){\pstTubeEssais[etiquette,Numero={2},niveauLiquide1=20,tubePenche=65]}
+		    \psset{unit=0.5cm,glassType=erlen}
+		    \rput(1,0){\pstTubeEssais[solide={\pstGrenailleZinc[50]},etiquette,Numero={\small A},niveauLiquide1=30]}
+		    \psset{unit=0.5cm,glassType=erlen}
+		    \rput(8,0){\pstTubeEssais[solide={\pstGrenailleZinc[50]},etiquette,Numero={\small B},niveauLiquide1=30]}
+		  </code>
+		</pspicture>
+		<image style:width="0.35">
+		  <src>/photos/balloons.png</src>
+		  <attribution>Screenshot taken from video by ChemToddler on Youtube</attribution>
+		</image>
+	      </item>
+	      <item>
+		<para>Note which balloon filled more quickly.</para>
+	      </item>
+	      <item>
+		<para>Fill a test tube with the gas formed. Light <emphasis effect="bold">only</emphasis> the gas in the test tube. Keep open flames away from the balloons.</para>
+	      </item>
+	    </list>
+	    <para>The equation for this reaction is:</para>
+	    <para><chem_compound>Zn(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>ZnCl_{2}(aq) + H_{2}(g)</chem_compound></para>  
+	  </section>
+	  <section>
+	    <title>Results</title>
+	    <list list-type="bulleted">
+	      <item>
+		<para>Which beaker contained the more concentrated solution of <chem_compound>HCl</chem_compound>?</para>
+	      </item>
+	      <item>
+		<para>Which balloon filled more quickly?</para>
+	      </item>
+	      <item>
+		<para>What happened when you lit the gas in the test tube?</para>
+	      </item>
+	    </list>
+	  </section>
+	  <section>
+	    <title>Conclusions</title>
+	    <para>The more concentrated solution led to a faster reaction rate (i.e. the balloon filling with <chem_compound>H_{2}</chem_compound> gas more quickly). The test for hydrogen gas would have resulted in a loud <emphasis effect="italics">pop</emphasis> when the lit splint was placed near the mouth of a test tube.</para>
+	  </section>
+	</activity>
+	<video>
+	  <title>Zinc and HCl Reaction</title>
+          <shortcode>Shortcode 14</shortcode>
+	  <url>http://www.youtube.com/embed/oQz5YEsx7Fo</url>
+	  <width>300</width>
+    	  <height>245</height>
+	</video>
+	</section>
+          <section type="subsection">
+          <title>Precipitate reactions</title>
+          <shortcode>Shortcode</shortcode>
+            <para>In reactions where a <emphasis effect="italics">precipitate</emphasis> is formed, the amount of precipitate formed in a period of time can be used as a measure of the reaction rate. For example, when sodium thiosulfate reacts with an acid, a yellow precipitate of sulfur is formed. The reaction is as follows:</para>
+	    <note type="aside">
+	      <para>When the reaction between two liquids forms an insoluble compound, solid material will form in the liquid. This solid is called a precipitate.</para>
+	    </note>
+	    <para><chem_compound>Na_{2}S_{2}O_{3}(aq) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>2NaCl(aq) + SO_{2}(aq) + H_{2}O(ℓ) + S(s)</chem_compound></para>
+            <para>One way to estimate the average rate of this reaction is to carry out the investigation in a conical flask and to place a piece of paper with a black cross underneath the bottom of the flask. At the beginning of the reaction, the cross will be clearly visible when you look into the flask (Figure <link target-id="fig:reactionrates:cross"/>). However, as the reaction progresses and more precipitate is formed, the cross will gradually become less clear and will eventually disappear altogether. Measuring the time that it takes for this to happen will give an idea of the reaction rate. Note that it is not possible to collect the <chem_compound>SO_{2}</chem_compound> gas that is produced in the reaction, because it is very soluble in water.</para>
+            <figure id="fig:reactionrates:cross">
+              <type>figure</type>
+	      <pspicture style:width="0.55">
+		<code>
+		  (-2,-2.8)(8.4,4)
+		  \SpecialCoor
+		  \rput(0,0){\pstTubeEssais[glassType=erlen,niveauLiquide1=40]}
+		  \psline(-0.95,3)(0,3.8)
+		  \psline(0,3.8)(0.95,3)
+		  \psline[linewidth=1.5pt]{-&gt;}(0,2.8)(0,2)
+		  \rput(0,3.8){\pswedge{0.7}{-140}{-40}}
+		  \psarc[fillstyle=solid,fillcolor=black](0,3.8){0.7}{-130}{-50}
+		  \psellipse(0.05,-1.8)(1.5,0.5)
+		  \psline(-0.5,-1.85)(0.5,-1.55)
+		  \psline(0.5,-1.85)(-0.5,-1.55)
+		  
+		  \rput(5.3,1.25){\textbf{view from the top}}
+		  \rput(3.5,-0.5){
+		  \pscircle(0,0){1.25}
+		  \newrgbcolor{tubeBlue}{0.1 0.58 1}
+		  \pscircle[fillstyle=solid,fillcolor=tubeBlue](0,0){1}
+		  \pscircle[linewidth=1.5pt](0,0){0.65}
+		  \psline(-0.6,-0.6)(0.6,0.6)
+		  \psline(0.6,-0.6)(-0.6,0.6)
+		  \rput(0,-1.5){\textbf{\small without precipitate}}
+		  }
+		  \rput(7,-0.5){
+		  \pscircle(0,0){1.25}
+		  \newrgbcolor{tubeBlue}{0.1 0.58 1}
+		  \pscircle[fillstyle=solid,fillcolor=tubeBlue](0,0){1}
+		  \pscircle[linewidth=1.5pt](0,0){0.65}
+		  \psline(-0.6,-0.6)(0.6,0.6)
+		  \psline(0.6,-0.6)(-0.6,0.6)
+		  \newrgbcolor{grey}{0.83 0.83 0.83}
+		  \pscircle[fillstyle=solid,fillcolor=grey,linecolor=grey](0,0){0.4}
+		  \rput(0,-1.5){\textbf{\small with precipitate}}
+		  }
+                </code>
+              </pspicture>
+              <caption>
+                <para>At the beginning of the reaction between sodium thiosulfate and hydrochloric acid, when no precipitate has been formed, the cross at the bottom of the conical flask can be clearly seen. As the precipitate forms less of it can be seen.</para>
+              </caption>
+            </figure>
+	  <teachers-guide>
+	    <para>For the reaction of sodium thiosulfate with hydrochloric acid it would be good to break your class up into groups and assign different experiments to them at this point. They can report back to the rest of the class.</para>
+	    <para>This experiment is recommended for informal assessment in CAPS. Remember to remind the learners about laboratory safety procedures, especially when handling acids.</para>
+	  </teachers-guide>
+        <activity type="i_experiment">
+          <title>Measuring reaction rates</title>
+          <section>
+            <title>Aim</title>
+            <para>To measure the effect of concentration on the average rate of a reaction.</para>
+          </section>
+          <section>
+            <title>Apparatus</title>
+            <list list-type="bulleted">
+              <item>
+                <para><unit_number><number>300</number><unit>cm<sup>3</sup></unit></unit_number> of sodium thiosulfate <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> solution. (Prepare a solution of sodium thiosulfate by adding <unit_number><number>12</number><unit>g</unit></unit_number> of <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> to <unit_number><number>300</number><unit>cm<sup>3</sup></unit></unit_number> of water). This is solution 'A'.</para>
+              </item>
+              <item>
+                <para><unit_number><number>300</number><unit>cm<sup>3</sup></unit></unit_number> of water</para>
+              </item>
+              <item>
+                <para><unit_number><number>100</number><unit>cm<sup>3</sup></unit></unit_number> of <number>1</number>:<number>10</number> dilute hydrochloric acid. This is solution 'B'.</para>
+              </item>
+              <item>
+                <para>Six <unit_number><number>100</number><unit>cm<sup>3</sup></unit></unit_number> glass beakers, measuring cylinders, paper and marking pen, stopwatch or timer</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Method</title>
+	    <note type="warning">
+	      <para>Do not get hydrochloric acid (<chem_compound>HCl</chem_compound>) on your hands. We suggest you use gloves and safety glasses whenever handling acids and that you handle with care.</para>
+	    </note>
+            <para>One way to measure the average rate of this reaction is to place a piece of paper with a cross underneath the reaction beaker to see how long it takes until the cross cannot be seen due to the formation of the sulfur precipitate.</para>
+            <list list-type="enumerated">
+              <item>
+                <para>Set up six beakers on a flat surface and label them 1 to 6.</para>
+              </item>
+              <item>
+                <para>Pour <unit_number><number>60</number><unit>cm<sup>3</sup></unit></unit_number> solution A into the first beaker and add <unit_number><number>20</number><unit>cm<sup>3</sup></unit></unit_number> of water</para>
+              </item>
+	      <item>
+		<para>Place the beaker on a piece of paper with a large black cross on it.</para>
+	      </item>
+              <item>
+                <para>Use the measuring cylinder to measure <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>HCl</chem_compound>. Now add this <chem_compound>HCl</chem_compound> to the solution that is already in the first beaker (NB: Make sure that you always clean the measuring cylinder you have used before using it for another chemical).</para>
+              </item>
+              <item>
+                <para>Using a stopwatch with seconds, write down the time it takes for the precipitate that forms to block out the cross.</para>
+              </item>
+              <item>
+                <para>Now measure <unit_number><number>50</number><unit>cm<sup>3</sup></unit></unit_number> of solution A into the second beaker and add <unit_number><number>30</number><unit>cm<sup>3</sup></unit></unit_number> of water. Place the beaker over the black cross on the paper. To this second beaker, add <unit_number><number>10</number><unit>cm<sup>3</sup></unit></unit_number> <chem_compound>HCl</chem_compound>, time the reaction and write down the results as you did before.</para>
+              </item>
+              <item>
+                <para>Continue the experiment by diluting solution A as shown below.</para>
+              </item>
+            </list>
+            <table>
+              <tgroup cols="5">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <colspec colname="c3" colnum="3"/>
+                <colspec colname="c4" colnum="4"/>
+                <colspec colname="c5" colnum="5"/>
+                <tbody>
+                  <row>
+                    <entry><emphasis effect="bold">Beaker</emphasis></entry>
+                    <entry><emphasis effect="bold">Solution A (<unit>cm<sup>3</sup></unit>)</emphasis></entry>
+                    <entry><emphasis effect="bold">Water (<unit>cm<sup>3</sup></unit>)</emphasis></entry>
+                    <entry><emphasis effect="bold">Solution B (<unit>cm<sup>3</sup></unit>)</emphasis></entry>
+                    <entry><emphasis effect="bold">Time (s)</emphasis></entry>
+                  </row>
+                  <row>
+                    <entry><number>1</number></entry>
+                    <entry><number>60</number></entry>
+                    <entry><number>20</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>2</number></entry>
+                    <entry><number>50</number></entry>
+                    <entry><number>30</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>3</number></entry>
+                    <entry><number>40</number></entry>
+                    <entry><number>40</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>4</number></entry>
+                    <entry><number>30</number></entry>
+                    <entry><number>50</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>5</number></entry>
+                    <entry><number>20</number></entry>
+                    <entry><number>60</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry><number>6</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry><number>70</number></entry>
+                    <entry><number>10</number></entry>
+                    <entry/>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <para>The equation for the reaction between sodium thiosulfate and hydrochloric acid is:</para>
+	    <para><chem_compound>Na_{2}S_{2}O_{3}(aq) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>2NaCl(aq) + SO_{2}(aq) + H_{2}O(ℓ) + S(s)</chem_compound></para>
+          </section>
+          <section>
+            <title>Results</title>
+            <list list-type="bulleted">
+              <item>
+		<para>Calculate the reaction rate in each beaker. Remember that:</para>
+		<para>rate of the formation of product = <latex>\dfrac{\text{moles product formed}}{\text{reaction time (s)}}</latex></para>
+		<para>In this experiment you are stopping each experiment when the same approximate amount of precipitate is formed (the cross is blocked out by precipitate). So a relative reaction rate can be determined using the following equation:</para>
+		<para>reaction rate = <latex>\dfrac{1}{\text{time (s)}}</latex></para>
+              </item>
+              <item>
+                <para>Represent your results on a graph. <emphasis effect="bold">Concentration</emphasis> will be on the x-axis and <emphasis effect="bold">reaction rate</emphasis> on the y-axis. Note that the original volume of <chem_compound>Na_{2}S_{2}O_{3}</chem_compound> can be used as a measure of concentration.</para>
+              </item>
+              <item>
+                <para>Why was it important to keep the volume of <chem_compound>HCl</chem_compound> constant?</para>
+              </item>
+              <item>
+                <para>Describe the relationship between concentration and reaction rate.</para>
+              </item>
+            </list>
+          </section>
+          <section>
+            <title>Conclusions</title>
+            <para>The higher the concentration of the reactants, the faster the average reaction rate.</para>
+          </section>
+        </activity>
+	</section>
+	<section type="subsection">
+          <title>Changes in colour</title>
+          <shortcode>Shortcode</shortcode>
+	  <para>In some reactions there is a change in colour which tells us that the reaction is occuring. The faster the colour change the faster the reaction rate.</para>
+	  <para>For example, when ethanoic acid (acetic acid) is titrated with sodium hydroxide, an indicator such as phenolphthalein is added. The solution is clear in an acidic solution and changes to pink when the reaction is complete. If the concentration of the base were increased, the colour change would happen faster (after a smaller volume of base was added), showing that a higher concentration of base increased the reaction rate.</para>
+	  <para><chem_compound>CH_{3}COOH(aq) + NaOH(aq)</chem_compound> <latex>\to</latex> <chem_compound>Na^{+}(aq) + CH_{3}COO^{-}(aq) + H_{2}O(ℓ)</chem_compound></para>
+	  <image style:width="0.3">
+	    <src>photos/phenolphthalein.jpg</src>
+	    <attribution>Photo by Ben Mills on wikipedia</attribution>
+	  </image>
+	</section>
+	<section type="subsection">
+	  <title>Changes in mass</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>For a reaction that produces gas, the mass of the reaction vessel can be measured over time. The mass loss indicates the amount of gas that has been produced and escaped from the reaction vessel (Figure <link target-id="fig:reactionrates:gasescape"/>).</para>
+	  <figure id="fig:reactionrates:gasescape">
+	    <type>figure</type>
+	    <pspicture>
+	      <code>
+		(-1.2,-0.8)(3.8,2.6)
+		\rput(0.05,2){\includegraphics{photos/cottonwool.eps}}
+		\psset{unit=0.5cm,glassType=erlen}
+		\rput(0,2){\pstTubeEssais[solide={\pstGrenailleZinc[50]},niveauLiquide1=43]}
+		\psframe(-2,-1.2)(2,0)
+		\psframe(-1.2,-1)(1.2,-0.2)
+		\rput(0,-0.55){\small 103.2g}
+		\rput(4,4.7){\small cotton wool}
+		\rput(4.15,3.95){\small allows gas to}
+		\rput(4.8,3.3){\small escape, not liquid}
+		\psline{-&gt;}(2,4)(1,4)
+		\psarc[linecolor=grey](0,-0.4){4}{81}{99}
+	      </code>
+	    </pspicture>
+<!-- 	      <attribution>Photo by tjmwatson on Flickr</attribution> -->
+	    <caption>
+	      <para>A change in mass indicating the loss of a gas.</para>
+	    </caption>
+	  </figure>
+	  <para>If the reaction vessel is sealed this method will not work.</para>
+	  <figure id="fig:reactionrates:massloss">
+	    <type>figure</type>
+	    <pspicture style:width="0.95">
+	      <code>
+		(-0.6,-0.6)(15.4,5.7)
+		\rput(0,0){
+		\rput(-0.3,5){(a)}
+		\SpecialCoor
+		\pcline{-&gt;}(0,0)(0,5.5)
+		\aput{:U}{mass (g)}
+		\pcline{-&gt;}(0,0)(7,0)
+		\rput(2.8,0){
+		\bput{:U}{time (s)}}
+		\pscurve[showpoints=false,curvature=1 1 1](0,5)(1,3.5)(3,2.6)(4,2.5)
+		\psline(4,2.5)(7,2.5)
+		}
+		
+		\rput(8.2,0){
+		\rput(-0.3,5){(b)}
+		\SpecialCoor
+		\pcline{-&gt;}(0,0)(0,5.5)
+		\aput{:U}{mass loss (g)}
+		\pcline{-&gt;}(0,0)(7,0)
+		\rput(2.8,0){
+		\bput{:U}{time (s)}}
+		\pscurve[showpoints=false,curvature=1 1 1](0,0)(1,3)(3,3.9)(4,4)
+		\psline(4,4)(7,4)
+		}
+	      </code>
+            </pspicture>
+            <caption>
+	      <para><emphasis effect="bold">a)</emphasis> A graph of the sample mass versus time and <emphasis effect="bold">b)</emphasis> a graph of the mass loss versus time.</para>
+            </caption>
+          </figure>
+	  <para>Notice the difference between the two graphs in Figure <link target-id="fig:reactionrates:massloss"/>. The mass of the sample will decrease as the reaction proceeds. The mass lost from the sample will increase as the reaction proceeds. The material lost (that accounts for the mass loss) can be collected and measured (for example with the gas syringe method as shown in Figure <link target-id="fig:reactionrates:gassyringe"/>).</para>
+<!-- 	  <para>The average rate of a reaction that produces a gas can also be measured by calculating the mass loss as the gas is formed and escapes from the reaction flask. This method can be used for reactions that produce carbon dioxide or oxygen, but is not very accurate for reactions that give off hydrogen because the change in mass is too low for accuracy.</para> -->
+<!-- 	  <para>Measuring changes in mass may also be suitable for other types of reactions but remember that if all the product remains in the same container, there can be no change in mass. Mass is conserved.</para> -->
+	</section>
+    </section>
+      <section type="section">
+        <title>Mechanism of reaction and catalysis</title>
+        <shortcode>ESCAU</shortcode>
+	<para>Earlier it was mentioned that it is the <emphasis effect="italics">collision</emphasis> of particles that causes reactions to occur and that only some of these collisions are successful. This is because the reactant particles have a wide range of kinetic energies, and only a small fraction of the particles will have enough energy (and the correct orientation) to actually break bonds so that a chemical reaction can take place. The minimum energy that is needed for a reaction to take place is called the <emphasis effect="bold">activation energy</emphasis>. For more information on the energy of reactions, refer to Grade 11 (<link url="todo">Chapter 12</link>).</para>
+	<section type="subsection">
+	  <title>Activation Energy</title>	
+	<definition>
+          <term>Activation energy</term>
+          <meaning>
+            <para>The minimum energy required for a chemical reaction to proceed.</para>
+          </meaning>
+        </definition>
+        <para>Even at a fixed temperature, the energy of the particles varies, meaning that only some of them will have enough energy to be part of the chemical reaction, depending on the activation energy for that reaction (Figure <link target-id="fig:reactionrates:particle energy distribution"/>). Increasing the reaction temperature has the effect of increasing the number of particles with enough energy to take part in the reaction, and increasing the reaction rate.</para>
+        <figure id="fig:reactionrates:particle energy distribution">
+          <type>figure</type>
+	  <pspicture>
+	    <code>
+	      (0,-2.5)(10.8,3.1)
+	      \newrgbcolor{darkgreen}{0 0.39 0}
+	      \pscurve[linestyle=none,fillstyle=crosshatch,hatchcolor=darkgreen](5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.64)(9.1,-1.7)(9,-1.7)(8.5,-1.7)(8,-1.7)(7,-1.7)(5.97,-1.7)
+	      \psframe[fillstyle=solid,fillcolor=white,linestyle=none](7.5,-1.2)(9.5,0.8)
+	      \psline{-&gt;}(7,1.3)(6,1.3)
+	      \rput(8.5,1.3){\textbf{activation energy}}
+	      \rput(8.45,0.1){\textbf{\darkgreen proportion of particles with}}
+	      \rput(8.4,-0.3){\textbf{\darkgreen sufficient energy to react}}
+	      \psline[linecolor=darkgreen]{-&gt;}(8.5,-0.5)(7.6,-1.2)
+	      
+	      \pscurve(1.19,-1.7)(1.295,-1.365)(1.97,0.695)(2.005,0.79)(2.02,0.84)(2.035,0.89)(2.075,1.0)(2.1,1.06)(2.415,1.715)(2.875,2.055)(2.9,2.06)(2.925,2.065)(2.975,2.08)(3,2.085)(3.05,2.1)(3.24,2.12)(3.95,1.8)(4.26,1.29)(4.28,1.24)(4.56,0.85)(4.825,0.53)(5.415,0.055)(5.45,0.03)(5.485,0.005)(5.55,-0.04)(5.58,-0.06)(5.61,-0.08)(5.65,-0.11)(5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.64)
+	      \pcline{-&gt;}(1.19,-1.7)(1.19,3)
+	      \aput{:U}{\parbox[c]{4cm}{\centering Probability of particle with that KE}}
+	      \pcline{-&gt;}(1.19,-1.7)(10,-1.7)
+	      \bput{:U}{Kinetic energy of particle (KE)}
+	      \psline[linestyle=dashed](5.97,-1.7)(5.97,1.5)
+            </code>
+          </pspicture>
+          <caption>
+            <para>The distribution of particle kinetic energies at a fixed temperature.</para>
+          </caption>
+        </figure>
+	<para>Remember that a molecule must have energy greater than the activation energy, as well as the correct orientation, for the reaction to take place.</para>
+	<para>Increasing the temperature of a reaction mixture raises the average kinetic energy of the particles. As can be seen on the graph (Figure <link target-id="fig:reactionrates:distributionwithT"/>), a higher proportion of the particles can now react making the reaction faster. With the increased movement of the molecules the chances of a molecule having the correct orientation is also increased.</para>
+	<figure id="fig:reactionrates:distributionwithT">
+	  <type>figure</type>
+	  <pspicture>
+	    <code>
+	      (0,-2.5)(12,3.2)
+	      \newrgbcolor{darkgreen}{0 0.39 0}
+	      \pscurve[linestyle=none,fillstyle=crosshatch,hatchcolor=red](6.155,0.88)(7.15,-0.19)(9.345,-1.35)(10.1,-1.54)(10.1,-1.7)(10,-1.7)(6.155,-1.7)
+	      \psframe[fillstyle=solid,fillcolor=white,linestyle=none](8.5,-0.5)(10.5,1.5)
+	      \rput(0,0){
+	      \rput(3.24,2.9){\textbf{\darkgreen lower temperature}}
+	      \psline[linecolor=darkgreen]{-&gt;}(3.24,2.65)(3.24,2.2)
+	      \pscurve[linecolor=darkgreen](1.19,-1.7)(1.295,-1.365)(1.97,0.695)(2.005,0.79)(2.02,0.84)(2.035,0.89)(2.075,1.0)(2.1,1.06)(2.415,1.715)(2.875,2.055)(2.9,2.06)(2.925,2.065)(2.975,2.08)(3,2.085)(3.05,2.1)(3.24,2.12)(3.95,1.8)(4.26,1.29)(4.28,1.24)(4.56,0.85)(4.825,0.53)(5.415,0.055)(5.45,0.03)(5.485,0.005)(5.55,-0.04)(5.58,-0.06)(5.61,-0.08)(5.65,-0.11)(5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.64)
+	      
+	      \pcline{-&gt;}(1.19,-1.7)(1.19,3)
+	      \aput{:U}{\parbox[c]{4cm}{\centering Probability of particle with that KE}}
+	      \pcline{-&gt;}(1.19,-1.7)(10.5,-1.7)
+	      \bput{:U}{Kinetic energy of particle (KE)}
+	      }
+	      \rput(0,0){
+	      \rput(9.2,0.7){\textbf{\red proportion of particles with}}
+	      \rput(9,0.3){\textbf{\red sufficient energy to react}}
+	      \psline[linecolor=red]{-&gt;}(9,0.1)(8,-0.7)
+	      \pscurve[linecolor=red](1.19,-1.7)(2.2,-1)(2.835,-0.6)(5.26,1.2)(5.58,1.24)(5.96,1.16)(6.155,0.88)(7.15,-0.19)(9.345,-1.35)(10.1,-1.44)
+	      \rput(6,2){\textbf{\red higher temperature}}
+	      \psline[linecolor=red]{-&gt;}(5.8,1.8)(5.8,1.3)}
+            </code>
+          </pspicture>
+          <caption>
+            <para>The distribution of particle kinetic energies with an increase in temperature. There is an increased number of particles with sufficient energy due to the higher temperature.</para>
+          </caption>
+        </figure>
+	<para>An <emphasis effect="italics">endothermic</emphasis> reaction can be represented by:</para>
+	<para><latex>\text{Reactants}+\text{\red Energy}\to \text{Products}\phantom{\rule{30.pt}{0ex}}</latex>i.e. a reaction that absorbs energy</para>
+	<para>This can be shown in an activation energy diagram (Figure <link target-id="fig:reactionrates:activationenergyendo"/>). These graphs are also sometimes called a reaction profile or a potential energy graph.</para>
+        <figure id="fig:reactionrates:activationenergyendo">
+          <type>figure</type>
+          <pspicture>
+            <code>
+	      (-1,-1)(10.2,5.7)
+	      \psline{-&gt;}(0,0)(10,0)
+	      \psline{-&gt;}(0,0)(0,5.5)
+	      \pscurve[showpoints=false](0,1)(1.5,1)(1.75,1)(2,1)(2.4,1.1)
+	      (4.5,5)(6.6,2.36)(7,2.3)(7.25,2.3)(7.5,2.3)(9,2.3)
+	      \psline[linestyle=dotted](0,1)(7,1)
+	      \psline[linestyle=dotted](4.6,5)(1.75,5)
+	      \psline[linestyle=dotted](5.5,2.3)(7,2.3)
+	      \psline{&lt;-&gt;}(6,2.3)(6,1)
+	      \psline{&lt;-&gt;}(2,5)(2,1)
+	      \rput(6.6,1.6){\small {\red energy}}  
+	      \rput[bl](4.45,5.1){\small [activated complex]}
+	      \rput[b](8,2.4){\small products}
+	      \rput[t](1,0.9){\small reactants}
+	      \rput[rb](1.9,4){\small activation}
+	      \rput[rt](1.7,3.9){\small energy}
+	      \rput[r](4.45,-0.5){Time}
+	      \psline{-&gt;}(4.5,-0.5)(5.3,-0.5)
+	      \rput[r]{90}(-0.5,3.65){Potential energy}
+	      \psline{-&gt;}(-0.5,3.75)(-0.5,4.75)
+	    </code>
+          </pspicture>
+          <caption>
+	    <para>An activation energy diagram with reactant energy lower than product energy, i.e. <emphasis effect="italics">endothermic</emphasis></para>
+          </caption>
+        </figure>
+	<para>An <emphasis effect="italics">exothermic</emphasis> reaction can be represented by:</para>
+	<para><latex>\text{Reactants}\to \text{Products}+\text{\red Energy}\phantom{\rule{30.pt}{0ex}}</latex>i.e. a reaction that releases energy</para>
+	<para>This can be shown in an activation energy diagram (Figure <link target-id="fig:reactionrates:activationenergyexo"/>):</para>
+        <figure id="fig:reactionrates:activationenergyexo">
+          <type>figure</type>
+          <pspicture>
+            <code>
+              (-1,-1)(10,5.5)
+	      \psline{-&gt;}(0,0)(10,0)
+	      \psline{-&gt;}(0,0)(0,5.5)
+	      \pscurve[showpoints=false](0,2.3)(1.5,2.3)(1.75,2.3)(2,2.3)(2.4,2.36)
+	      (4.5,5)(6.6,1.1)(7,1)(7.25,1)(7.5,1)(9,1)
+	      \psline[linestyle=dotted](0,2.3)(6.5,2.3)
+	      \psline[linestyle=dotted](4.6,5)(1.75,5)
+	      \psline[linestyle=dotted](5,1)(6.7,1)
+	      \psline{&lt;-&gt;}(5.7,2.3)(5.7,1)
+	      \psline{&lt;-&gt;}(2,5)(2,2.3)
+	      \rput(5,1.6){\small {\red energy}}  
+	      \rput[bl](4.45,5.1){\small [activated complex]}
+	      \rput[b](8,1.1){\small products}
+	      \rput[t](1,2.2){\small reactants}
+	      \rput[rb](1.9,3.8){\small activation}
+	      \rput[rt](1.7,3.7){\small energy}
+	      \rput[r](4.45,-0.5){Time}
+	      \psline{-&gt;}(4.5,-0.5)(5.3,-0.5)
+	      \rput[r]{90}(-0.5,3.65){Potential energy}
+	      \psline{-&gt;}(-0.5,3.75)(-0.5,4.75)
+            </code>
+          </pspicture>
+          <caption>
+	    <para>An activation energy diagram with reactant energy greater than product energy, i.e. <emphasis effect="italics">exothermic</emphasis></para>
+          </caption>
+        </figure>
+	<para>Revise this section from Grade 11 (<link url="todo">Activation energy, Section 12.3</link>).</para>
+      </section>
+      <section type="subsection">
+	<title>How do catalysts work?</title>
+	<para>A <emphasis effect="bold">catalyst</emphasis> increases reaction rates in a slightly different way from other methods of increasing reaction rate. The function of a catalyst is to lower the activation energy so that a greater proportion of the particles have enough energy to react. A catalyst can lower the activation energy for a reaction by:</para>
+	<list list-type="bulleted">
+	  <item>
+	    <para>orienting the reacting particles in such a way that successful collisions are more likely</para>
+	  </item>
+	  <item>
+	    <para>reacting with the reactants to form an intermediate that requires lower energy to form the product</para>
+	  </item>
+	</list>
+	<para>Some <emphasis effect="italics">metals</emphasis> e.g. platinum, copper and iron can act as catalysts in certain reactions. In our own bodies, we have <emphasis effect="italics">enzymes</emphasis> that are catalysts, which help to speed up biological reactions. Catalysts generally react with one or more of the reactants to form a chemical intermediate, which then reacts to form the final product. The chemical intermediate is sometimes called the <emphasis effect="bold">activated complex</emphasis>.</para>
+	<note type="tip">
+	  <para>An activated complex occurs in reactions without catalysts as well as those with catalysts.</para>
+	</note>
+	<para>The following is an example of how a reaction involving a catalyst might proceed. A and B are reactants, <latex>\text{\blue C}</latex> is the catalyst, and D is the product of the reaction of A and B.</para>
+	<para><emphasis effect="bold">Step 1:</emphasis> <latex>{\text{A}} + {\text{\blue C}} \to {\text{A}\text{\blue C}}</latex></para>
+	<para><emphasis effect="bold">Step 2:</emphasis> <latex>\text{B} + \text{A}\text{\blue C} \to  \text{A}\text{\blue C}\text{B}</latex></para>
+	<para><emphasis effect="bold">Step 3:</emphasis> <latex>\text{A}\text{\blue C}\text{B} \to \text{\blue C} + \text{D}</latex></para>
+	<para><latex>\text{A}\text{\blue C}\text{B}</latex> represents the intermediate chemical. Although the catalyst (<latex>\text{\blue C}</latex>) is consumed by reaction 1, it is later released again by reaction 3, so that the overall reaction with a catalyst is as follows:</para>
+	<para><latex>\text{A} + \text{B} + \text{\blue C} \to \text{D} + \text{\blue C}</latex></para>
+	<para>You can see from this that the catalyst is released at the end of the reaction, completely unchanged. Without a catalyst the overall reaction would be:</para>
+	<para><chem_compound>A + B</chem_compound> <latex>\to</latex> <chem_compound>D</chem_compound></para>
+	<para>The catalyst has provided an alternative set of reaction steps, which we refer to as an alternative pathway. The pathway involving the catalyst requires less activation energy and is therefore faster.</para>
+	<para>This can be seen in the following diagram (Figure <link target-id="fig:reactionrates:catalystprob"/>).</para>
+	<figure id="fig:reactionrates:catalystprob">
+	  <type>figure</type>
+	  <pspicture>
+	    <code>
+	      (0,-2.5)(10.2,3.1)
+	      \newrgbcolor{darkgreen}{0 0.39 0}
+	      \pscurve[linestyle=none,fillstyle=vlines,hatchcolor=darkgreen](5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.69)(9.1,-1.7)(9,-1.7)(8.5,-1.7)(8,-1.7)(7,-1.7)(5.97,-1.7)
+	      \pscurve[linestyle=none,fillstyle=hlines,hatchcolor=blue](4.825,0.53)(5.415,0.055)(5.45,0.03)(5.485,0.005)(5.55,-0.04)(5.58,-0.06)(5.61,-0.08)(5.65,-0.11)(5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.69)(9.1,-1.7)(9,-1.7)(8.5,-1.7)(8,-1.7)(4.825,-1.7)
+	      \psframe[fillstyle=solid,fillcolor=white,linestyle=none](7.5,-1.2)(9.5,0.8)
+	      \psline[linecolor=darkgreen]{-&gt;}(7,0.3)(6,0.3)
+	      \psline[linecolor=blue]{-&gt;}(5.9,1.2)(4.9,1.2)
+	      \rput(8.5,0.3){\textbf{\darkgreen activation energy}}
+	      \rput(7.4,1.4){\textbf{\blue activation energy}}
+	      \rput(7.2,1){\textbf{\blue with a catalyst}}
+	      
+	      \pscurve(1.19,-1.7)(1.295,-1.365)(1.97,0.695)(2.005,0.79)(2.02,0.84)(2.035,0.89)(2.075,1.0)(2.1,1.06)(2.415,1.715)(2.875,2.055)(2.9,2.06)(2.925,2.065)(2.975,2.08)(3,2.085)(3.05,2.1)(3.24,2.12)(3.95,1.8)(4.26,1.29)(4.28,1.24)(4.56,0.85)(4.825,0.53)(5.415,0.055)(5.45,0.03)(5.485,0.005)(5.55,-0.04)(5.58,-0.06)(5.61,-0.08)(5.65,-0.11)(5.97,-0.33)(6.34,-0.57)(6.66,-0.75)(7.845,-1.35)(8.53,-1.59)(9.1,-1.64)
+	      \pcline{-&gt;}(1.19,-1.7)(1.19,3)
+	      \aput{:U}{\parbox[c]{4cm}{\centering Probability of particle with that KE}}
+	      \pcline{-&gt;}(1.19,-1.7)(10,-1.7)
+	      \bput{:U}{Kinetic energy of particle (KE)}
+	      \psline[linestyle=dashed,linecolor=darkgreen](5.97,-1.7)(5.97,0.5)
+	      \psline[linestyle=dashed,linecolor=blue](4.825,-1.7)(4.825,1.5)
+	    </code>
+	  </pspicture>
+	  <caption>
+	    <para>The proportion of particles that have enough energy to react is increased in the presence of a catalyst.</para>
+	  </caption>
+	</figure>
+	<definition>
+	  <term>Catalyst</term>
+	  <meaning>
+	    <para>A catalyst speeds up a chemical reaction, without being consumed by the reaction. It increases the reaction rate by lowering the activation energy for a reaction.</para>
+	  </meaning>
+	</definition>
+        <para>Energy diagrams are useful to illustrate the effect of a <emphasis effect="bold">catalyst</emphasis> on reaction rates. Catalysts decrease the activation energy required for a reaction to proceed (shown by the smaller magnitude of the activation energy on the energy diagram in Figure <link target-id="fig:reactionrates:catalyst"/>), and therefore increase the reaction rate. Remember that with a catalyst, the average kinetic energy of the molecules remains the same but the required energy decreases (Figure <link target-id="fig:reactionrates:catalystprob"/>).</para>
+        <figure id="fig:reactionrates:catalyst">
+          <type>figure</type>
+	  <pspicture>
+            <code>
+              (-1,-0.8)(10.2,5.7)
+	      \psline{-&gt;}(0,0)(10,0)
+	      \psline{-&gt;}(0,0)(0,5.5)
+	      \pscurve[showpoints=false](0,1)(1.5,1)(1.75,1)(2,1)(2.4,1.1)
+	      (4.5,5)(6.6,2.36)(7,2.3)(7.25,2.3)(7.5,2.3)(9,2.3)
+	      \pscurve[linestyle=dashed](0,1)(1.5,1)(1.75,1)
+	      (2,1)(2.4,1.09)(4.5,3.6)(6.5,2.33)(7,2.3)(7.5,2.3)(9,2.3)
+	      \psline[linestyle=dotted](0,1)(4.8,1)
+	      \psline[linestyle=dotted](4.6,5)(1.75,5)
+	      \psline{&lt;-&gt;}(2,5)(2,1)
+	      \psline{&lt;-&gt;}(4.61,3.6)(4.61,1)  
+	      \rput[bl](4.45,5.1){\small [activated complex]}
+	      \rput[b](8,2.4){\small products}
+	      \rput[t](1,0.9){\small reactants}
+	      \rput[rb](1.9,4){\small activation}
+	      \rput[rt](1.7,3.9){\small energy}
+	      \rput[lb](4.76,1.65){\small activation energy}
+	      \rput[lt](4.8,1.6){\small with a catalyst}
+	      \rput[r](4.45,-0.5){Time}
+	      \psline{-&gt;}(4.5,-0.5)(5.3,-0.5)
+	      \rput[r]{90}(-0.5,3.65){Potential energy}
+	      \psline{-&gt;}(-0.5,3.75)(-0.5,4.75)
+            </code>
+          </pspicture>
+          <caption>
+            <para>The effect of a catalyst on the activation energy of an endothermic reaction. The catalyst would act in the same way for an exothermic reaction.</para>
+          </caption>
+        </figure>
+        <exercises>
+	  <title>Reaction rates</title>
+	  <multi-part>
+	    <shortcode>01pz</shortcode>
+	    <header>
+	      <para>For each of the following, say whether the statement is <emphasis effect="bold">true</emphasis> or <emphasis effect="bold">false</emphasis>. If it is false, re-write the statement correctly.</para>
+	    </header>
+	    <entry>
+	    <problem>
+	      <para>A catalyst increases the energy of reactant molecules so that a chemical reaction can take place.</para>
+	    </problem>
+	    <solution>
+	      <para><correct>False</correct>. A catalyst lowers the activation energy of a reaction, so that a chemical reaction can take place.</para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Increasing the temperature of a reaction has the effect of increasing the number of reactant particles that have more energy than the activation energy.</para>
+	    </problem>
+	    <solution>
+	      <para><correct>True</correct></para>
+	    </solution>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>A catalyst does not become part of the final product in a chemical reaction.</para>
+	    </problem>
+	    <solution>
+	      <para><correct>True</correct></para>
+	    </solution>
+	  </entry>
+	</multi-part>
+	<multi-part>
+	    <shortcode>01q0</shortcode>
+	    <header>
+            <para><unit_number><number>5</number><unit>g</unit></unit_number> of zinc pieces are added to <unit_number><number>400</number><unit>cm<sup>3</sup></unit></unit_number> of <unit_number><number>0.5</number><unit>mol.dm<sup>-3</sup></unit></unit_number> hydrochloric acid. To investigate the average rate of the reaction, the change in the mass of the flask containing the zinc and the acid is measured by placing the flask on a direct reading balance. The reading on the balance shows that there is a decrease in mass during the reaction. The reaction which takes place is given by the following equation:</para>
+	    <para><chem_compound>Zn(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>ZnCl_{2}(aq) + H_{2}(g)</chem_compound></para>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>Why is there a decrease in mass during the reaction?</para>
+	    </problem>
+	    <solution>
+	      <para>The reaction does not take place in a sealed container and so the hydrogen gas can escape from the reaction vessel.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>The experiment is repeated, this time using 5 g of powdered zinc instead of pieces of zinc. How will this influence the average rate of the reaction?</para>
+	    </problem>
+	    <solution>
+	      <para>The rate will increase since there will be a greater surface area of zinc to react with the acid.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>The experiment is repeated once more, this time using <unit_number><number>5</number><unit>g</unit></unit_number> of zinc pieces and <unit_number><number>600</number><unit>cm<sup>3</sup></unit></unit_number> of <unit_number><number>0.5</number><unit>mol.dm<sup>-3</sup></unit></unit_number> hydrochloric acid. How does the average rate of this reaction compare with the <emphasis effect="bold">original</emphasis> reaction rate?</para>
+	    </problem>
+	    <solution>
+	      <para>There is a larger volume of hydrochloric acid. However the concentration is not increased and so the reaction rate is unchanged.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>What effect would a catalyst have on the average rate of this reaction?</para>
+	  <para>(IEB Paper 2 2003)</para>
+	    </problem>
+	    <solution>
+	      <para>The average rate of reaction would increase.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	</multi-part>
+	  <multi-part>
+	    <shortcode>01q2</shortcode>
+	    <header>
+	      <para><unit_number><number>5</number><unit>g</unit></unit_number> of calcium carbonate powder reacts with <unit_number><number>20</number><unit>cm<sup>3</sup></unit></unit_number> of a <unit_number><number>0.1</number><unit>mol.dm<sup>-3</sup></unit></unit_number> solution of hydrochloric acid. The gas that is produced at a temperature of <unit_number><number>25</number><unit>°C</unit></unit_number> is collected in a gas syringe.</para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>Write a balanced chemical equation for this reaction.</para>
+	      </problem>
+	      <solution>
+		<para><chem_compound>CaCO_{3}(s) + 2HCl(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>CaCl_{2}(s) + CO_{2}(g) + H_{2}O(ℓ)</chem_compound></para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <multi-part>
+	      <header>
+		<para>The average rate of the reaction is determined by measuring the volume of gas that is produced in the first minute of the reaction. How would the average rate of the reaction be affected if:</para>
+	      </header>
+	      <entry>
+		<problem>
+		  <para>a lump of calcium carbonate of the same mass is used</para>
+		</problem>
+		<solution>
+		  <para>The surface area is decreased, therefore the average rate of reaction would <correct>decrease</correct>.</para>
+		</solution>
+	      </entry>
+	      <entry>
+		<problem>
+		  <para><unit_number><number>20</number><unit>cm<sup>3</sup></unit></unit_number> of <unit_number><number>0.2</number><unit>mol.dm<sup>-3</sup></unit></unit_number> hydrochloric acid is used</para>
+		</problem>
+		<solution>
+		  <para>The average rate of reaction depends on the concentration of liquid reactants and not on the volume. The concentration is increased however, so the rate will <correct>increase</correct>.</para>
+		</solution>
+	      </entry>
+	    </multi-part>
+	  </multi-part>
+	</exercises>
+      </section>
+    </section>      
+      <section type="section">
+	<title>Chapter summary</title>
+        <presentation>
+          <shortcode>VPmwm</shortcode>
+	  <url>http://www.slideshare.net/slideshow/embed_code/12115777</url>
+        </presentation>
+        <list list-type="bulleted">
+          <item>
+            <para>The <emphasis effect="bold">average rate of a reaction</emphasis> describes how quickly reactants are used, or how quickly products form. The units used are usually moles per second.</para>
+          </item>
+          <item>
+	    <para>A number of factors can affect the average rate of a reaction. These include the <emphasis effect="bold">nature of the reactants</emphasis>, the <emphasis effect="bold">concentration</emphasis> of solutions, <emphasis effect="bold">surface area</emphasis> of solids or <emphasis effect="bold">pressure</emphasis> of gases, the <emphasis effect="bold">temperature</emphasis> of the reaction and the presence or absence of a <emphasis effect="bold">catalyst</emphasis>.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Collision theory</emphasis> provides one way of explaining why each of the factors mentioned in the previous bullet can affect the average rate of a reaction. For example, higher temperatures mean increased reaction rates because the reactant particles have more energy and are more likely to collide successfully with each other.</para>
+          </item>
+          <item>
+            <para>Different methods can be used to <emphasis effect="bold">measure the average rate of a reaction</emphasis>. The method used will depend on the nature of the product or products. Reactions that produce gases can be measured by collecting the gas in a syringe or by measuring a change in mass of the reaction vessel. In reactions that produce a precipitate the mass of the dried precipitate can be measured.</para>
+          </item>
+	  <item>
+	    <para>A <emphasis effect="bold">change in colour</emphasis> can show that the <emphasis effect="bold">product has formed</emphasis> or that the <emphasis effect="bold">reaction</emphasis> has reached <emphasis effect="bold">completion.</emphasis> (This is known as colorimetry).</para>
+	  </item>
+          <item>
+            <para>For any reaction to occur, a minimum amount of energy is needed so that bonds in the reactants can break, and new bonds can form in the products. The minimum energy that is required is called the <emphasis effect="bold">activation energy</emphasis> of a reaction.</para>
+          </item>
+          <item>
+            <para>In reactions where the particles do not have enough energy to overcome this activation energy, one of two methods can be used to facilitate a reaction to take place: increase the temperature of the reaction or add a catalyst.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Increasing the temperature of a reaction</emphasis> means that the average energy of the reactant particles increases and they are more likely to have enough energy to overcome the activation energy and the chances of two molecules having the correct orientation are increased.</para>
+          </item>
+          <item>
+            <para>A <emphasis effect="bold">catalyst</emphasis> is used to lower the activation energy so that the reaction is more likely to take place. A catalyst does this by providing an alternative, lower energy pathway for the reaction.</para>
+          </item>
+          <item>
+            <para>A catalyst therefore <emphasis effect="bold">speeds up a reaction</emphasis> but remains unchanged after the reaction is complete.</para>
+          </item>
+        </list>
+      </section>
+      <exercises>
+	<title/>
+	<multi-part>
+	  <shortcode>Shortcode</shortcode>
+	  <header>
+	    <para>Explain the following:</para>
+	    </header>
+	  <entry>
+	    <problem>
+	      <para>Reaction rate</para>
+	    </problem>
+	    <solution>
+	      <para>The reaction rate describes how quickly reactants are used up or how quickly products are formed.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Collision theory</para>
+	    </problem>
+	    <solution>
+	      <para>Reactant particles must collide with the correct energy and orientation for the reactants to change into products.</para>
+	      <para>For a reaction to occur the reactant particles must:</para>
+	      <list list-type="bulleted">
+		<item>
+		  <para>collide</para>
+		</item>
+		<item>
+		  <para>have enough energy</para>
+		</item>
+		<item>
+		  <para>have the right orientation at the moment of impact</para>
+		</item>
+	      </list>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Activation energy</para>
+	    </problem>
+	    <solution>
+	      <para>The minimum energy required for a chemical reaction to proceed.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>Catalyst</para>
+	    </problem>
+	    <solution>
+	      <para>A catalyst speeds up a chemical reaction. It increases the reaction rate by lowering the activation energy for a reaction and remains unchanged after the reaction is complete.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	</multi-part>
+	  <entry>
+	    <problem>
+	      <para><chem_compound>2Mg(s) + O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>2MgO(s)</chem_compound></para>
+	      <para><unit_number><number>1</number><unit>g</unit></unit_number> of <chem_compound>Mg</chem_compound> is oxidised. The reaction takes 1 day to reach completion. Which is the correct reaction rate for the oxidation of <chem_compound>Mg</chem_compound>?</para>
+	      <list list-type="enumerated">
+		<item>
+		  <para><unit_number><number><coeff>2.87</coeff><exp>-7</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+		</item>
+		<item>
+		  <para><unit_number><number><coeff>1.74</coeff><exp>-3</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+		</item>
+		<item>
+		  <para><unit_number><number><coeff>4.76</coeff><exp>-7</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+		</item>
+		<item>
+		  <para><unit_number><number><coeff>3.62</coeff><exp>-7</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+		</item>
+	      </list>
+	    </problem>
+	    <solution>
+	      <para>M(Mg) = <unit_number><number>24.3</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+	      <para>n = <latex>\dfrac{\text{m (g)}}{\text{M (g.mol}^{-1}{\text{)}}} = \dfrac{<number>1</number> \text{ g}}{<number>24.3</number> {\text{ g.mol}}^{-1}}</latex> = <unit_number><number>0.0412</number><unit>mol</unit></unit_number></para>
+	      <para>time = <unit_number><number>1</number><unit>day</unit></unit_number> <latex>\times \dfrac{<number>24</number> {\text{ hours}}}{<number>1</number> {\text{ day}}}</latex> = <unit_number><number>24</number><unit>hours</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ minutes}}}{<number>1</number> {\text{ hour}}}</latex> = <unit_number><number><coeff>1.44</coeff><exp>3</exp></number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ seconds}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number><coeff>8.64</coeff><exp>4</exp></number><unit>s</unit></unit_number></para>
+	      <para>reaction rate = <latex>\dfrac{\text{n (mol)}}{\text{t (s)}} = \dfrac{<number>0.0412</number> {\text{ mol}}}{<number><coeff>8.64</coeff><exp>4</exp></number> {\text{ s}}}</latex> = <emphasis effect="bold"><correct>c)</correct></emphasis> <unit_number><number><coeff>4.76</coeff><exp>-7</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></para>
+	    </solution>
+	  </entry>
+	<multi-part>
+	  <shortcode>01qe</shortcode>
+	  <header>
+	    <para><unit_number><number>10</number><unit>g</unit></unit_number> of magnesium ribbon reacts with a <unit_number><number>0.15</number><unit>mol.dm<sup>-3</sup></unit></unit_number> solution of hydrochloric acid at a temperature of <unit_number><number>25</number><unit>℃</unit></unit_number>.</para>
+	  </header>
+	  <entry>
+	    <problem>
+	      <para>Write a balanced chemical equation for the reaction.</para>
+	    </problem>
+	    <solution>
+	      <para><chem_compound>Mg(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>MgCl_{2}(aq) + H_{2}(g)</chem_compound></para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <problem>
+	      <para>State <emphasis effect="bold">two</emphasis> ways of increasing the average rate of production of <chem_compound>H_{2}</chem_compound> (g).</para>
+	    </problem>
+	    <solution>
+	      <para>Cut the magnesium into small pieces, increase the concentration of hydrochloric acid.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <multi-part>
+	    <header>
+	      <para>A table of the results is given below:</para>
+		<table>
+		  <tgroup cols="2">
+		    <colspec colname="c1" colnum="1"/>
+		    <colspec colname="c2" colnum="2"/>
+		    <tbody>
+		      <row>
+			<entry><emphasis effect="bold">Time elapsed (min)</emphasis></entry>
+			<entry><emphasis effect="bold">Vol of <chem_compound>H_{2}</chem_compound>(g) (<unit>cm<sup>3</sup></unit>)</emphasis></entry>
+		      </row>
+		      <row>
+			<entry><number>0</number></entry>
+			<entry><number>0</number></entry>
+		      </row>
+		      <row>
+			<entry><number>0.5</number></entry>
+			<entry><number>17</number></entry>
+		      </row>
+		      <row>
+			<entry><number>1.0</number></entry>
+			<entry><number>25</number></entry>
+		      </row>
+		      <row>
+			<entry><number>1.5</number></entry>
+			<entry><number>30</number></entry>
+		      </row>
+		      <row>
+			<entry><number>2.0</number></entry>
+			<entry><number>33</number></entry>
+		      </row>
+		      <row>
+			<entry><number>2.5</number></entry>
+			<entry><number>35</number></entry>
+		      </row>
+		      <row>
+			<entry><number>3.0</number></entry>
+			<entry><number>35</number></entry>
+		      </row>
+		    </tbody>
+		  </tgroup>
+		</table>
+	      </header>
+	      <entry>
+		<problem>
+		  <para>Plot a graph of volume versus time for these results.</para>
+		</problem>
+		<solution>
+		  <para>Remember to convert time to seconds and volume to <unit>dm<sup>3</sup></unit>:</para>
+		  <pspicture style:width="0.8">
+		    <code>
+		      (0,-5)(15.5,5.3)
+\newrgbcolor{grey}{0.5 0.5 0.5}
+\psline[linecolor=grey,linestyle=dashed](1.3,-2.6)(15.3,-2.6)
+\psline[linecolor=grey,linestyle=dashed](1.3,-1.6)(15.3,-1.6)
+\psline[linecolor=grey,linestyle=dashed](1.3,-0.6)(15.3,-0.6)
+\psline[linecolor=grey,linestyle=dashed](1.3,0.4)(15.3,0.4)
+\psline[linecolor=grey,linestyle=dashed](1.3,1.4)(15.3,1.4)
+\psline[linecolor=grey,linestyle=dashed](1.3,2.4)(15.3,2.4)
+\psline[linecolor=grey,linestyle=dashed](1.3,3.4)(15.3,3.4)
+\psline[linecolor=grey,linestyle=dashed](1.3,4.4)(15.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](3.3,-3.6)(3.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](5.3,-3.6)(5.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](7.3,-3.6)(7.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](9.3,-3.6)(9.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](11.3,-3.6)(11.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](13.3,-3.6)(13.3,4.4)
+\psline[linecolor=grey,linestyle=dashed](15.3,-3.6)(15.3,4.4)
+		      \psaxes[linewidth=0.08,tickstyle=bottom,dx=2.0cm,dy=1.0cm,Dx=30,Dy=5](1.3,-3.6)(1.3,-3.6)(15.3,4.4)
+		      \psdots[dotsize=0.2,linecolor=red](1.3,-3.6)
+		      \psdots[dotsize=0.2,linecolor=red](3.3,-0.25)
+		      \psdots[dotsize=0.2,linecolor=red](5.3,1.4)
+		      \psdots[dotsize=0.2,linecolor=red](7.3,2.36)
+		      \psdots[dotsize=0.2,linecolor=red](9.3,3)
+		      \psdots[dotsize=0.2,linecolor=red](11.2,3.4)
+		      \psdots[dotsize=0.2,linecolor=red](13.25,3.4)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](1.35,-3.5)(3.3,-0.2)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](3.3,-0.2)(5.3,1.4)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](5.36,1.4)(7.3,2.4)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](7.25,2.35)(9.3,3)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](9.3,3)(11.257,3.4)
+		      \psline[linewidth=0.02cm,linecolor=red,fillcolor=red](11.25,3.4)(13.25,3.4)
+		      \rput(8.5,4.7){\textbf{Time vs .volume for hydrogen gas production}}
+		      \rput{-270.0}(0.35,0.45){Volume (x 10$^{3}$ dm$^{3}$)}
+		      \rput(8,-4.5){Time (s)}
+		    </code>
+		  </pspicture>
+		  </solution>
+		  <correct/>
+		</entry>
+		<entry>
+		  <problem>
+		    <para>Explain the shape of the graph during the following two time intervals: t = <number>0</number> to t = <unit_number><number>120</number><unit>s</unit></unit_number> and then t = <number>150</number> and t = <unit_number><number>180</number><unit>s</unit></unit_number> by referring to the volume of <chem_compound>H_{2}</chem_compound> (g) produced.</para>
+		    <para>(IEB Paper 2, 2001)</para>
+		  </problem>
+		  <solution>
+		    <para> There is a sharp increase in the volume of hydrogen gas produced for the first 120 seconds. This is when the reaction is starting and there are lots of reactants. Between 150 and 180 seconds equilibrium is established and so the volume of hydrogen gas that has been produced remains constant.</para>
+		  </solution>
+		<correct/>
+	     </entry>
+	    </multi-part>
+	  </multi-part>
+	    <entry>
+	      <shortcode>01q9</shortcode>
+	      <problem>
+              <para>Consider the following reaction, which takes place in a closed container:</para>
+	      <para><chem_compound>A(s) + B(g)</chem_compound> <latex>\to</latex> <chem_compound>AB(g)</chem_compound><!-- ΔH <latex>&lt;</latex> 0--></para>
+              <para>If you wanted to increase the average rate of the reaction, which of the following would you do?</para>
+              <list list-type="enumerated">
+                <item>
+                  <para>decrease the concentration of B</para>
+                </item><!--
+                <item>
+                  <para>decrease the temperature of A</para>
+                </item>-->
+                <item>
+                  <para>grind A into a fine powder</para>
+                </item>
+                <item>
+                  <para>decrease the pressure</para>
+                </item>
+              </list>
+              <para>(IEB Paper 2, 2002)</para>
+            </problem>
+	    <solution>
+	      <para><emphasis effect="bold"><correct>b)</correct></emphasis> grind A to a fine powder</para>
+	    </solution>
+	   </entry>
+	   <multi-part>
+	     <header>
+	       <para>Consider the following reaction and calculate the reaction rates for the situations that follow:</para>
+	     </header>
+	     <multi-part>
+	       <header>
+		 <para><chem_compound>2N_{2}O_{5}(g)</chem_compound> <latex>\to</latex> <chem_compound>4NO_{2}(g) + O_{2}(g)</chem_compound></para>
+	       </header>
+	       <entry>
+		 <problem>
+		   <para><unit_number><number>1.35</number><unit>mol</unit></unit_number> <chem_compound>N_{2}O_{5}</chem_compound> is used and the reaction goes to completion in 30 minutes.</para>
+		 </problem>
+		 <solution>
+		   <para>time = <unit_number><number>30</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>1800</number><unit>s</unit></unit_number></para>
+		   <para>reaction rate of <chem_compound>N_{2}O_{5}</chem_compound> used is = <latex>=\dfrac{<unit_number><number>1.35</number><unit>mol</unit></unit_number>}{<unit_number><number>1800</number><unit>s</unit></unit_number>}=</latex> <correct><unit_number><number><coeff>7.5</coeff><exp>-4</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></para>
+		 </solution>
+	       </entry>
+	       <entry>
+		 <problem>
+		   <para><unit_number><number>2.7</number><unit>mol</unit></unit_number> <chem_compound>N_{2}O_{5}</chem_compound> is used instead and the reaction goes to completion in 60 minutes.</para>
+		 </problem>
+		 <solution>
+		   <para>time = <unit_number><number>60</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>3600</number><unit>s</unit></unit_number></para>
+		   <para>reaction rate of <chem_compound>N_{2}O_{5}</chem_compound> used is = <latex>=\dfrac{<unit_number><number>2.7</number><unit>mol</unit></unit_number>}{<unit_number><number>3600</number><unit>s</unit></unit_number>}=</latex> <correct><unit_number><number><coeff>7.5</coeff><exp>-4</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></para>
+		 </solution>
+	       </entry>
+	     </multi-part>
+	     <multi-part>
+	       <header>
+		 <para><chem_compound>CaCO_{3}(s) + 2HCl(aq)</chem_compound> <latex>\to</latex> <chem_compound>4NO_{2}(g) + O_{2}(g)</chem_compound></para>
+	       </header>
+	       <entry>
+		 <problem>
+		   <para><unit_number><number>2</number><unit>g</unit></unit_number> of <chem_compound>CaCO_{3}</chem_compound> is placed in excess <chem_compound>HCl</chem_compound>. The reaction goes to completion over 4 hours.</para>
+		 </problem>
+		 <solution>
+		   <para>M(<chem_compound>CaCO_{3}</chem_compound>) = (<number>40.1</number> + <number>12</number> + <number>3</number> x <number>16</number>) <unit>g.mol<sup>-1</sup></unit> = <unit_number><number>100.1</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		   <para><latex>n=\dfrac{m}{M}=\dfrac{2 {\text{ g}}}{<unit_number><number>100.1</number><unit>g.mol<sup>-1</sup></unit></unit_number>}=<unit_number><number>0.02</number><unit>mol</unit></unit_number></latex></para>
+		   <para>time = <unit_number><number>4</number><unit>hours</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ minutes}}}{<number>1</number> {\text{ hour}}}</latex> = <unit_number><number>240</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>14400</number><unit>s</unit></unit_number></para>
+		   <para>reaction rate <chem_compound>CaCO_{3}</chem_compound> used is = <latex>=\dfrac{<unit_number><number>0.02</number><unit>mol</unit></unit_number>}{<unit_number><number>14400</number><unit>s</unit></unit_number>}=</latex> <correct><unit_number><number><coeff>1.39</coeff><exp>-6</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></para>
+		 </solution>
+	       </entry>
+	       <entry>
+		 <problem>
+		   <para>The concentration of the <chem_compound>HCl</chem_compound> is increased and so the reaction takes <unit_number><number>2.5</number><unit>hours</unit></unit_number> instead.</para>
+		 </problem>
+		 <solution>
+		     <para>M(<chem_compound>CaCO_{3}</chem_compound>) = <unit_number><number>100.1</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		     <para><latex>n=\dfrac{m}{M}=<unit_number><number>0.02</number><unit>mol</unit></unit_number></latex></para>
+		     <para>time = <unit_number><number>2.5</number><unit>hours</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ minutes}}}{<number>1</number> {\text{ hour}}}</latex> = <unit_number><number>150</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>9000</number><unit>s</unit></unit_number></para>
+		     <para>reaction rate <chem_compound>CaCO_{3}</chem_compound> used is = <latex>\dfrac{<unit_number><number>0.02</number><unit>mol</unit></unit_number>}{<unit_number><number>9000</number><unit>s</unit></unit_number>}=</latex> <correct><unit_number><number><coeff>2.22</coeff><exp>-6</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></para>
+		 </solution>
+	       </entry>
+	       <entry>
+		 <problem>
+		   <para><unit_number><number>3.3</number><unit>g</unit></unit_number> of <chem_compound>CaCO_{3}</chem_compound> is used with a dilute <chem_compound>HCl</chem_compound>. <unit_number><number>0.6</number><unit>g</unit></unit_number> of solid <chem_compound>CaCO_{3}</chem_compound> remains after <number>4.7</number> hours.</para>
+		 </problem>
+		 <solution>
+		     <para>M(<chem_compound>CaCO_{3}</chem_compound>) = <unit_number><number>100.1</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		     <para>m of <chem_compound>CaCO_{3}</chem_compound> used during the reaction = <number>3.3</number> - <number>0.6</number> = <unit_number><number>2.7</number><unit>g</unit></unit_number></para>
+		     <para><latex>n=\dfrac{m}{M}=\dfrac{<unit_number><number>2.7</number><unit>g</unit></unit_number>}{<unit_number><number>100.1</number><unit>g.mol<sup>-1</sup></unit></unit_number>}=<unit_number><number>0.027</number><unit>mol</unit></unit_number></latex></para>
+		     <para>time = <unit_number><number>4.7</number><unit>hours</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ minutes}}}{<number>1</number> {\text{ hour}}}</latex> = <unit_number><number>282</number><unit>minutes</unit></unit_number> <latex>\times \dfrac{<number>60</number> {\text{ s}}}{<number>1</number> {\text{ minute}}}</latex> = <unit_number><number>16920</number><unit>s</unit></unit_number></para>
+		     <para>reaction rate = <latex>\dfrac{<unit_number><number>0.027</number><unit>mol</unit></unit_number>}{<unit_number><number>16920</number><unit>s</unit></unit_number>}=</latex> <correct><unit_number><number><coeff>1.6</coeff><exp>-6</exp></number><unit>mol.s<sup>-1</sup></unit></unit_number></correct></para>
+		 </solution>
+	       </entry>
+	     </multi-part>
+	   </multi-part>
+	   <entry>
+	     <problem>
+	       <para>Given:</para>
+          <pspicture>
+            <code>
+	      (-1,-1)(10.2,5.7)
+	      \psline{-&gt;}(0,0)(10,0)
+	      \psline{-&gt;}(0,0)(0,5.5)
+	      \pscurve[showpoints=false](0,2.3)(1.5,2.3)(1.75,2.3)(2,2.3)(2.4,2.36)(4.5,5)(6.6,1.1)(7,1)(7.25,1)(7.5,1)(9,1)
+	      \rput[r](4.45,-0.5){Time}
+	      \psline{-&gt;}(4.5,-0.5)(5.3,-0.5)
+	      \rput[r]{90}(-0.5,3.65){Potential energy}
+	      \psline{-&gt;}(-0.5,3.75)(-0.5,4.75)
+            </code>
+          </pspicture>
+	  <para>A catalyst is added to this reaction. On the same set of axes draw the graph to represent this.</para>
+	</problem>
+	<solution>
+          <pspicture>
+            <code>
+              (-1,-1.2)(10.2,5.7)
+	      \psline{-&gt;}(0,0)(10,0)
+	      \psline{-&gt;}(0,0)(0,5.5)
+	      \pscurve[showpoints=false](0,2.3)(1.5,2.3)(1.75,2.3)(2,2.3)(2.4,2.36)(4.5,5)(6.6,1.1)(7,1)(7.25,1)(7.5,1)(9,1)
+	      \pscurve[showpoints=false,linestyle=dashed](0,2.3)(1.5,2.3)(1.75,2.3)(2,2.3)(2.4,2.36)(4.5,4)(6.6,1.1)(7,1)(7.25,1)(7.5,1)(9,1)
+	      \rput[r](4.45,-0.5){Time}
+	      \psline{-&gt;}(4.5,-0.5)(5.3,-0.5)
+	      \rput[r]{90}(-0.5,3.65){Potential energy}
+	      \psline{-&gt;}(-0.5,3.75)(-0.5,4.75)
+            </code>
+          </pspicture>
+	</solution>
+	<correct/>
+      </entry>
+	   <multi-part>
+	     <header>
+	       <para>A group of learners use the reaction between zinc and sulfuric acid to investigate one of the factors that affects reaction rate. The equation below represents the reaction that takes place.</para>
+	       <para><chem_compound>Zn(s) + H_{2}SO_{4}(aq)</chem_compound> <latex>\to</latex> <chem_compound>ZnSO_{4}(aq) + H_{2}(g)</chem_compound></para>
+	       <para>They add <unit_number><number>6.5</number><unit>g</unit></unit_number> of zinc granules to excess <emphasis effect="italics">dilute</emphasis> sulfuric acid and measure the mass of zinc used per unit time.</para>
+	       <para>The learners then repeat the experiment using excess <emphasis effect="italics">concentrated</emphasis> sulfuric acid.</para>
+	       <para>The results obtained for the reaction using <emphasis effect="italics">dilute</emphasis> sulfuric acid are represented in the graph below:</para>
+	       <pspicture>
+		 <code>
+		   (-1.5,-0.7)(6.2,4.2)
+		   \psline{-&gt;}(0,0)(6,0)
+		   \psline{-&gt;}(0,0)(0,4)
+		   \rput(1,-0.2){60}
+		   \rput(-0.5,2){0,08}
+		   \rput(-0.3,3.3){0,1}
+		   \rput{90}(-1.1,1.8){amount of Zn (mol)}
+		   \rput(4.8,-0.4){time (s)}
+		   \psline[linestyle=dashed](0,2)(1,2)
+		   \psline[linestyle=dashed](1,0)(1,2)
+		   \pscurve[showpoint=false](0,3.3)(1,2)(2,1)(5,0)
+		 </code>
+	       </pspicture>
+	     </header>
+	     <entry>
+	       <problem>
+		 <para>Define the term <emphasis effect="italics">reaction rate</emphasis></para>
+	       </problem>
+	       <solution>
+		 <para>Amount of reactants used per unit time <emphasis effect="italics">or</emphasis> amount of products formed per unit time.</para>
+	       </solution>
+	       <correct/>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Give a reason why the acid must be in excess</para>
+	       </problem>
+	       <solution>
+		 <para>To ensure that (nearly) all zinc is used up <emphasis effect="italics">or</emphasis> to ensure that zinc is a limiting reagent (and the acid is not a limiting reagent).</para>
+	       </solution>
+	       <correct/>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Write down a hypothesis for this investigation.</para>
+	       </problem>
+	       <solution>
+		 <para>(Learners must correctly identify the <emphasis effect="bold">dependent and independent</emphasis> variables. They must predict the <emphasis effect="bold">correct relationship</emphasis> between these variables)</para>
+		 <para>Reaction rate increases with increase in concentration.</para>
+		 <para>Reaction rate decreases with decrease in concentration.</para>
+		 <para>Reaction rate is directly proportional to concentration.</para>
+		 <para>The higher the concentration the faster the average rate of the reaction.</para>
+	       </solution>
+	       <correct/>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Give a reason why the learners must use the same amount of <emphasis effect="italics">zinc granules</emphasis> in both experiments.</para>
+	       </problem>
+	       <solution>
+		 <para>To make it a fair test.</para>
+		 <para>or</para>
+		 <para>Ensure validity (reliability) of results.</para>
+		 <para>or</para>
+		 <para>So that the contact/surface area may not influence the reaction rate. The surface area must not change.</para>
+		 <para>or</para>
+		 <para>It is the controlled variable.</para>
+		 <para>or</para>
+		 <para>To ensure there is only one independent variable.</para>
+	       </solution>
+	       <correct/>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Using the graph, calculate the mass of zinc used from t = 0 s to t = 60 s.</para>
+	       </problem>
+	       <solution>
+		 <para>Number of moles used = <number>0.1</number> - <number>0.08</number> = <unit_number><number>0.02</number><unit>mol</unit></unit_number></para>
+		 <para>M(Zn) = <unit_number><number>65.4</number><unit>g</unit></unit_number></para>
+		 <para><latex>\text{n}=\dfrac{\text{m}}{\text{M}}</latex>, therefore m = n x M</para>
+		 <para>m = <unit_number><number>0.02</number><unit>mol</unit></unit_number> x <unit_number><number>65.4</number><unit>gmol<sup>-1</sup></unit></unit_number> = <correct><unit_number><number>1.31</number><unit>g</unit></unit_number></correct></para>
+	       </solution>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Calculate the average rate of the reaction (in grams per second) during the first 60 s.</para>
+	       </problem>
+	       <solution>
+		 <para>Average rate = <latex>\dfrac{\text{mass Zn used (g)}}{\text{time (s)}} = \dfrac{<unit_number><number>1.31</number><unit>g</unit></unit_number>}{<unit_number><number>60</number><unit>s</unit></unit_number>}</latex></para>
+		 <para>= <correct><unit_number><number>0.022</number><unit>g.s<sup>-1</sup></unit></unit_number></correct> </para>
+	       </solution>
+	     </entry>
+	     <entry>
+	       <problem>
+		 <para>Copy the above graph and <emphasis effect="italics">on the same set of axes</emphasis> use a dotted line to show the curve that will be obtained when concentrated sulfuric acid is used. No numerical values are required.</para>
+		 <para>(NSC, Paper 2, 2011)</para>
+	       </problem>
+	       <solution>
+		 <para><emphasis effect="bold">Criteria for graph</emphasis> - Concentrated sulfuric graph has steeper slope than original graph and intercepts with x-axis earlier.</para>
+	       <pspicture>
+		 <code>
+		   (-0.9,-0.8)(6.2,4.2)
+		   \psline{-&gt;}(0,0)(6,0)
+		   \psline{-&gt;}(0,0)(0,4)
+		   \rput{90}(-0.5,2){amount of Zn (mol)}
+		   \rput(3,-0.4){time (s)}
+		   \pscurve[showpoint=false](0,3.3)(1,2)(2,1)(5,0)
+		   \pscurve[showpoint=false,linestyle=dashed](0,3.3)(1,1.7)(2,0.5)(4,0)
+		   \rput(1,0.2){\small concentrated}
+		   \psline{-&gt;}(2,1.8)(1.7,1.4)
+		   \rput(2,2){\small dilue}
+		   \psline{-&gt;}(1,0.3)(1.5,0.8)
+		 </code>
+	       </pspicture>
+	       </solution>
+	       <correct/>
+	     </entry>
+	   </multi-part>
+	</exercises>
+    </section>
+  </content>
+</document>

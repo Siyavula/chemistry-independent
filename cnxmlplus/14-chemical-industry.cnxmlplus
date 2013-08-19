@@ -1,0 +1,1756 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml/0.4" xmlns:style="http://siyavula.com/cnxml/style/0.1">
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule translate="no" selector="//link"/>
+    <its:translateRule translate="no" selector="//url"/>
+    <its:translateRule translate="no" selector="//latex"/>
+    <its:translateRule translate="no" selector="//number"/>
+    <its:translateRule translate="no" selector="//unit"/>
+    <its:translateRule translate="no" selector="//unit_number"/>
+    <its:translateRule translate="no" selector="//percentage"/>
+    <its:translateRule translate="no" selector="//symbol"/>
+    <its:translateRule translate="no" selector="//currency"/>
+    <its:translateRule translate="no" selector="//chem_compound"/>
+    <its:translateRule translate="no" selector="//spec_note"/>
+    <its:translateRule translate="no" selector="//nuclear_notation"/>
+    <its:translateRule translate="no" selector="//mass_number"/>
+    <its:translateRule translate="no" selector="//atomic_number"/>
+    <its:translateRule translate="no" selector="//code"/>
+    <its:translateRule translate="no" selector="//m:math"/>
+    <its:translateRule translate="no" selector="//shortcode"/>
+    <its:translateRule translate="no" selector="//metadata"/>
+    <its:translateRule translate="no" selector="//image"/>
+    <its:translateRule translate="no" selector="//video"/>
+    <its:translateRule translate="no" selector="//figure/type"/>
+    <its:translateRule translate="no" selector="//simulation"/>
+</its:rules>
+  <metadata>
+    <cnxml-version>0.1</cnxml-version>
+    <pspicture-generator-version>1.1</pspicture-generator-version>
+  </metadata>
+  <content>
+    <section type="chapter">
+      <title>The chemical industry</title>
+      <section type="section">
+	<title>Introduction</title>
+	<shortcode>Shortcode</shortcode>
+	<teachers-guide>
+	  <para>This section studies the use of resources, more specifically phosphate rock, natural gas and other gases (like nitrogen and oxygen) to produce fertilisers to sustain a food supply for people on Earth. The industrial processes that are involved in the manufacturing of fertilisers are studied. The purpose of studying this industry is to make learners aware of the impact of human activities on the environment and our responsibility to use our resources sustainably.</para>
+	  <para><emphasis effect="bold">Prior knowledge</emphasis></para>
+	  <para>This section of work is done at the end of the Grade 12 year and provides an ideal opportunity to revise some of the concepts covered in redox reactions, rates and extent of reactions, acid-base reactions and balancing of equations. The prior knowledge for this chapter includes a general awareness that the chemistry that is done at school has application in industrial processes in South Africa and elsewhere. Two examples that would have been covered in the electrochemistry section, namely the production of chlorine and the recovery of aluminium metal from bauxite, can provide a useful context to study further application of chemistry in real life. These processes can be mentioned in an introductory lesson. Furthermore, this section also builds on learners’ prior knowledge of the lithosphere and how we are using these resources on Earth.</para>
+	  <para><emphasis effect="bold">Planning</emphasis></para>
+	  <para>CAPS allocates 6 hours for this section. A guideline for lessons is provided below. The suggested lessons can be adapted, depending on the length of the lessons at your school and how much time you have to teach the section.</para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para><emphasis effect="bold">Introduction to the importance of nutrients</emphasis></para>
+	      <para>This section covers the importance of nutrients and is necessary to understand the role of fertilisers. In this lesson learners should do the concept map activity as a way of summarising the information. If necessary they should complete the concept map at home.</para>
+	      <para>Learners should start on the investigation of fertiliser use in their area from this first lesson, as it is a long investigation and requires a community survey.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">The role of fertilisers</emphasis></para>
+	      <para>In this lesson the role of fertilisers should be covered. This includes an understanding of the NPK ratios and the specific nutrients found in different fertilisers.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">The industrial preparation of fertilisers</emphasis></para>
+	      <para>This section covers the industrial production of chemicals used in inorganic fertilisers. Included are processes such as the Ostwald and Contact processes. At the end of the section there is a worksheet for the learners to complete. The worksheet, as well as the answer sheet is provided in this book.</para>
+	      <para>This is a long section and, if time allows, should be covered over three lessons. If necessary the worksheet can be given as homework.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Alternative sources of fertilisers</emphasis></para>
+	      <para>In this lesson learners should understand and be able to name alternative sources of fertilisers. These are from natural sources rather than made inudstrially. At the end of the lesson they should complete the activity on alternative sources.</para>
+	      <para>The investigation on fertiliser use in their area should be looked at. They should have designed their survey and be collecting their data.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Fertilisers and the environment</emphasis></para>
+	      <para>Eutrophication is one of the serious effects fertilisers can have on the environment. After going through this section the learners should go through the activity on dealing with the consequences of eutrophication, discussing how best to deal with this problem.</para>
+	      <para>The learners now have enough information to understand the data collected from their community. They should be working on presenting their data on the use of fertiliser in their area and should be able to interpret their findings.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Learners work on their investigation in class</emphasis></para>
+	      <para>The learners should work on their investigation on the use of fertilisers in their area in class. They should be finishing up their report and their interpretations. This is also a good lesson for consolidation of the entire chapter by going through the end of chapter exercises in preparation for the exams.</para>
+	    </item>
+	  </list>
+	</teachers-guide>
+	<para>South Africa has a population of over 50 million people, and this number is increasing every year.  Therefore, maintaining healthy crops plays an important role in providing enough food for the nation. Fertilisers are used to provide sufficient nutrients to the soil in order to sustain optimum crop yields. The fertiliser industry is therefore an important chemical industry in South Africa. In this chapter we will investigate what fertilisers are, why they are important, how they are produced and what their impact on the environment is.</para>
+	<figure id="fig:chemind:farming">
+	  <type>figure</type>
+	  <image style:width="0.5">
+	    <src>photos/farmingbeetroot.jpg</src>
+	    <attribution>Photo by PWRDF</attribution>
+	  </image>
+	  <caption>
+	    <para>Farming beetroot in South Africa.</para>
+	  </caption>
+	</figure>
+      </section>
+      <section type="section">
+	<title>Nutrients</title>
+	<shortcode>Shortcode</shortcode>
+	<section type="subsection">
+	  <title>The importance of nutrients</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>Nutrients are very important for life to exist. An <emphasis effect="bold">essential nutrient</emphasis> is a chemical that a plant needs to be able to grow from a seed and complete its life cycle, but that it cannot produce itself. The same is true for animals. A <emphasis effect="bold">macronutrient</emphasis> is a chemical element that is required in <emphasis effect="italics">large quantities</emphasis> by the plant or animal, whereas a <emphasis effect="bold">micronutrient</emphasis> is only needed in <emphasis effect="italics">small amounts</emphasis> for a plant or an animal to function properly.</para>
+	  <definition>
+	    <term>Nutrient</term>
+	    <meaning>A nutrient is a chemical substance used for the metabolism and the physiology of an organism and is absorbed from the environment.</meaning>
+	  </definition>
+	  <para>In plants, examples of <emphasis effect="italics">macronutrients</emphasis> include carbon (<chem_compound>C</chem_compound>), hydrogen (<chem_compound>H</chem_compound>), oxygen (<chem_compound>O</chem_compound>), nitrogen (<chem_compound>N</chem_compound>), phosphorus (<chem_compound>P</chem_compound>) and potassium (<chem_compound>K</chem_compound>), while <emphasis effect="italics">micronutrients</emphasis> include iron (<chem_compound>Fe</chem_compound>), chlorine (<chem_compound>Cl</chem_compound>), copper (<chem_compound>Cu</chem_compound>) and zinc (<chem_compound>Zn</chem_compound>).</para>
+	  <para>Nutrients that plants absorb <emphasis effect="bold">from the soil</emphasis> are called <emphasis effect="italics">mineral nutrients</emphasis>. Mineral nutrients have to dissolve in the water in the soil before plants can absorb them. <emphasis effect="bold">Non-mineral nutrients</emphasis> are <emphasis effect="italics">not provided by the soil</emphasis> itself, but from the environment. For example oxygen and hydrogen can be obtained from rain water, while carbon, in the form of carbon dioxide (<chem_compound>CO_{2}</chem_compound>) is obtained from the air. The source of each of these nutrients for plants, and their function, is summarised in Table <link target-id="tab:chemind:nonmineralnutrientsource"/> (for non-mineral nutrients) and Table <link target-id="tab:chemind:mineralnutrientsource"/> (for mineral nutrients).</para>
+	  <note type="aside">
+	    <para>The chemical elements mentioned in this chapter as nutrients really form part of larger nutrient molecules such as proteins or amino acids, carbohydrates, fats, and vitamins.</para>
+	  </note>
+	  <figure id="tab:chemind:nonmineralnutrientsource">
+	    <type>table</type>
+	    <table>
+	      <tgroup cols="3">
+		<colspec colname="c1" colnum="1" style:latex-alignment="p{0.18\textwidth}"/>
+		<colspec colname="c2" colnum="2" style:latex-alignment="p{0.27\textwidth}"/>
+		<colspec colname="c3" colnum="3" style:latex-alignment="p{0.45\textwidth}"/>
+		<tbody>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Non-mineral nutrients</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Where the nutrient</emphasis></para>
+		      <para><emphasis effect="bold">is found (source)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Why the nutrient is needed (function)</emphasis></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Carbon (<chem_compound>C</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Carbon dioxide</para>
+		      <para>in the air</para>
+		    </entry>
+		    <entry>
+		      <para>Component of organic molecules such</para>
+		      <para>as carbohydrates, lipids and proteins</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Hydrogen (<chem_compound>H</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Water</para>
+		    </entry>
+		    <entry>
+		      <para>Component of organic molecules</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Oxygen (<chem_compound>O</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Water</para>
+		    </entry>
+		    <entry>
+		      <para>Component of organic molecules</para>
+		    </entry>
+		  </row>
+		</tbody>
+	      </tgroup>
+	    </table>
+	    <caption>
+	      <para>The source and function of the non-mineral macronutrients in plants.</para>
+	    </caption>
+	  </figure>
+	  <note type="tip">
+	    <para><emphasis effect="italics">Blooming</emphasis> refers to plants forming flowers. Phosphorus is particularly good for flowering plants.</para>
+	  </note>
+	  <figure id="tab:chemind:mineralnutrientsource">
+	    <type>table</type>
+	    <table>
+	      <tgroup cols="3">
+		<colspec colname="c1" colnum="1" style:latex-alignment="p{0.18\textwidth}"/>
+		<colspec colname="c2" colnum="2" style:latex-alignment="p{0.27\textwidth}"/>
+		<colspec colname="c3" colnum="3" style:latex-alignment="p{0.45\textwidth}"/>
+		<tbody>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Mineral</emphasis></para>
+		      <para><emphasis effect="bold">nutrients</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Where the nutrient</emphasis></para>
+		      <para><emphasis effect="bold">is found (source)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Why the nutrient is needed (function)</emphasis></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Nitrogen (<chem_compound>N</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Nitrogen compounds</para>
+		      <para>in the soil</para>
+		    </entry>
+		    <entry>
+		      <para>Part of plant proteins and chlorophyll,</para>
+		      <para>also boosts plant growth</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Phosphorus (<chem_compound>P</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Phosphate compounds</para>
+		      <para>in the soil</para>
+		    </entry>
+		    <entry>
+		      <para>Needed for photosynthesis, blooming</para>
+		      <para>and root growth</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Potassium (<chem_compound>K</chem_compound>)</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para>Potassium compounds</para>
+		      <para>in the soil</para>
+		    </entry>
+		    <entry>
+		      <para>Cell building, part of chlorophyll,</para>
+		      <para>and reduces diseases in plants</para>
+		    </entry>
+		  </row>
+		</tbody>
+	      </tgroup>
+	    </table>
+	    <caption>
+	      <para>The source and function of the mineral macronutrients in plants.</para>
+	    </caption>
+	  </figure>
+	  <para>Animals need similar nutrients in order to survive. However, since animals do not photosynthesise, they rely on plants to supply them with the nutrients they need. Think of the human diet - we cannot synthesise our own food and so we either need to eat vegetables, fruits and seeds (all of which are direct plant products) or the meat of other animals which would have fed on plants. It is important therefore that plants are always able to access the nutrients that they need so that they will grow and provide food for other forms of life.</para>
+	  <teachers-guide>
+	    <para><emphasis effect="bold">Mindmap activity: The importance of nutrients</emphasis></para>
+	    <para>Purpose of the activity:</para>
+	    <list list-type="bulleted">
+	      <item>
+		<para>To summarise the content for study purposes</para>
+	      </item>
+	      <item>
+		<para>To teach learners one method of summarising content</para>
+	      </item>
+	    </list>
+	    <para>Time allocation: <number>15</number> - <number>20</number> minutes</para>
+	    <para>The learners can extend this mindmap as they work through this chapter, or design similar ones for each of the sub-sections of this chapter. An example of the type of concept map they should create is given here:</para>
+	    <image style:width="0.7">
+	      <src>photos/Fertiliser_concept_map_for_first_activity_memo.jpg</src>
+	      <attribution>UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	  </teachers-guide>
+	  <activity type="activity">
+	    <title>Concept map</title>
+	    <para>In this activity you are going to make a concept map of this section as a summary that you can use when you study.</para>
+	    <list list-type="enumerated">
+	      <item>
+		<para>Read through the content on the first two pages of this chapter.</para>
+	      </item>
+	      <item>
+		<para>Highlight the most important concepts and words.</para>
+	      </item>
+	      <item>
+		<para>Use the <emphasis effect="bold">words that you have highlighted</emphasis> to make a concept map of this section. Each concept must be linked to another concept using <emphasis effect="italics">linking words</emphasis>. Below you will find an example that you can use as a starting point for your own concept map.</para>
+		<image style:width="0.7">
+		  <src>photos/Concept_map_example.jpg</src>
+		  <attribution>UCT Chemical Industries Resource Pack</attribution>
+		</image>
+	      </item>
+	      <item>
+		<para>Add to this concept map as you progress through this chapter.</para>
+	      </item>
+	    </list>
+	  </activity>
+	</section>
+      </section>
+      <section type="section">
+	<title>Fertilisers</title>
+	<shortcode>Shortcode</shortcode>
+	<section type="subsection">
+	  <title>The role of fertilisers</title>
+	  <shortcode>Shortcode</shortcode>
+	  <teachers-guide>
+	    <para>The importance of fertilisers is discussed and how to use NPK ratios in calculations.</para>
+	  </teachers-guide>
+	  <para>Refer to the <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F1.pdf">Chemical Industries Resource Pack</link> for more information.</para>
+	  <para>Plants are only able to absorb nutrients from the soil when they are <emphasis effect="italics">dissolved</emphasis> in water so that their root systems can absorb the nutrients. Nitrogen gas (<chem_compound>N_{2}</chem_compound>) for example, cannot be absorbed in the gas form, and needs to be changed into an ion that is soluble in water, for example the nitrate ion (<chem_compound>NO_{3}^{-}</chem_compound>). In the same way phosphorus is absorbed as phosphate ions (<chem_compound>PO_{4}^{3-}</chem_compound>).</para>
+	  <para>Plants will grow best in soil that is able to provide sufficient nutrients to them. Natural processes, like the nitrogen cycle, replace nutrients in the soil. However, these natural processes of maintaining soil nutrients take a long time. As populations grow and the demand for food increases, the soil has to supply nutrients faster than the natural processes can sustain. This places more and more strain on the soil to be able to produce a crop.</para>
+	  <para>Often, cultivation practices don’t give the soil enough time to recover and to replace the nutrients that have been lost. Today, fertilisers play a very important role in <emphasis effect="italics">restoring soil nutrients</emphasis> so that crop yields can stay high. Some of these fertilisers are <emphasis effect="bold">organic</emphasis> (e.g. compost, manure and fishmeal), which means that they started off as part of something living. Industrial (commercial) fertilisers are <emphasis effect="bold">inorganic</emphasis> (for example ammonium nitrate (<chem_compound>NH_{4}NO_{3}</chem_compound>) or super phosphates (<chem_compound>Ca(H_{2}PO_{4})_{2}</chem_compound>) and have the advantage of being in a <emphasis effect="italics">soluble form</emphasis> that can be absorbed by a plant immediately.</para>
+	  <definition>
+	    <term>Fertiliser</term>
+	    <meaning>A fertiliser is a chemical compound that is given to a plant to promote growth.</meaning>
+	  </definition>
+	  <para>Fertilisers usually provide the three major plant nutrients (nitrogen, phosphorus and potassium). Fertilisers are in general applied to the soil so that the nutrients are absorbed by plants through their roots.</para>
+	  <definition>
+	    <term>Organic and inorganic fertilisers</term>
+	    <meaning><emphasis effect="bold">Organic</emphasis> fertilisers are made from <emphasis effect="italics">natural products</emphasis>, like manure or compost. <emphasis effect="bold">Inorganic</emphasis> fertilisers refer to <emphasis effect="italics">industrially produced compounds</emphasis>.</meaning>
+	  </definition>
+	  <figure id="fig:chemind:fertilisers">
+	    <type>figure</type>
+	    <pspicture style:width="0.8">
+	      <code>
+		(-7.2,-4.2)(12.4,4.2)
+		\rput(0,0){\includegraphics{photos/fertilisers.eps}}
+		\rput(-6.7,3.6){\textbf{\LARGE {\white (a)}}}
+		\rput(1.8,3.6){\textbf{\LARGE {\white (b)}}}
+		\psline[linewidth=3pt](2.55,3.25)(8,3.4)
+		\psline[linewidth=3pt]{-&gt;}(2.6,3.25)(2.67,2.25)
+		\rput(10,3.4){\textbf{\LARGE Nitrogen (N)}}
+		\psline[linewidth=3pt](3.55,2.6)(8,2.64)
+		\psline[linewidth=3pt]{-&gt;}(3.6,2.6)(3.63,2.15)
+		\rput(10.3,2.64){\textbf{\LARGE Phosphorus (P)}}
+		\psline[linewidth=3pt](4.25,0.8)(8,0.8)
+		\psline[linewidth=3pt]{-&gt;}(4.3,0.8)(4.35,1.5)
+		\rput(10.1,0.8){\textbf{\LARGE Potassium (K)}}
+	      </code>
+	    </pspicture>
+	    <caption>
+	      <para>Examples of <emphasis effect="bold">(a)</emphasis> organic (compost) and <emphasis effect="bold">(b)</emphasis> inorganic (industrially made) fertilisers indicating the NPK ratio that will be discussed later.</para>
+	      <para>Photos by Kessner Photography on wikipedia and Elvera Viljoen in the UCT Chemical Engineering Chemical Industries Resource pack.</para>
+	    </caption>
+	  </figure>
+	</section>
+	<section type="subsection">
+	  <title>The NPK ratio</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>Fertiliser packaging contains a set of numbers, for example <number>6</number>:<number>1</number>:<number>5</number> (see Figure <link target-id="fig:chemind:fertilisers"/>). These numbers are called the <emphasis effect="bold">NPK ratio</emphasis>, and they give the mass ratio of nitrogen, phosphorus and potassium in the fertiliser.</para>
+	  <para>The NPK ratio expresses the content of each nutrient as a percentage of N, P and K in this order. A number in brackets after this ratio indicates the percentage by mass of N, P and K that is present in the fertiliser (what percentage of the total fertiliser is N, P and K). For example:</para>
+	  <pspicture>
+	    <code>
+	      (-0.5,-1)(3.2,0.5)
+	      \rput(0,0){\textbf{N}}
+	      \rput(1,0){\textbf{P}}
+	      \rput(2,0){\textbf{K}}
+	      \rput(0,-0.5){3}
+	      \rput(1,-0.5){1}
+	      \rput(2,-0.5){5}
+	      \rput(2.7,-0.5){(38)}
+	    </code>
+	  </pspicture>
+	  <para><percentage>38</percentage> of the total fertiliser is nitrogen, phosphorus or potassium.</para>
+	  <para><latex>\%</latex> <emphasis effect="bold">N</emphasis>: <number>3</number> in every <number>9</number> parts of the <percentage>38</percentage> contains nitrogen (N)</para>
+	  <para><latex>\%</latex> <emphasis effect="bold">P</emphasis>: <number>1</number> in every <number>9</number> parts of the <percentage>38</percentage> contains phosphorus (P)</para>
+	  <para><latex>\%</latex> <emphasis effect="bold">K</emphasis>: <number>5</number> in every <number>9</number> parts of the <percentage>38</percentage> contains potassium (K)</para>
+	  <para>Table <link target-id="tab:chemind:NPK"/> below gives an idea of the amounts of nitrogen, phosphorus and potassium there are in different types of fertilisers.</para>
+	  <note type="aside">
+	    <para>A starter fertiliser is usually used when seeds or young plants are planted. It has high concentrations of nitrogen, to boost plant growth, and phosphorus to boost root growth.</para>
+	    <image style:width="0.23">
+	      <src>/photos/youngplant.jpg</src>
+	      <attribution>Photo by Tim Patterson on Flickr</attribution>
+	    </image>
+	  </note>
+	  <figure id="tab:chemind:NPK">
+	    <type>table</type>
+	    <table>
+	      <tgroup cols="2">
+		<colspec colname="c1" colnum="1"/>
+		<colspec colname="c2" colnum="2"/>
+		<tbody>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Description</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Grade (NPK ratio)</emphasis></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Ammonium nitrate</para>
+		    </entry>
+		    <entry>
+		      <para><number>34</number>:<number>0</number>:<number>0</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Urea</para>
+		    </entry>
+		    <entry>
+		      <para><number>46</number>:<number>0</number>:<number>0</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Bone meal</para>
+		    </entry>
+		    <entry>
+		      <para><number>4</number>:<number>21</number>:<number>1</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Seaweed</para>
+		    </entry>
+		    <entry>
+		      <para><number>1</number>:<number>1</number>:<number>5</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Starter fertilisers</para>
+		    </entry>
+		    <entry>
+		      <para><number>18</number>:<number>24</number>:<number>6</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Equal NPK fertilisers</para>
+		    </entry>
+		    <entry>
+		      <para><number>12</number>:<number>12</number>:<number>12</number></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>High N, low P and</para>
+		      <para>medium K fertilisers</para>
+		    </entry>
+		    <entry>
+		      <para><number>25</number>:<number>5</number>:<number>15</number></para>
+		    </entry>
+		  </row>
+		</tbody>
+	      </tgroup>
+	    </table>
+	    <caption>
+	      <para>Common grades of some fertiliser materials.</para>
+	    </caption>
+	  </figure>
+	  <para>Depending on the types of plants you are growing, and the growth stage they are in, you may need to use a fertiliser with a slightly different ratio. For example, if you want to <emphasis effect="bold">encourage root growth</emphasis> in your plant you might choose a fertiliser with a <emphasis effect="bold">greater ratio of phosphorus</emphasis> in it. The main functions of each nutrient (N, P, K) are given in Table <link target-id="tab:chemind:detailmineral"/>. Remember to refer to Tables <link target-id="tab:chemind:nonmineralnutrientsource"/> and <link target-id="tab:chemind:mineralnutrientsource"/> as well.</para>
+	  <figure id="tab:chemind:detailmineral">
+	    <type>table</type>
+	    <table>
+	      <tgroup cols="3">
+		<colspec colname="c1" colnum="1"/>
+		<colspec colname="c2" colnum="2" style:latex-alignment="p{0.24\textwidth}"/>
+		<colspec colname="c3" colnum="3" style:latex-alignment="p{0.3\textwidth}"/>
+		<tbody>
+		  <row>
+		    <entry>
+		      <para><emphasis effect="bold">Nutrient</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">Promotes</emphasis></para>
+		    </entry>
+		    <entry>
+		      <para><emphasis effect="bold">When to use</emphasis></para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Nitrogen (N)</para>
+		    </entry>
+		    <entry>
+		      <para>leafy plant growth,</para>
+		      <para>faster plant growth</para>
+		    </entry>
+		    <entry>
+		      <para>on lawns and other plants</para>
+		      <para>with lots of green leaves</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Phosphorus (P)</para>
+		    </entry>
+		    <entry>
+		      <para>strong roots, healthy</para>
+		      <para>fruit, blooming</para>
+		    </entry>
+		    <entry>
+		      <para>on flowers and flower</para>
+		      <para>beds</para>
+		    </entry>
+		  </row>
+		  <row>
+		    <entry>
+		      <para>Potassium (K)</para>
+		    </entry>
+		    <entry>
+		      <para>disease resistance,</para>
+		      <para>growth of fruit</para>
+		    </entry>
+		    <entry>
+		      <para>on fruit bearing plants</para>
+		    </entry>
+		  </row>
+		</tbody>
+	      </tgroup>
+	    </table>
+	    <caption>
+	      <para>The types of plant growth different nutrients promote.</para>
+	    </caption>
+	  </figure>
+	  <para>Some countries express the phosphorus content as <chem_compound>P_{2}O_{5}</chem_compound> and potassium content as <chem_compound>K_{2}O</chem_compound>. South Africa expresses the NPK ratio in terms of the elements present as explained above. The rest of the fertiliser (<percentage>62</percentage>) is made up of fillers, such as gypsum, lime and sand. Other <emphasis effect="italics">micronutrients</emphasis>, such as calcium (<chem_compound>Ca</chem_compound>), sulfur (<chem_compound>S</chem_compound>) and magnesium (<chem_compound>Mg</chem_compound>), are often added to the mixture.</para>
+	  <worked_example>
+	    <title>NPK ratios</title>
+	    <question>
+	      <para>Calculate the mass of nitrogen (N), phosphorus (P) and potassium (K) that is present in <unit_number><number>500</number><unit>g</unit></unit_number> of industrial fertiliser with a NPK ratio of <number>5</number>:<number>2</number>:<number>3</number> (<number>40</number>).</para>
+	    </question>
+	    <answer>
+	      <workstep>
+		<title>Determine the mass of the total nutrients in the fertiliser sample.</title>
+		<para><percentage>40</percentage> of the sample contains nutrients, therefore:</para>
+		<para><percentage>40</percentage> of <unit_number><number>500</number><unit>g</unit></unit_number> = <number>0.4</number> x <unit_number><number>500</number><unit>g</unit></unit_number> = <unit_number><number>200</number><unit>g</unit></unit_number> which contains nutrients.</para>
+	      </workstep>
+	      <workstep>
+		<title>Determine the mass of the specific component in the sample</title>
+		<para>For every <number>5</number> units of nitrogen there are <number>2</number> units of phosphorus and <number>3</number> units of potassium so the total number of units is <number>10</number>.</para>
+		<para><number>5</number> of the <number>10</number> units are nitrogen, therefore:</para>
+		<para><latex>\dfrac{5}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>100</number><unit>g</unit></unit_number> will be nitrogen (N).</para>
+		<para><number>2</number> of the <number>10</number> units are phosphorus, therefore:</para>
+		<para><latex>\dfrac{2}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>40</number><unit>g</unit></unit_number> will be phosphorus (P).</para>
+		<para><number>3</number> of the <number>10</number> units are potassium, therefore:</para>
+		<para><latex>\dfrac{3}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>60</number><unit>g</unit></unit_number> will be potassium (K).</para>
+	      </workstep>
+	    </answer>
+	  </worked_example>
+	  <worked_example>
+	    <title>NPK ratios</title>
+	    <question>
+	      <para>Calculate the mole ratio of an industrial fertiliser with the NPK ratio of <number>5</number>:<number>2</number>:<number>3</number> (<number>40</number>).</para>
+	    </question>
+	    <answer>
+	      <workstep>
+		<title>Calculate the mass of N, P and K in a <unit_number><number>500</number><unit>g</unit></unit_number> sample of the fertiliser</title>
+		<para>As we are calculating the mole ratio, any amount of fertiliser can be assumed.</para>
+		<para>As in the previous worked example the ratio is <number>5</number>:<number>2</number>:<number>3</number> (<number>40</number>), so the mass of nutrients will be <unit_number><number>200</number><unit>g</unit></unit_number>. Therefore:</para>
+		<para>The mass of N = <latex>\dfrac{5}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>100</number><unit>g</unit></unit_number>.</para>
+		<para>The mass of P = <latex>\dfrac{2}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>40</number><unit>g</unit></unit_number>.</para>
+		<para>The mass of K = <latex>\dfrac{3}{10}\times</latex> <unit_number><number>200</number><unit>g</unit></unit_number> = <unit_number><number>60</number><unit>g</unit></unit_number>.</para>
+	      </workstep>
+	      <workstep>
+		<title>Calculate the number of moles for each element in this sample of fertiliser</title>
+		<para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+		<para>The molar mass (M) for N = <unit_number><number>14.0</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>Therefore n for nitrogen = <latex>\dfrac{<number>100</number>{\text{ g}}}{<number>14.0</number>{\text{ g.mol}}^{-1}}</latex> = <unit_number><number>7.14</number><unit>mol</unit></unit_number></para>
+		<para>M for P = <unit_number><number>31.0</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>Therefore n for phosphorus = <latex>\dfrac{<number>40</number>{\text{ g}}}{<number>31.0</number>{\text{ g.mol}}^{-1}}</latex> = <unit_number><number>1.29</number><unit>mol</unit></unit_number></para>
+		<para>M for K = <unit_number><number>39.1</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>Therefore n for potassium = <latex>\dfrac{<number>60</number>{\text{ g}}}{<number>39.1</number>{\text{ g.mol}}^{-1}}</latex> = <unit_number><number>1.53</number><unit>mol</unit></unit_number></para>
+	      </workstep>
+	      <workstep>
+		<title>Determine the mole ratio</title>
+		<para>N:P:K mole ratio = <number>7.14</number> : <number>1.29</number> : <number>1.53</number></para>
+		<para>To get the mole ratio divide all the numbers by the smallest number (<number>1.29</number>):</para>
+		<para><number>5.5</number> : <number>1</number> : <number>1.2</number></para>
+		<para>The ratio should be expressed as whole numbers:</para>
+		<para><number>55</number> : <number>10</number> : <number>12</number></para>
+	      </workstep>
+	    </answer>
+	  </worked_example>	  
+	  <para><emphasis effect="bold">Note:</emphasis> If the percentage purity is not given (the number in brackets – e.g. 40 in the worked example above), then you can assume that it is a <percentage>100</percentage> pure fertiliser and no fillers were added.</para>
+	  <math_extension>
+	    <title><chem_compound>N:P_{2}O_{5}:K_{2}O</chem_compound></title>
+	    <body>
+	      <para>As mentioned previously, in South Africa the NPK ratio is expressed in elemental form, for example the P in the ratio refers to the mass of the element phosphorus (P). However, in some countries the ratios are expressed in compound form: <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound>. Nitrogen still refers to the element nitrogen, but phosphorus and potassium refer to the compounds phosphorus pentoxide (<chem_compound>P_{2}O_{5}</chem_compound>) and potassium oxide (<chem_compound>K_{2}O</chem_compound>). This example will show you how to calculate the mass or moles when a compound ratio is given.</para>
+	    </body>
+	  </math_extension>
+	  <worked_example>
+	    <title>NPK ratios in other countries</title>
+	    <question>
+	      <para>Calculate the moles of phosphorus (P) in <unit_number><number>120</number><unit>g</unit></unit_number> of a fertiliser with the <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound> mass ratio of <number>4</number>:<number>3</number>:<number>8</number> (<number>50</number>).</para>
+	    </question>
+	    <answer>
+	      <workstep>
+		<title>Calculate the mass of nutrients in the sample of fertiliser</title>
+		<para><percentage>50</percentage> of the sample contains nutrients.</para>
+		<para><percentage>50</percentage> of <unit_number><number>120</number><unit>g</unit></unit_number> = <number>0.5</number> x <unit_number><number>120</number><unit>g</unit></unit_number> = <unit_number><number>60</number><unit>g</unit></unit_number> which contains nutrients.</para>
+	      </workstep>
+	      <workstep>
+		<title>Calculate the mass of <chem_compound>P_{2}O_{5}</chem_compound></title>
+		<para>The <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound> ratio is <number>4</number> : <number>3</number> : <number>8</number>. <number>4</number> + <number>3</number> + <number>8</number> = <number>15</number>. Therefore:</para>
+		<para><number>3</number> of the <number>15</number> units are <chem_compound>P_{2}O_{5}</chem_compound>.</para>
+		<para>The mass of <chem_compound>P_{2}O_{5}</chem_compound> = <latex>\dfrac{3}{15} \times</latex> <unit_number><number>60</number><unit>g</unit></unit_number> = <unit_number><number>12</number><unit>g</unit></unit_number>.</para>
+	      </workstep>
+	      <workstep>
+		<title>Calculate the number of moles of <chem_compound>P_{2}O_{5}</chem_compound></title>
+		<para><latex>\text{n} = \dfrac{\text{m}}{\text{M}}</latex></para>
+		<para>M(<chem_compound>P_{2}O_{5}</chem_compound>) = <number>2</number> x <unit_number><number>31.0</number><unit>g.mol<sup>-1</sup></unit></unit_number> + <number>5</number> x <unit_number><number>16.0</number><unit>g.mol<sup>-1</sup></unit></unit_number> = <unit_number><number>142.0</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>Therefore n(<chem_compound>P_{2}O_{5}</chem_compound>) = <latex>\dfrac{<number>12</number>{\text{ g}}}{<number>142.0</number>{\text{ g.mol}}^{-1}}</latex> = <unit_number><number>0.0845</number><unit>mol</unit></unit_number></para>
+	      </workstep>
+	      <workstep>
+		<title>Calculate the number of moles of <chem_compound>P</chem_compound></title>
+		<para>For every <number>1</number> mole of <chem_compound>P_{2}O_{5}</chem_compound> there are <number>2</number> moles of <chem_compound>P</chem_compound> atoms.</para>
+		<para>Therefore, n(<chem_compound>P</chem_compound>) = <number>2</number> x <unit_number><number>0.0845</number><unit>mol</unit></unit_number> = <unit_number><number>0.17</number><unit>mol</unit></unit_number></para>
+	      </workstep>
+	    </answer>
+	  </worked_example>
+	  <teachers-guide>
+	    <para>For this activity leaners should work on their own.</para>
+	    <para><emphasis effect="bold">Solutions:</emphasis></para>
+	    <list list-type="enumerated">
+	      <item>
+		<para>The NPK ratio for bone meal is <number>4</number> : <number>21</number> : <number>1</number>. <number>4</number> + <number>21</number> + <number>1</number> = <number>26</number>.</para>
+		<para><number>21</number> of the <number>26</number> units are <chem_compound>P</chem_compound>.</para>
+		<para>Assume a <percentage>100</percentage> purity of the bone meal, so the entire <unit_number><number>250</number><unit>g</unit></unit_number> is nutrients.</para>
+		<para>m(<chem_compound>P</chem_compound>) = <latex>\dfrac{21}{26} \times</latex> <unit_number><number>250</number><unit>g</unit></unit_number> = <unit_number><number>201.92</number><unit>g</unit></unit_number></para>
+	      </item>
+	      <item>
+		<para>Assume a <percentage>100</percentage> purity of the ammonium nitrate, so the entire <unit_number><number>200</number><unit>g</unit></unit_number> is <chem_compound>NH_{4}NO_{3}</chem_compound>.</para>
+		<para>The NPK ratio for ammonium nitrate is <number>34</number> : <number>0</number> : <number>0</number>. Therefore there is no phosphorus or potassium in the fertiliser.</para>
+		<para>m(<chem_compound>NH_{4}NO_{3}</chem_compound>) = <unit_number><number>200</number><unit>g</unit></unit_number></para>
+		<para>M(<chem_compound>NH_{4}NO_{3}</chem_compound>) = (<number>2</number> x <number>14.0</number> + <number>4</number> x <number>1.01</number> + <number>3</number> x <number>16.0</number>) <unit>g.mol<sup>-1</sup></unit> = <unit_number><number>80.04</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>n(<chem_compound>NH_{4}NO_{3}</chem_compound>) = <latex>\dfrac{\text{m (g)}}{\text{M (g.mol}^{-1}{\text{)}}} = \dfrac{<number>200</number> {\text{ g}}}{<number>80.04</number> {\text{ g.mol}}^{-1}}</latex> = <unit_number><number>2.5</number><unit>mol</unit></unit_number></para>
+		<para>For every <number>1</number> mole of <chem_compound>NH_{4}NO_{3}</chem_compound> there are <number>2</number> moles of <chem_compound>N</chem_compound>.</para>
+		<para>n(<chem_compound>N</chem_compound>) = <number>2</number> x <unit_number><number>2.5</number><unit>mol</unit></unit_number> = <unit_number><number>5</number><unit>mol</unit></unit_number></para>
+	      </item>
+	      <item>
+		<para>The NPK ratio for seaweed is <number>1</number> : <number>1</number> : <number>5</number>. <number>1</number> + <number>1</number> + <number>5</number> = <number>7</number>.</para>
+		<para><number>5</number> of the <number>7</number> units are postassium (<chem_compound>K</chem_compound>).</para>
+		<para>Assume a <percentage>100</percentage> purity of the seaweed, so the entire <unit_number><number>100</number><unit>g</unit></unit_number> is nutrients.</para>
+		<para>m(<chem_compound>K</chem_compound>) = <latex>\dfrac{5}{7} \times</latex> <unit_number><number>100</number><unit>g</unit></unit_number> = <unit_number><number>71.4</number><unit>g</unit></unit_number></para>
+	      </item>
+	      <item>
+		<para><percentage>40</percentage> of the sample is nutrients. The mass of nutrients in the sample is: <number>0.4</number> x <unit_number><number>100</number><unit>g</unit></unit_number> = <unit_number><number>40</number><unit>g</unit></unit_number></para>
+		<para>The <chem_compound>N:P_{2}O_{5}K_{2}O</chem_compound> ratio is <number>5</number> : <number>1</number> : <number>2</number>. <number>5</number> + <number>1</number> + <number>2</number> = <number>8</number>.</para>
+		<para><number>2</number> of the <number>8</number> units are <chem_compound>K_{2}O</chem_compound>.</para>
+		<para>m(<chem_compound>K_{2}O</chem_compound>) = <latex>\dfrac{2}{8} \times</latex> <unit_number><number>40</number><unit>g</unit></unit_number> = <unit_number><number>10</number><unit>g</unit></unit_number></para>
+		<para>M(<chem_compound>K_{2}O</chem_compound>) = (<number>2</number> x <number>39.1</number> + <number>16.0</number>) <unit>g.mol<sup>-1</sup></unit> = <unit_number><number>94.2</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>n(<chem_compound>K_{2}O</chem_compound>) = <latex>\dfrac{<number>10</number> {\text{ g}}}{<number>94.2</number> {\text{ g.mol}}^{-1}} </latex>= <unit_number><number>0.106</number><unit>mol</unit></unit_number></para>
+		<para>For every <number>1</number> mole of <chem_compound>K_{2}O</chem_compound> there are <number>2</number> moles of <chem_compound>K</chem_compound>.</para>
+		<para>n(<chem_compound>K</chem_compound>) = <number>2</number> x <unit_number><number>0.106</number><unit>mol</unit></unit_number> = <unit_number><number>0.21</number><unit>mol</unit></unit_number></para>
+	      </item>
+	    </list>
+	  </teachers-guide>
+	  <activity type="activity">
+	    <title>NPK ratios</title>
+	    <para>Use Table <link target-id="tab:chemind:NPK"/>, if needed, to answer the following questions:</para>
+	    <list list-type="enumerated">
+	      <item>
+		<para>Calculate the mass of phosphorus that is present in <unit_number><number>250</number><unit>g</unit></unit_number> of bone meal.</para>
+	      </item>
+	      <item>
+		<para>Calculate the moles of nitrogen that are present in <unit_number><number>200</number><unit>g</unit></unit_number> of ammonium nitrate (<chem_compound>NH_{4}NO_{3}</chem_compound>).</para>
+	      </item>
+	      <item>
+		<para>Calculate the mass of potassium that is present in <unit_number><number>100</number><unit>g</unit></unit_number> of seaweed.</para>
+	      </item>
+	      <item>
+		<para>Calculate the number of moles of potassium in <unit_number><number>100</number><unit>g</unit></unit_number> of a commercial fertiliser with the <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound> mass ratio of <number>5</number>:<number>1</number>:<number>2</number> (<number>40</number>).</para>
+	      </item>
+	    </list>
+	  </activity>
+	  <exercises>
+	    <title>The role of fertilisers</title>
+	    <multi-part>
+	      <shortcode>Shortcode</shortcode>
+	      <header>
+		<para>A starter fertiliser is usually used when seeds or young plants are planted.</para>
+		<para>Use Table <link target-id="tab:chemind:NPK"/> to answer the following questions.</para>
+	      </header>
+	      <entry>
+		<problem>
+		  <para>What is the NPK ratio of a starter fertiliser?</para>
+		</problem>
+		<solution>
+		  <para><correct><number>18</number>:<number>24</number>:<number>6</number></correct></para>
+		</solution>
+	      </entry>
+	      <entry>
+		<problem>
+		  <para>Which nutrient is present in the lowest concentration?</para>
+		</problem>
+		<solution>
+		  <para><correct>potassium (<chem_compound>K</chem_compound>)</correct></para>
+		</solution>
+	      </entry>
+	      <entry>
+		<problem>
+		  <para>Do you think an equal NPK fertiliser will be a good starter fertiliser for new plants? Explain your answer using information from Tables <link target-id="tab:chemind:nonmineralnutrientsource"/> - <link target-id="tab:chemind:detailmineral"/>.</para>
+		</problem>
+		<solution>
+		  <para><correct>No</correct>. New plants need nitrogen (to boost plant growth) and phosphorus (for root growth). An equal NPK fertiliser has equal amounts of N, P and K and therefore would not promote new plant growth as much. An actual starter fertiliser contains much higher amounts of nitrogen and phosphorus (<number>18</number>:<number>24</number>:<number>6</number>).</para>
+		</solution>
+	      </entry>
+	    </multi-part>
+	    <entry>
+	      <shortcode>Shortcode</shortcode>
+	      <problem>
+		<para>Do you think bone meal is a good fertiliser to use for flowering plants? Explain your answer using Tables <link target-id="tab:chemind:nonmineralnutrientsource"/> - <link target-id="tab:chemind:detailmineral"/>.</para>
+	      </problem>
+	      <solution>
+		<para><correct>Yes</correct>. The NPK ratio of bone meal is <number>4</number> : <number>21</number> : <number>1</number>. Bone meal has a high phosphorus (P) content (<number>21</number> of <number>26</number> units are P). Phosphorus is good for flowering plants so a high phosphorus content would make bone meal a good fertiliser to use.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <shortcode>Shortcode</shortcode>
+	      <problem>
+		<para>Determine the mass of each of the nutrient components in a <unit_number><number>600</number><unit>g</unit></unit_number> bag of the fertiliser shown in Figure <link target-id="fig:chemind:fertilisers"/> (it is produced in South Africa).</para>
+	      </problem>
+	      <solution>
+		<para>The NPK mass ratio is <number>6</number> : <number>1</number> : <number>5</number> (<number>22</number>). <number>6</number> + <number>1</number> + <number>5</number> = <number>12</number>.</para>
+		<para>Determine the mass of the total nutrients in the fertiliser sample:</para>
+		<para><percentage>22</percentage> of the sample contains nutrients, therefore:</para>
+		<para>The mass of nutrients in the sample = <number>0.22</number> x <unit_number><number>600</number><unit>g</unit></unit_number> = <unit_number><number>132</number><unit>g</unit></unit_number></para>
+		<para><number>6</number> of the <number>12</number> units are nitrogen, therefore:</para>
+		<para>m(<chem_compound>N</chem_compound>) = <latex>\dfrac{6}{12}\times</latex> <unit_number><number>132</number><unit>g</unit></unit_number> = <unit_number><number>66</number><unit>g</unit></unit_number></para>
+		<para><number>1</number> of the <number>12</number> units is phosphorus, therefore:</para>
+		<para>m(<chem_compound>P</chem_compound>) = <latex>\dfrac{1}{12}\times</latex> <unit_number><number>132</number><unit>g</unit></unit_number> = <unit_number><number>11</number><unit>g</unit></unit_number></para>
+		<para><number>5</number> of the <number>12</number> units are potassium, therefore:</para>
+		<para>m(<chem_compound>K</chem_compound>) = <latex>\dfrac{5}{12}\times</latex> <unit_number><number>132</number><unit>g</unit></unit_number> = <unit_number><number>55</number><unit>g</unit></unit_number></para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <shortcode>Shortcode</shortcode>
+	      <problem>
+		<para>You have determined that your vegetable garden will need <unit_number><number>12</number><unit>g</unit></unit_number> of nitrogen. The fertiliser you have has <number>4</number>:<number>2</number>:<number>3</number> (<number>40</number>) written on the packet. How many grams of fertiliser will you need for your garden?</para>
+	      </problem>
+	      <solution>
+		<para>The NPK mass ratio is <number>4</number> : <number>2</number> : <number>3</number> (<number>40</number>). <number>4</number> + <number>2</number> + <number>3</number> = <number>9</number>.</para>
+		<para><number>4</number> of the <number>9</number> units are nitrogen and <unit_number><number>12</number><unit>g</unit></unit_number> of nitrogen is needed, therefore:</para>
+		<para><latex>\dfrac{4}{9}\times</latex> total mass of nutrients required = <unit_number><number>12</number><unit>g</unit></unit_number>.</para>
+		<para>Total mass of nutrients required = <unit_number><number>12</number><unit>g</unit></unit_number> <latex>\times \dfrac{9}{4}</latex> = <unit_number><number>27</number><unit>g</unit></unit_number></para>
+		<para><percentage>40</percentage> of the sample contains nutrients, therefore:</para>
+		<para><percentage>40</percentage> of fertiliser required = <unit_number><number>27</number><unit>g</unit></unit_number></para>
+		<para>Total fertiliser required = <latex>\dfrac{<number>27</number>{\text{ g}}}{<number>0.40</number>} </latex>= <correct><unit_number><number>67.5</number><unit>g</unit></unit_number></correct>.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <shortcode>Shortcode</shortcode>
+	      <problem>
+		<para>How many moles of potassium is present in <unit_number><number>150</number><unit>g</unit></unit_number> of commercial fertiliser with the <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound> mass ratio of <number>1</number>:<number>2</number>:<number>5</number>.</para>
+	      </problem>
+	      <solution>
+		<para>The <chem_compound>N</chem_compound>:<chem_compound>P_{2}O_{5}</chem_compound>:<chem_compound>K_{2}O</chem_compound> ratio is <number>1</number> : <number>2</number> : <number>5</number>. <number>1</number> + <number>2</number> + <number>5</number> = <number>8</number>.</para>
+		<para>No percentage purity is given, therefore assume <percentage>100</percentage> purty. So the entire <unit_number><number>15</number><unit>g</unit></unit_number> is nutrients.</para>
+		<para><number>5</number> units of the <number>8</number> units are <chem_compound>K_{2}O</chem_compound></para>
+		<para>M(<chem_compound>K_{2}O</chem_compound>) = (<number>2</number> x <number>39.1</number> + <number>16.0</number>) <unit>g.mol<sup>-1</sup></unit> = <unit_number><number>94.2</number><unit>g.mol<sup>-1</sup></unit></unit_number></para>
+		<para>m(<chem_compound>K_{2}O</chem_compound>) = <latex>\dfrac{5}{8}\times</latex> <unit_number><number>150</number><unit>g</unit></unit_number> = <unit_number><number>93.75</number><unit>g</unit></unit_number>.</para>
+		<para>n(<chem_compound>K_{2}O</chem_compound>) = <latex>\dfrac{\text{m (g)}}{\text{M (g.mol}^{-1}{\text{)}}} = \dfrac{<number>93.75</number>{\text{ g}}}{<number>94.2</number>{\text{ g.mol}}^{-1}}</latex> = <unit_number><number>0.995</number><unit>mol</unit></unit_number></para>
+		<para>For every <number>1</number> mole of <chem_compound>K_{2}O</chem_compound> there are <number>2</number> moles of <chem_compound>K</chem_compound> atoms.</para>
+		<para>Therefore, n(<chem_compound>K</chem_compound>) = <number>2</number> x <unit_number><number>0.995</number><unit>mol</unit></unit_number> = <correct><unit_number><number>1.99</number><unit>mol</unit></unit_number></correct></para>
+	      </solution>
+	    </entry>
+	  </exercises>
+	</section>
+      </section>
+      <section type="section">
+	<title>The fertiliser industry</title>
+	<shortcode>Shortcode</shortcode>
+	<section type="subsection">
+	  <title>The industrial production of fertilisers</title>
+	  <shortcode>Shortcode</shortcode>
+	  <teachers-guide>
+	    <para>This section is content heavy and an important sub-section in this chapter. It should be linked to rate of reactions, equilibrium and acid-base reactions done earlier in Grade 12.</para>
+	    <para>Two lessons are allocated, but if three are available it would be advisable to spend this extra time on this sub-section (although the depth of information provided here is not required from the learners). For this section a <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/posters/F_Poster.pdf">poster</link>, an <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/animations/Fertilisers.swf">animation</link> and accompanying <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/AnimationMemos/TG_A_M_F.pdf">worksheet</link> are available. These can be used as an introduction to the section as well as a classwork activity. Play the animation once or twice without the learners writing anything, then hand out the worksheet, and play the animation again so that learners can complete the worksheet.</para>
+	  </teachers-guide>
+	  <para>For more information on this section refer to the <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/posters/F_Poster.pdf">Chemical Industries Resource Pack</link>.</para>
+	  <para>The industrial production of fertilisers involves several processes. Figure <link target-id="fig:chemind:manufacturing"/> summarises how a number of different industrial processes are used to manufacture a variety of fertilisers. In the following sections we will discuss the various processes indicated on this diagram.</para>
+	  <figure id="fig:chemind:manufacturing">
+	    <type>figure</type>
+	    <image style:width="0.9">
+	      <src>images/manufacture_fertilisers.png</src>
+	      <attribution>Image by Rene Toerien</attribution>
+	    </image>
+	    <caption>
+	      <para>The industrial manufacturing of fertilisers</para>
+	    </caption>
+	  </figure>
+	</section>
+	  <section type="subsection">
+	    <title>Producing hydrogen: Coal gasification and steam reforming at Sasol</title>
+	    <shortcode>Shortcode</shortcode>
+	    <note type="aside">
+	      <para>Sasol is an international company that was founded in Sasolburg, South Africa, in 1950. It employs over <number>34000</number> people in at least <number>38</number> countries and has interests in synthetic fuels, mining, oil, gas and chemistry.</para>
+	    </note>
+	    <para>Fossil fuels are the main source of industrial hydrogen. Hydrogen can be generated from <emphasis effect="bold">natural gas</emphasis> or <emphasis effect="bold">coal</emphasis>. These processes are used by <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/posters/P_poster.pdf">Sasol</link> at their Gas-to-Liquid (GTL) and Coal-to-Liquid (CTL) facilities. Hydrogen is usually produced by the <emphasis effect="bold">steam reforming</emphasis> of methane gas (natural gas). At high temperatures (<number>700</number> – <unit_number><number>1100</number> <unit>°C</unit></unit_number>), steam (<chem_compound>H_{2}O</chem_compound>) reacts with <emphasis effect="bold">methane</emphasis> (<chem_compound>CH_{4}</chem_compound>) in an endothermic reaction to yield <emphasis effect="bold">syngas</emphasis>, a mixture of <emphasis effect="italics">carbon monoxide</emphasis> (<chem_compound>CO</chem_compound>) and <emphasis effect="italics">hydrogen</emphasis> (<chem_compound>H_{2}</chem_compound>).</para>
+	    <note type="tip">
+	      <para>You are not required to know this information in as much depth as is provided here, but the extra information should help your understanding of the subject.</para>
+	    </note>
+	    <para><chem_compound>CH_{4}(g) + H_{2}O(g)</chem_compound> <latex>\to</latex> <chem_compound>CO(g) + 3H_{2}(g)</chem_compound></para>
+	    <para>During a second stage, which takes place at a lower temperature of about <unit_number><number>130</number><unit>°C</unit></unit_number>, the exothermic reaction generates additional hydrogen. This is called a <emphasis effect="bold">water gas shift reaction</emphasis>.</para>
+	    <para><chem_compound>CO(g) + H_{2}O(g)</chem_compound> <latex>\to</latex> <chem_compound>CO_{2}(g) + H_{2}(g)</chem_compound></para>
+	    <para>Essentially, the <emphasis effect="bold">oxygen</emphasis> (O) atom is stripped from the additional water (steam) to oxidise <chem_compound>CO</chem_compound> to <chem_compound>CO_{2}</chem_compound>. This oxidation also provides energy to maintain the reaction.</para>
+	    <para>Coal can also be used to produce syngas in a similar way to natural gas. The reactions are shown below:</para>
+	    <para><chem_compound>C(s) + H_{2}O(g)</chem_compound> <latex>\to</latex> <chem_compound>CO(g) + H_{2}(g)</chem_compound></para>
+	    <para><chem_compound>CO(g) + H_{2}O(g)</chem_compound> <latex>\to</latex> <chem_compound>CO_{2}(g) + H_{2}(g)</chem_compound></para>
+	    <para>Remember that <emphasis effect="bold">yield</emphasis> describes the quantity of product in a container relative to the maximum product possible.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Obtaining nitrogen: Fractional distillation of liquefied air</title>
+	    <shortcode>Shortcode</shortcode>
+	    <para>Fractional distillation is a separation method. It uses the difference in boiling temperatures of the components of a mixture to separate those components.</para>
+	    <list list-type="bulleted">
+	      <item>
+		<para>The mixture is heated to convert the components into the vapour (gas) phase.</para>
+	      </item>
+	      <item>
+		<para>The vapour mixture is then pumped into a tall separation column (called a fractional distillation column), usually at the bottom of the column.</para>
+	      </item>
+	      <item>
+		<para>As the vapour mixture moves up the column and cools, the different components (called fractions) condense as the temperature drops below the various boiling point temperatures.</para>
+	      </item>
+	      <item>
+		<para>These fractions are collected using collection trays.</para>
+	      </item>
+	      <item>
+		<para>The fractions can be removed from the mixture in this way and thus the components are separated.</para>
+	      </item>
+	    </list>
+	    <para>This process is used to separate the components of air or crude oil. Air is a mixture of gases, mainly nitrogen (<chem_compound>N_{2}</chem_compound>) and oxygen (<chem_compound>O_{2}</chem_compound>). Liquefied air (compressed and cooled to <unit_number><number>-200</number><unit>°C</unit></unit_number>) is pumped into the fractional distillation column. Nitrogen gas has the lowest boiling point temperature and is collected at the top of the column (Figure <link target-id="fig:chemind:fractionaldist"/>).</para>
+	    <figure id="fig:chemind:fractionaldist">
+	      <type>figure</type>
+	      <pspicture>
+		<code>
+		  (-7.8,-6.5)(2.5,3)
+		  
+		  \rput(-5.25,0.6){\small \red Air is}
+		  \rput(-5.25,0.2){\small \red compressed}
+		  \rput(-5.25,-0.2){\small \red and}
+                  \rput(-5.25,-0.6){\small \red heats up}
+		  \rput(-6.3,-4.5){\blue The compressed}
+		  \rput(-6.3,-4.9){\blue air is cooled}
+		  \psline[linecolor=blue]{-&gt;}(-5.8,-4.3)(-5.2,-3.5)
+		  \rput(-3,-5){The compressed air is}
+		  \rput(-3,-5.4){allowed to expand}
+		  \rput(-3,-5.8){and turn to liquid}
+		  \psline{-&gt;}(-2.7,-4.8)(-3.2,-4.2)
+		  
+		  \psline(-5.1,-1)(-6.3,-1)
+		  \psline(-5,-1)(-4.3,-1)
+		  \psline(-4.3,-1)(-4.3,1)
+		  \psframe[fillstyle=solid,fillcolor=black](-6.7,-1)(-6.2,1)
+		  \psline{-&gt;}(-7.2,0)(-6.8,0)
+		  \psline(-4.3,1)(-4.9,1)
+		  \psline(-6.3,1)(-5.2,1)
+		  \psline(-5.2,1)(-5.2,1.2)
+		  \psline(-4.9,1)(-4.9,1.2)
+		  \rput(-5.05,2){Air}
+		  \rput(-5.05,1.7){intake}
+		  \psline{-&gt;}(-5.05,1.5)(-5.05,1)
+		  
+		  \psline[linecolor=blue](-4.5,-3.8)(-4.5,-1.7)
+		  \psline[linecolor=blue](-4.5,-1.7)(-5,-1.7)
+		  \psline[linecolor=blue](-5.1,-1.7)(-5.6,-1.7)
+		  \psline[linecolor=blue](-5.6,-1.7)(-5.6,-3.8)
+		  \psline[linecolor=blue](-5.6,-3.8)(-5.1,-3.8)
+		  \psline[linecolor=blue]{-&gt;}(-5.9,-2.8)(-5.4,-2.8)
+		  \rput(-6.5,-2.6){\blue Liquid}
+		  \rput(-6.5,-3){\blue nitrogen}
+		  
+		  \psline(-3.3,-3.6)(-3.3,-2.8)
+		  \psline(-3.3,-3.9)(-3.3,-4.7)
+		  \psline(-3.3,-4.7)(-4.1,-4.7)
+		  \psline(-3.3,-2.8)(-4.1,-2.8)
+		  \psline(-4.1,-2.8)(-4.1,-3.8)
+		  \psline(-4.1,-4.1)(-4.1,-4.7)
+		  \psline(-4.1,-3.8)(-5,-3.8)
+		  \psline(-4.1,-4.1)(-5.1,-4.1)
+		  \psline(-5.1,-4.1)(-5.1,-1)
+		  \psline(-5,-3.8)(-5,-1)
+		  
+		  \psline{&gt;}(-1.15,-2.75)(-2.45,-2.75)
+		  \psline(-1.05,-2.6)(-2.8,-2.6)
+		  \psline(-1.05,-2.9)(-2.5,-2.9)
+		  \rput(-2.1,-2){liquefied air}
+		  \rput(-2.1,-2.4){in at -200 C}
+		  \pscircle(-1.42,-2.26){0.04}
+		  \psline(-2.8,-2.6)(-2.8,-3.6)
+		  \psline(-2.5,-2.9)(-2.5,-3.9)
+		  \psline(-2.5,-3.9)(-3.3,-3.9)
+		  \psline(-2.8,-3.6)(-3.3,-3.6)
+		  
+		  \psline[linecolor=blue](-4.5,-3.8)(-5,-3.8)
+		  \psarc(0.05,0){1}{0}{85}
+		  \psarc(-0.05,0){1}{95}{180}
+		  \psline(-1.05,0)(-1.05,-2.6)
+		  \psline(-1.05,-2.9)(-1.05,-4)
+		  \psline[linearc=0.2](-0.12,0.97)(-0.12,2)(1.5,2)
+		  \psline[linearc=0.2](0.12,0.97)(0.12,1.76)(1.5,1.76)
+		  \rput(1.2,1.55){\textbf{nitrogen gas}}
+		  \rput(1,1.18){-190 C}
+		  \pscircle(1.25,1.32){0.04}
+		  
+		  \psarc(-0.05,-4){1}{180}{-95}
+		  \psarc(0.05,-4){1}{-85}{0}
+		  \psline(1.05,0)(1.05,-4)
+		  \psline[linearc=0.2](-0.12,-4.97)(-0.12,-6)(1.5,-6)
+		  \psline[linearc=0.2](0.12,-4.97)(0.12,-5.76)(1.5,-5.76)
+		  \rput(1.3,-5.2){\textbf{liquid oxygen}}
+		  \rput(1,-5.57){-185 C}
+		  \pscircle(1.25,-5.43){0.04}
+		</code>
+	      </pspicture>
+	      <caption>
+		<para>A fractional distillation column for the separation of the components of air.</para>
+	      </caption>
+	    </figure>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing ammonia: The Haber process</title>
+	    <para>Ammonia (<chem_compound>NH_{3}</chem_compound>) plays an important role in the manufacturing process of fertilisers. The industrial process used to produce ammonia is called the <emphasis effect="bold"><link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F4.pdf">Haber process</link></emphasis>. In this reaction nitrogen gas and hydrogen gas react to produce ammonia gas. The equation for the Haber process is:</para>
+	    <para><chem_compound>N_{2}(g) + 3H_{2}(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>2NH_{3}(g)</chem_compound></para>
+	    <para>This reaction takes place in the presence of an iron (Fe) catalyst under high pressure (<number>200</number> atmospheres (atm)) and temperature (<number>450</number> – <unit_number><number>500</number><unit>°C</unit></unit_number>) conditions.</para>
+	    <note type="aside">
+	      <para><unit_number><number>1</number><unit>atm</unit></unit_number> = <unit_number><number>101.325</number><unit>kPa</unit></unit_number></para>
+	    </note>
+	    <para>By the <number>20</number>th century, a number of methods had been developed to <emphasis effect="italics">fix</emphasis> atmospheric nitrogen, in other words to make it usable for plants. Sources of nitrogen for fertilisers included <emphasis effect="italics">saltpetre</emphasis> (<chem_compound>NaNO_{3}</chem_compound>) from Chile, and guano. Guano is the droppings of seabirds, bats and also seals. In the early <number>20</number>th century, before the start of the First World War, the Haber process was developed by two German chemists, Fritz Haber and Karl Bosch. They determined what the best conditions were in order to get a high yield of ammonia, and found these to be <emphasis effect="bold">high temperature</emphasis> and <emphasis effect="bold">high pressure</emphasis>. During World War I, the ammonia produced by the Haber process was used to make explosives.</para>
+	    <note type="aside">
+	      <para>The forward reaction of the Haber process is exothermic, so the forward reaction is favoured by low temperatures. However, low temperatures slow all chemical reactions. So, the Haber process requires high temperatures, and the ammonia is removed as soon as it is formed to prevent it being used in the reverse reaction.</para>
+	    </note>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing nitric acid: The Ostwald process</title>
+	    <para>The <emphasis effect="bold"><link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F5.pdf">Ostwald process</link></emphasis> is used to produce nitric acid from ammonia. Nitric acid can then be used in reactions that produce fertilisers. Ammonia is converted to nitric acid in a three-step process.</para>
+	    <para>Firstly ammonia is <emphasis effect="bold">oxidised</emphasis> by heating it with oxygen, in the presence of a platinum (<chem_compound>Pt</chem_compound>) catalyst, to form nitrogen monoxide (<chem_compound>NO</chem_compound>) and water. This step is strongly <emphasis effect="bold">exothermic</emphasis>, which makes it a useful heat source. The reaction that takes place is:</para>
+	    <para><chem_compound>4NH_{3}(g) + 5O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>4NO(g) + 6H_{2}O(g)</chem_compound></para>
+	    <para>In the second step, nitrogen monoxide is oxidised again to yield nitrogen dioxide (<chem_compound>NO_{2}</chem_compound>) according to the following reaction:</para>
+	    <para><chem_compound>2NO(g) + O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>2NO_{2}(g)</chem_compound></para>
+	    <para>In step three, nitrogen dioxide is absorbed by water to produce nitric acid (<chem_compound>HNO_{3}</chem_compound>) as follows:</para>
+	    <para><chem_compound>3NO_{2}(g) + H_{2}O(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>2HNO_{3}(aq) + NO(g)</chem_compound></para>
+	    <para>Nitrogen monoxide, also known as nitrogen oxide or nitric oxide, is a by-product of this reaction. The nitrogen monoxide is recycled and the acid is concentrated to the required strength (e.g., for use in further chemical processes).</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing ammonium nitrate</title>
+	    <para>Nitric acid and ammonia can react together in an acid-base process to form the salt, ammonium nitrate (<chem_compound>NH_{4}NO_{3}</chem_compound>). Ammonium nitrate is soluble in water and is often used in fertilisers. The reaction is as follows:</para>
+	    <para><chem_compound>NH_{3}(ℓ) + HNO_{3}(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>NH_{4}NO_{3}(s)</chem_compound></para>
+	    <figure id="fig:chemind:ammoniumnitrate">
+	      <type>figure</type>
+	      <image style:width="0.9">
+		<src>photos/ammonium_nitrate.jpg</src>
+		<attribution>Photos by Terravola and Ben Mills on wikipedia</attribution>
+	      </image>
+	      <caption>
+		<para>Ammonium nitrate presented as <emphasis effect="bold">a)</emphasis> the structural formula, <emphasis effect="bold">b)</emphasis> a three-dimensional molecular representation and <emphasis effect="bold">c)</emphasis> solid crystals.</para>
+	      </caption>
+	    </figure>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing urea</title>
+	    <para>Urea (<chem_compound>(NH_{2})_{2}CO</chem_compound>) is a nitrogen-containing compound that is produced on a large scale worldwide. It has the highest nitrogen content (<percentage>46.4</percentage>) of all solid nitrogen-containing fertilisers that are commonly used, and is produced by the reaction of <emphasis effect="italics">ammonia</emphasis> with <emphasis effect="italics">carbon dioxide</emphasis>. Two reactions are involved in producing urea and ammonium carbamate (<chem_compound>H_{2}NCOONH_{4}</chem_compound>) is an intermediate product.</para>
+	    <para><chem_compound>2NH_{3}(g) + CO_{2}(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>H_{2}NCOONH_{4}(s)</chem_compound></para>
+	    <para><chem_compound>H_{2}NCOONH_{4}(s)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>(NH_{2})_{2}CO(aq) + H_{2}O(ℓ)</chem_compound></para>
+	    <figure id="fig:chemind:urea">
+	      <type>figure</type>
+	      <pspicture style:width="0.9">
+		<code>
+		  (-0.5,-2.5)(22.3,2.5)
+		  \rput(13,0){\includegraphics{photos/urea.eps}}
+		  \rput(0,1.5){\textbf{\huge a)}}
+		  \rput(4.5,1.5){\textbf{\huge b)}}
+		  \rput(9.5,1.5){\textbf{\huge c)}}
+		  \rput(0.45,-1.5){\textbf{\LARGE H$_{2}$N}}
+		  \psline[linewidth=2pt](0.85,-1.1)(1.7,-0.3)
+		  \rput(1.9,0){\textbf{\LARGE C}}
+		  \psline[linewidth=2pt](2.1,-0.3)(2.95,-1.1)
+		  \rput(3.35,-1.5){\textbf{\LARGE NH$_{2}$}}
+		  \psline[linewidth=2pt](2,0.3)(2,1.2)
+		  \psline[linewidth=2pt](1.8,0.3)(1.8,1.2)
+		  \rput(1.9,1.5){\textbf{\LARGE O}}
+		</code>
+	      </pspicture>
+	      <caption>
+		<para>Urea presented as <emphasis effect="bold">a)</emphasis> the structural formula, <emphasis effect="bold">b)</emphasis> a space-filling three-dimensional model and <emphasis effect="bold">c)</emphasis> solid crystals.</para>
+	      </caption>
+	    </figure>
+	    <note type="aside">
+	      <para>In 1828, the German chemist Friedrich Wöhler obtained urea by treating silver cyanate (<chem_compound>AgOCN</chem_compound>) with ammonium chloride (<chem_compound>NH_{4}Cl</chem_compound>):</para>
+	      <para><chem_compound>AgOCN + NH_{4}Cl</chem_compound> <latex>\to</latex> <chem_compound>(NH_{2})_{2}CO + AgCl</chem_compound></para>
+	      <para>This was the first time an organic compound was artificially synthesised from inorganic starting materials, without the use of living organisms.</para>
+	    </note>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing sulfuric acid: The Contact process</title>
+	    <para>Sulfuric acid (<chem_compound>H_{2}SO_{4}</chem_compound>) is produced from sulfur, oxygen and water through the <emphasis effect="bold"><link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F5.pdf">Contact process</link></emphasis>. In the first step, sulfur is burned to produce sulfur dioxide (<chem_compound>SO_{2}</chem_compound>):</para>
+	    <para><chem_compound>S(s) + O_{2}(g)</chem_compound> <latex>\to</latex> <chem_compound>SO_{2}(g)</chem_compound></para>
+	    <para>This is then oxidised to sulfur trioxide (<chem_compound>SO_{3}</chem_compound>) using oxygen in the presence of a vanadium(V) oxide catalyst:</para>
+	    <para><chem_compound>2SO_{2}(g) + O_{2}(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>2SO_{3}(g)</chem_compound></para>
+	    <para>Finally the sulfur trioxide is treated with water to produce sulfuric acid with a purity of <number>98</number> - <percentage>99</percentage>:</para>
+	    <para><chem_compound>SO_{3}(g) + H_{2}O(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>H_{2}SO_{4}(ℓ)</chem_compound></para>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing ammonium sulfate</title>
+	    <para>Ammonium sulfate (<chem_compound>(NH_{4})_{2}SO_{4}</chem_compound>) can be produced industrially through a number of processes, one of which is the reaction of ammonia with sulfuric acid to produce a solution of ammonium sulfate according to the acid-base reaction below:</para>
+	    <para><chem_compound>2NH_{3}(g) + H_{2}SO_{4}(ℓ)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>(NH_{4})_{2}SO_{4}(s)</chem_compound></para>
+	    <para>The ammonium sulfate solution is concentrated by evaporating the water until ammonium sulfate crystals are formed.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing phosphoric acid and super phosphates</title>
+	    <para>The production of phosphate fertilisers also includes a number of processes. The first is the production of sulfuric acid through the <emphasis effect="bold">Contact process</emphasis>.  Sulfuric acid is then used in a reaction with phosphate rock (e.g. fluorapatite (<chem_compound>Ca_{5}(PO_{4})_{3}F</chem_compound>)) to produce phosphoric acid (<chem_compound>H_{3}PO_{4}</chem_compound>). For more information refer to the <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F6.pdf">Chemical Industries Resource Pack</link>.</para>
+	    <para><chem_compound>Ca_{5}(PO_{4})_{3}F(s) + 5H_{2}SO_{4}(ℓ)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>5CaSO_{4}(s) + HF(ℓ) + 3H_{3}PO_{4}(ℓ)</chem_compound></para>
+	    <para>Sulfuric acid can be reacted further with phosphate rock to produce single super phosphates (SSP):</para>
+	    <para><chem_compound>2Ca_{5}(PO_{4})_{3}F(s) + 7H_{2}SO_{4}(ℓ)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>3Ca(H_{2}PO_{4})_{2}(s) + 7CaSO_{4}(s) + 2HF(ℓ)</chem_compound></para>
+	    <para>If phosphoric acid reacts with phosphate rock, triple super phosphates (TSP) are produced:</para>
+	    <para><chem_compound>Ca_{5}(PO_{4})_{3}F(s) + 7H_{3}PO_{4}(ℓ)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>5Ca(H_{2}PO_{4})_{2}(s) + HF(ℓ)</chem_compound></para>
+	  </section>
+	  <section type="subsection">
+	    <title>Producing compound fertilisers: The nitrophosphate process</title>
+	    <para>The nitrophosphate process is one of the processes used to make complex fertilisers. It involves acidifying calcium phosphate (<chem_compound>Ca_{3}(PO_{4})_{2}</chem_compound>) with nitric acid to produce a mixture of phosphoric acid and calcium nitrate (<chem_compound>Ca(NO_{3})_{2}</chem_compound>):</para>
+	    <para><chem_compound>Ca_{3}(PO_{4})_{2}(s) + 6HNO_{3}(ℓ) + 12H_{2}O(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>2H_{3}PO_{4}(aq) + 3Ca(NO_{3})_{2}(aq) + 12H_{2}O(ℓ)</chem_compound></para>
+	    <para>When calcium nitrate and phosphoric acid react with ammonia, a compound fertiliser is produced.</para>
+	    <para><chem_compound>Ca(NO_{3})_{2}(s) + 4H_{3}PO_{4}(ℓ) + 8NH_{3}(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>CaHPO_{4}(s) + 2NH_{4}NO_{3}(s) + 8(NH_{4})_{2}HPO_{4}(s)</chem_compound></para>
+	    <para>If potassium chloride or potassium sulfate is added, the result will be a NPK fertiliser.</para>
+	  </section>
+	<section type="subsection">
+	  <title>Advantages and disadvantages of inorganic fertilisers</title>
+	  <shortcode>Shortcode</shortcode>
+	  <list list-type="bulleted">
+	    <item>
+	      <para><emphasis effect="bold">Advantages</emphasis></para>
+	      <para>Organic fertilisers generally do not contain high levels of nutrients and might not be suitable to sustain high intensity crop production. <emphasis effect="bold">Large scale</emphasis> agricultural facilities <emphasis effect="bold">prefer inorganic</emphasis> fertilisers as they provide a more accurate control over their nutrient supply. Inorganic fertilisers are supplied in a water-soluble form which ensures that they are easily absorbed by plants. Much less inorganic fertiliser can therefore be applied to have the same result as organic fertilisers.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Disadvantages</emphasis></para>
+	      <para>The two major disadvantages of inorganic fertilisers are that:</para>
+	      <list list-type="bulleted">
+		<item>
+		  <para>Inorganic fertilisers must be manufactured industrially. This involves cost in terms of both chemicals and the energy involved in the production. Air pollution is also a result of these industrial processes.</para>
+		</item>
+		<item>
+		  <para>Nutrients which are <emphasis effect="bold">not taken up by plants</emphasis>, will either accumulate in the soil therefore <emphasis effect="bold">poisoning the soil</emphasis>, or <emphasis effect="bold">leach into the ground water</emphasis> where they will be washed away and accumulate in water sources like dams or underground rivers. This is discussed in more detail in <link url="todo">Section 14.6</link>.</para>
+		</item>
+	      </list>
+	    </item>
+	  </list>
+	</section>
+	  <teachers-guide>
+	    <para>The answers to the fertiliser animation worksheet are available here: <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/AnimationMemos/TG_A_M_F.pdf"> Fertiliser animation worksheet memo</link></para>
+	    <para>Images of the worksheet and the memo have also been included in the teachers guide. You may print out the worksheet for your learners.</para>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_01.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_02.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_03.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_04.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_05.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_memo_01.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_memo_02.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_memo_03.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	    <image style:width="1.2">
+	      <src>photos/worksheet_memo_04.jpg</src>
+	      <attribution>Reproduced with permission from the UCT Chemical Industries Resource Pack</attribution>
+	    </image>
+	  </teachers-guide>
+	  <activity type="activity">
+	    <title>The industrial production of fertilisers</title>
+	    <para>Now that you have gone through this section, watch the following animation and go through the <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/teachers-guide/AnimationWorksheets/TG_A_W_F.pdf">worksheet</link> that accompanies it.</para>
+	    <video>
+	      <shortcode>Shortcode</shortcode>
+	      <title>The industrial production of fertilisers</title>
+	      <url>https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/animations/Fertilisers.swf</url>
+	    </video>
+	  <para>Reproductions of the worksheets are given in the teachers guide.</para>
+	  </activity>
+	<exercises>
+	  <title>The industrial production of fertilisers</title>
+	  <entry>
+	    <shortcode>Shortcode</shortcode>
+	    <problem>
+	      <para>Use the following processes to create your own mind map of the manufacturing of fertilisers:</para>
+	      <list list-type="bulleted">
+		<item>
+		  <para>Fractional distillation</para>
+		</item>
+		<item>
+		  <para>Steam reforming</para>
+		</item>
+		<item>
+		  <para>Haber process</para>
+		</item>
+		<item>
+		  <para>Contact process</para>
+		</item>
+		<item>
+		  <para>Ostwald process</para>
+		</item>
+		<item>
+		  <para>you can, and should, add to this list</para>
+		</item>
+	      </list>
+	      <para>Include what the reactants and the products are for each process and how these link with the other processes involved.</para>
+	    </problem>
+	    <solution>
+	      <image style:width="0.8">
+		<src>photos/Fertiliser_CMAP.jpg</src>
+		<attribution>Mindmap reproduced with permission from the UCT Chemical Engineering Schools Project</attribution>
+	      </image>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <entry>
+	    <shortcode>Shortcode</shortcode>
+	    <problem>
+	      <para>Research the process of fractional distillation (from old school science textbooks, from your teacher, or the internet) and write a paragraph on how this process works.</para>
+	    </problem>
+	    <solution>
+	    <para>Fractional distillation is a separation method that uses the difference in boiling temperatures of the components of a mixture to separate those components. The mixture is heated to convert the components into the vapour (gas) phase. The vapour mixture is then pumped into a tall separation column (called a fractional distillation column), usually at the bottom of the column. As the vapour mixture moves up the column and cools, the different components (called fractions) condense as the temperature drops below the various boiling point temperatures. The fractions are collected using collection trays. The fractions can be removed from the mixture in this way and thus the components are separated. This process is used to separate the components of air or crude oil.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <multi-part>
+	    <shortcode>Shortcode</shortcode>
+	    <header>
+	      <para>The reaction of hydrogen and nitrogen is an exothermic reversible reaction.</para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>Write a balanced equation for this reaction.</para>
+	      </problem>
+	      <solution>
+		<para><chem_compound>N_{2}(g) + 3H_{2}(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>2NH_{3}(g)</chem_compound></para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <multi-part>
+	      <header>
+		<para>Use your knowledge of chemical equilibrium and explain what effect the following will have on this equilibrium reaction:</para>
+	      </header>
+	      <entry>
+		<problem>
+		  <para>raising the temperature</para>
+		</problem>
+		<solution>
+		  <para>When the <emphasis effect="bold">temperature</emphasis> of any reaction is increased, the rate of both the forward and the reverse reactions will be increased. However, the forward reaction is exothermic. Raising the temperature would favour the reaction which would remove the excess heat. The reverse reaction will therefore be favoured more than the forward reaction. This will result in more <chem_compound>NH_{3}</chem_compound> decomposing to form <chem_compound>H_{2}</chem_compound> and <chem_compound>N_{2}</chem_compound>. The overall result will be that <emphasis effect="bold">more reactants will be formed</emphasis>.</para>
+		</solution>
+		<correct/>
+	      </entry>
+	      <entry>
+		<problem>
+		  <para>raising the pressure</para>
+		</problem>
+		<solution>
+		  <para>Raising the <emphasis effect="bold">pressure</emphasis> will shift the equilibrium to decrease the pressure. This would favour the reaction which produced fewer molecules. The forward reaction produces 2 moles of <chem_compound>NH_{3}</chem_compound> (compared to the 4 moles of the reverse reaction). The forward reaction will therefore be favoured. The overall result will be that <emphasis effect="bold">more products will be formed</emphasis>.</para>
+		</solution>
+		<correct/>
+	      </entry>
+	    </multi-part>
+	  </multi-part>
+	  <multi-part>
+	    <shortcode>Shortcode</shortcode>
+	    <header>
+	      <para>Ammonia and nitric acid react to form the compound A. Compound A is soluble in water and can be used as a fertiliser.</para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>Write down the name and formula for compound A.</para>
+	      </problem>
+	      <solution>
+		<para><correct>ammonium nitrate</correct>, <chem_compound>NH_{4}NO_{3}</chem_compound></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>What type of reaction takes place to form compound A.</para>
+	      </problem>
+	      <solution>
+		<para><correct>Acid-base </correct>reaction</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Write a balanced equation for the reaction to form compound A.</para>
+	      </problem>
+	      <solution>
+		<para><chem_compound>NH_{3}(g) + HNO_{3}(ℓ)</chem_compound> <latex>\to</latex> <chem_compound>NH_{4}NO_{3}(s)</chem_compound></para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Compound A is dissolved in water. Write a balanced ionic equation for this dissolution reaction. Include the state symbols in your equation.</para>
+	      </problem>
+	      <solution>
+		<para><chem_compound>NH_{4}NO_{3}(s)</chem_compound> <latex>\to</latex> <chem_compound>NH_{4}^{+}(aq) + NO_{3}^{-}(aq)</chem_compound></para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Why is it important for fertilisers to be soluble in water?</para>
+	      </problem>
+	      <solution>
+		<para>So that the plants can absorb them from the soil.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Compound A can also be used as an explosive. What precautions need to be taken when this compound is packaged and transported?</para>
+	      </problem>
+	      <solution>
+		<para>Packages need to be kept away from heat and flames.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	  </multi-part>
+	  <multi-part>
+	    <shortcode>Shortcode</shortcode>
+	    <header>
+	      <para>The following reaction can be used to manufacture hydrogen gas. It is an exothermic redox reaction.</para>
+	      <para><chem_compound>CO(g) + H_{2}O(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>CO_{2}(g) + H_{2}(g)</chem_compound></para>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>Write down the reduction half reaction for this reaction.</para>
+	      </problem>
+	      <solution>
+		<para>Reduction is gain of electrons. <chem_compound>H^{+}</chem_compound> in <chem_compound>H_{2}O</chem_compound> gains an electron to become <chem_compound>H</chem_compound>.</para>
+		<para><correct><chem_compound>2H^{+} + 2e^{-}</chem_compound> <latex>\to</latex> <chem_compound>H_{2}</chem_compound></correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Which compound is the reducing agent?</para>
+	      </problem>
+	      <solution>
+		<para><correct>Carbon monoxide or <chem_compound>CO</chem_compound></correct>. <chem_compound>CO</chem_compound> causes <chem_compound>H_{2}O</chem_compound> to be reduced.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Which compound is the oxidising agent?</para>
+	      </problem>
+	      <solution>
+		<para><correct>Water or <chem_compound>H_{2}O</chem_compound></correct>. <chem_compound>H_{2}O</chem_compound> causes <chem_compound>CO</chem_compound> to be oxidised.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Identify two conditions that will ensure a high yield of hydrogen.</para>
+	      </problem>
+	      <solution>
+		<para>Remove <chem_compound>CO_{2}</chem_compound> and <chem_compound>H_{2}</chem_compound> (the products) from the reaction vessel. More product will therefore be formed from the same amount of reactants.</para>
+		<para>Decrease the temperature. This will favour the forward (exothermic) reaction and more product will be formed with the same amount of reactants, meaning an increased yield.</para>
+		<para>(Increasing the concentration of <chem_compound>CO</chem_compound> or <chem_compound>H_{2}O</chem_compound> (steam) (the reactants) will increase the amount of product formed, but not the yield. More reactants means that more product must be formed to get the same yield because the maximum yield possible has increased).</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	  </multi-part>
+	</exercises>
+      </section>
+	<section type="section">
+	  <title>Alternative sources of fertilisers</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>Industrial fertilisers have not always been used, and even today many people prefer to use natural fertilisers rather than man-made ones. For more information on alternative sources of fertiliser see the Chemical Industries Resource Pack worksheets <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F3.pdf">here</link> and <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F9.pdf">here</link>.</para>
+	  <section type="subsection">
+	    <title>Organic fertilisers</title>
+	    <para>Organic fertilisers are not manufactured by man, but come from natural sources. Examples are manure, blood and bones, guano, compost and kelp products. Organic fertilisers contain lower levels of nutrients and might take longer than inorganic fertilisers to be absorbed as they generally have to degrade first. The advantage of organic fertilisers is that they increase the organic component of the soil. This improves the physical structure of the soil, which in turn increases the soil’s water-holding capacity. The nutrients also tend to be released slower than those of inorganic fertilisers, decreasing their contribution to water pollution.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Manure</title>
+	    <figure id="fig:chemind:manure">
+	      <type>figure</type>
+	      <image style:width="0.4">
+		<src>photos/manure.jpg</src>
+		<attribution>Photo by ednl on Flickr</attribution>
+	      </image>
+	      <caption>
+		<para>Horse dung, a type of manure.</para>
+	      </caption>
+	    </figure>
+	    <para>Manure is a  solid waste product from animals that is widely used as an organic fertiliser in agriculture. It contains <emphasis effect="bold">high levels</emphasis> of <emphasis effect="italics">nitrogen, phosphorus, potassium</emphasis> and other nutrients. Manure decomposes over time through bacterial and microbial action and in the process releases these nutrients into the soil. This <emphasis effect="bold">slow release mechanism</emphasis> is a great benefit to farmers as it limits the leaching of nutrients into the ground water, making it available to plants over a longer period of time. Manure also adds organic matter to the soil, <emphasis effect="italics">increasing the quality of the soil itself</emphasis>.</para>
+	    <para>Plants can only absorb nutrients that are dissolved in water. When manure decomposes, the nitrogen compounds are converted to a form that is soluble in water, for example nitrates (<chem_compound>NO_{3}^{-}</chem_compound>). The nitrates are dissolved in the moisture in the soil and plants are then able to absorb the nitrogen compounds through their root system.</para>
+	    <math_extension>
+	      <title>Kraal manure</title>
+	      <body>
+		<para>Phosphorus and nitrogen are often the most deficient mineral nutrients in South African soil. The average NPK formula for kraal manure found in the Eastern Cape is <number>3</number>:<number>1</number>:<number>4</number> (3). Unfortunately this is not as high in phosphorus, and has a much lower nutrient concentration, than many inorganic fertilisers. However, kraal manure is a much cheaper alternative, is readily available and does not need to be transported as far.</para>
+		<para>More information on the use of kraal manure can be found on the Agriculture, Forestry &amp; Fisheries <link url="http://www.nda.agric.za/docs/Infopaks/KraalManure.pdf">website</link>.</para>
+	      </body>
+	    </math_extension>
+	  </section>
+	  <section type="subsection">
+	    <title>Guano</title>
+	    <figure id="fig:chemind:guano">
+	      <type>figure</type>
+	      <image style:width="0.6">
+		<src>photos/guano.jpg</src>
+		<attribution>Photos by Jo Jakeman and twak on Flickr</attribution>
+	      </image>
+	      <caption>
+		<para><emphasis effect="bold">a)</emphasis> A cliff covered in guano and <emphasis effect="bold">b)</emphasis> a guano mine off the coast of Peru. Guano is the excretion of seabirds, bats and seals.</para>
+	      </caption>
+	    </figure>
+	    <para>Guano is the excretion of seabirds, bats and seals. Guano consists of <emphasis effect="italics">ammonia, uric acid, phosphoric acid, oxalic acid</emphasis> and <emphasis effect="italics">carbonic acid</emphasis> and also has a high concentration of nitrates. The particularly high levels of phosphorus make this an <emphasis effect="bold">effective phosphorus fertiliser</emphasis>. Guano was mined off the West Coast of South Africa as early as 1666. Since the 1840’s, large scale mining of guano caused the reserves to be depleted and mining was stopped by the turn of the century.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Crop rotation</title>
+	    <figure id="fig:chemind:guano">
+	      <type>figure</type>
+	      <image style:width="0.6">
+		<src>photos/croprotation.jpg</src>
+		<attribution>Photos by reinagnoma and Cathy, Sam, Max and Mai on Flickr</attribution>
+	      </image>
+	      <caption>
+		<para><emphasis effect="bold">a) </emphasis> A soy bean field and <emphasis effect="bold">b)</emphasis> a maize field. Crop rotation helps to restore nutrients in the soil.</para>
+	      </caption>
+	    </figure>
+	    <para>Crop rotation is a farming method that is used to manage the nutrients in soil naturally. When the <emphasis effect="bold">same crop</emphasis> is grown repeatedly in the same place, it eventually <emphasis effect="bold">depletes the soil</emphasis> of specific nutrients. With crop rotation, one type of crop that depletes the soil of a particular kind of nutrient, is rotated with another type of crop which replaces the depleted nutrient. For example, legumes, like beans or peas, have nodules on their roots which contain nitrogen-fixing bacteria. These bacteria help ‘fix’ or change nitrogen into a soluble form. Legumes are therefore often alternated with plants requiring nitrogen, and soy beans can therefore be followed by maize.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Lime</title>
+	    <figure id="fig:chemind:limestone">
+	      <type>figure</type>
+	      <image style:width="0.5">
+		<src>photos/limestone.jpg</src>
+		<attribution>Photo by tauress on Flickr</attribution>
+	      </image>
+	      <caption>
+		<para>Limestone.</para>
+	      </caption>
+	    </figure>
+	    <para>Agricultural lime, or crushed limestone, can be used as an alternative fertiliser. Lime <emphasis effect="bold">increases the pH of soil</emphasis>, making the soil less acidic, and <emphasis effect="bold">more soluble</emphasis> for <emphasis effect="italics">nitrogen, potassium</emphasis> and <emphasis effect="italics">phosphorus</emphasis> compounds. These nutrients will therefore be more readily available for absorption by plants.</para>
+	  </section>
+	  <section type="subsection">
+	    <title>Potash</title>
+	    <figure id="fig:chemind:potash">
+	      <type>figure</type>
+	      <image style:width="0.5">
+		<src>photos/potash.jpg</src>
+		<attribution>Public Domain on wikipedia</attribution>
+	      </image>
+	      <caption>
+		<para>Potash.</para>
+	      </caption>
+	    </figure>
+	    <para>Potash is the <emphasis effect="bold">common name</emphasis> for various mined and manufactured <emphasis effect="bold">salts</emphasis> that contain <emphasis effect="bold">potassium</emphasis> in the water-soluble form. The name is derived from <emphasis effect="italics">pot ash</emphasis>, which was the main method of manufacturing potassium salts before the industrial era. Ashes from a fire were soaked in a pot of water after which the water was filtered out. The water, containing the leached potassium salts, was then evaporated to obtain a white powder known as potash.</para>
+	    <para>Potash is a rich source of potassium and could contain <emphasis effect="bold">potassium carbonate</emphasis> (<chem_compound>K_{2}CO_{3}</chem_compound>), <emphasis effect="bold">potassium chloride</emphasis> (<chem_compound>KCl</chem_compound>), <emphasis effect="bold">potassium sulfate</emphasis> (<chem_compound>K_{2}SO_{4}</chem_compound>) or <emphasis effect="bold">potassium nitrate</emphasis> (<chem_compound>KNO_{3}</chem_compound>). Up to the 19th century potash was manufactured in asheries using wood ashes, but these declined in the late 19th century when large-scale production of potash from mineral salts was established in Germany.</para>
+	  </section>
+	<teachers-guide>
+	  <para>Purpose of the activity:</para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para>To work individually and as a group.</para>
+	    </item>
+	    <item>
+	      <para>Testing comprehension skills.</para>
+	    </item>
+	    <item>
+	      <para>To summarise the content for study purposes.</para>
+	    </item>
+	  </list>
+	  <para>This activity involves the learners working on their own for 15 minutes and then forming groups of <number>3</number> - <number>4</number> to share what they have summarised in the first 15 minutes. The collaborative findings of the group are then shared with the class.</para>
+	  <para>Each learner is allocated one of the sub-topics under this heading. The teachers can decide which ones they would like to include. The advantages and disadvantages of fertilisers and the next section on eutrophication could also be included. Ensure that two learners sitting next to each other do not receive the same topic. Give the learners 15 minutes (in silence on their own) to read the content in the textbook and summarise the most important facts in their own words. <number>1</number> - <number>2</number> sentences will be sufficient. Additional support might be required where learners struggle to identify the most important facts in a paragraph. Now group the learners with the same topics. Each group has 15 minutes to share with each other what they have learned and prepare a summary of their findings (<number>3</number> - <number>4</number> sentences) which will be reported back to the whole class. If the lesson time at your school is short, the first section of this activity can be given as homework for this lesson so that more class time will be available for feedback.  A general discussion of the section can follow.</para>
+	</teachers-guide>
+	<activity type="activity">
+	  <title>Alternative sources of fertilisers</title>
+	  <list list-type="enumerated">
+	    <item>
+	      <para>Work on your own to summarise one of the sections on the alternative fertiliser sources. Remember to summarise in your own words.</para>
+	    </item>
+	    <item>
+	      <para>Find all the other learners in your class who have summarised the same topic as you and form a group. Share with your group members what you have summarised.</para>
+	    </item>
+	    <item>
+	      <para>As a group, prepare <number>3</number> - <number>4</number> sentences on your alternative source of fertiliser. Share your information with the class in <number>1</number> - <number>2</number> minutes in a debate format.</para>
+	    </item>
+	  </list>
+	</activity>
+      </section>
+      <section type="section">
+	<title>Fertilisers and the environment</title>
+	<shortcode>Shortcode</shortcode>
+	<teachers-guide>
+	  <para>This section can be taught using the suggested class discussion.</para>
+	</teachers-guide>
+	<para>The fertiliser industry is a very important industry in South Africa and in the world. It helps provide the nutrients that we need to ensure healthy crops to sustain life on Earth. However, fertilisers can also <link url="https://vula.uct.ac.za/access/content/group/9eafe770-4c41-4742-a414-0df36366abe6/Chem%20Ind%20Resource%20Pack/html/learner-sheets/F/LS_F12.pdf">harm the environment</link> if they are not used in a responsible manner. This section will focus on some of the environmental problems that excessive use of fertilisers can cause.</para>
+	<section type="subsection">
+	  <title>Eutrophication</title>
+	  <shortcode>Shortcode</shortcode>
+	  <para>Eutrophication (Figure <link target-id="fig:chemind:algalbloom"/>) is the enrichment of an ecosystem with large quantities of chemical compounds, mostly containing the nutrients <emphasis effect="bold">nitrogen</emphasis> and <emphasis effect="bold">phosphorus</emphasis>. Eutrophication is considered a form of <emphasis effect="bold">pollution</emphasis> because it promotes excessive plant growth, favouring certain species over others. In aquatic environments, the rapid growth of certain types of plants can <emphasis effect="bold">disrupt the normal functioning of an ecosystem</emphasis>, causing a variety of problems. Human society is impacted as well, as health-related problems can occur if eutrophic conditions interfere with the treatment of drinking water. Eutrophication can also decrease the resource value of rivers, lakes, and estuaries.</para>
+	  <figure id="fig:chemind:algalbloom">
+	    <type>figure</type>
+	    <image style:width="0.95">
+	      <src>photos/algal_bloom.jpg</src>
+	      <attribution>Photos by eutrophication&amp;hypoxia, Gwydion M. Williams and suavehouse113 on Flickr</attribution>
+	    </image>
+	    <caption>
+	      <para>An example of the effect of eutrophication (algal bloom).</para>
+	    </caption>
+	  </figure>
+	  <definition>
+	    <term>Eutrophication</term>
+	    <meaning>Eutrophication refers to an over-supply in chemical nutrients in an ecosystem, leading to the depletion of oxygen in a water system through excessive plant growth. These chemical nutrients usually contain nitrogen or phosphorus.</meaning>
+	  </definition>
+	  <para>In some cases, eutrophication can be a natural process that occurs very slowly over time.  However, it can also be accelerated by certain human activities.  <emphasis effect="bold">Agricultural runoff</emphasis>, where excess fertilisers are washed off fields and into ground water, and <emphasis effect="bold">sewage</emphasis>, are two of the major causes of eutrophication. The impacts of eutrophication are the following:</para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para><emphasis effect="bold">A decrease in biodiversity (the number of plant and animal species in an ecosystem)</emphasis></para>
+	      <para>When a system is enriched with nitrogen, plant growth is accelerated. When the number of plants increases in an aquatic system, it can block light from reaching deeper water. Plants also consume oxygen for respiration, depleting the oxygen content of the water, which can cause other organisms, such as fish, to die.</para>
+	    </item>
+	    <item>
+	      <para><emphasis effect="bold">Toxicity</emphasis></para>
+	      <para>In certain instances the plants that flourish during eutrophication can be toxic and these toxins may accumulate in the food chain.</para>
+	    </item>
+	  </list>
+	  <note type="aside">
+	    <para>A buffer zone is an area that lies between two other areas, for example, a farm and a river. It is an area of land designated for environmental protection.</para>
+	  </note>
+	  <para>Despite these impacts, there are a number of ways to prevent eutrophication from taking place.</para>
+	  <para><emphasis effect="bold">Prevention of eutrophication:</emphasis></para>
+	  <list list-type="bulleted">
+	    <item>
+	      <para>Clean-up measures can directly remove the excess nutrients such as nitrogen and phosphorus from the water.</para>
+	    </item>
+	    <item>
+	      <para>Creating buffer zones near farms, roads and rivers can also help. These act as filters and cause nutrients and sediments to be deposited there instead of in the aquatic system.</para>
+	    </item>
+	    <item>
+	      <para>Laws relating to the treatment and discharge of sewage can also help to control eutrophication.</para>
+	    </item>
+	    <item>
+	      <para>A final possible intervention is nitrogen testing and modelling. By assessing exactly how much fertiliser is needed by crops and other plants, farmers can make sure that they apply only the required amount of fertiliser. This means that there is no excess to run off into neighbouring streams when it rains. This includes a cost benefit for the farmer as they are less likely to waste fertiliser.</para>
+	    </item>
+	  </list>
+	  <note type="aside">
+	    <para>South Africa's Department of Water Affairs and Forestry has a <emphasis effect="italics">National Eutrophication Monitoring Programme</emphasis>, which was set up to monitor eutrophication in impoundments such as dams, where no monitoring was taking place.</para>
+	  </note>
+	  <activity type="activity">
+	    <title>Dealing with the consequences of eutrophication</title>
+	    <para>In many cases, the damage from eutrophication is already done. As a class, discuss the following:</para>
+	    <list list-type="enumerated">
+	      <item>
+		<para>List all the possible consequences of eutrophication that you can think of.</para>
+	      </item>
+	      <item>
+		<para>Suggest ways to solve the problems that arise because of eutrophication.</para>
+	      </item>
+	      <item>
+		<para>Discuss how the public can help to prevent eutrophication.</para>
+	      </item>
+	    </list>
+	  </activity>
+	  <teachers-guide>
+	    <list list-type="bulleted">
+	      <item>
+		<para>This investigation should be handed out before this section is taught so that learners can have their results by the time this section is started.</para>
+	      </item>
+	      <item>
+		<para>The last teaching lesson can be spent working on the interpretation and recommendations of their findings.</para>
+	      </item>
+	      <item>
+		<para>Teachers can decide in what format they want the investigation handed in – a written report, poster, or oral presentation.</para>
+	      </item>
+	    </list>
+	  </teachers-guide>
+	  <activity type="investigation">
+	    <title>Fertiliser in your area</title>
+	    <para>For this investigation you will be working in a group. Your task is to find out what fertilisers are used in your area and whether people know about the impact of fertilisers on the environment, especially the water sources in the area.</para>
+	    <list list-type="enumerated">
+	      <item>
+		<para><emphasis effect="bold">Design a survey to find out the following:</emphasis></para>
+		<list list-type="bulleted">
+		  <item>
+		    <para>Do people use fertilisers in their gardens or the areas around their homes?</para>
+		  </item>
+		  <item>
+		    <para>What type of fertilisers are they using?</para>
+		  </item>
+		  <item>
+		    <para>Why are they using fertilisers?</para>
+		  </item>
+		  <item>
+		    <para>How often do they apply fertilisers?</para>
+		  </item>
+		  <item>
+		    <para>How much fertiliser do they use in each application?</para>
+		  </item>
+		  <item>
+		    <para>Do they use organic or inorganic fertilisers?</para>
+		  </item>
+		  <item>
+		    <para>Which ones do they think are better to use?</para>
+		  </item>
+		  <item>
+		    <para>How do they think fertilisers influence the quality of water in the area?</para>
+		  </item>
+		</list>
+	      </item>
+	      <item>
+		<para><emphasis effect="bold">Collect your data</emphasis></para>
+		<para>Take the survey to at least <number>10</number> people in your area. Record their responses.</para>
+	      </item>
+	      <item>
+		<para><emphasis effect="bold">Present your findings</emphasis></para>
+		<para>Present your findings in tables or graphs and write a one-page summary of what you have found.</para>
+	      </item>
+	      <item>
+		<para><emphasis effect="bold">Interpret your findings</emphasis></para>
+		<para>Discuss your findings:</para>
+		<list list-type="bulleted">
+		  <item>
+		    <para>Answer all the questions that were posed in the beginning of the investigation.</para>
+		  </item>
+		  <item>
+		    <para>Did you find what you thought you would?</para>
+		  </item>
+		  <item>
+		    <para>What was different?</para>
+		  </item>
+		  <item>
+		    <para>What was the same?</para>
+		  </item>
+		  <item>
+		    <para>Why do you think this is the case?</para>
+		  </item>
+		</list>
+	      </item>
+	      <item>
+		<para><emphasis effect="bold">Make recommendations</emphasis></para>
+		<para>Include some recommendations to people in your neighbourhood regarding the use of fertilisers and their impact on the environment.</para>
+		<para>Suggestion: Report your findings in your local newspaper to promote awareness.</para>
+	      </item>
+	    </list>
+	  </activity>
+	</section>
+      </section>
+      <section type="section">
+	<title>Chapter summary</title>
+	<shortcode>Shortcode</shortcode>
+	<para>.</para>
+        <list list-type="bulleted">
+          <item>
+            <para>The growth of South Africa's <emphasis effect="bold">chemical industry</emphasis> was largely due to the mining industry, which requires explosives for their operation. One of South Africa's major chemical companies is <emphasis effect="bold">Sasol</emphasis>. Other important examples of chemical industries in the country are the <emphasis effect="bold">chloralkali</emphasis> and <emphasis effect="bold">fertiliser</emphasis> industries.</para>
+          </item>
+          <item>
+	    <para>The <emphasis effect="bold">fertiliser industry</emphasis> is very important in providing fertilisers with the correct nutrients in the correct quantities to ensure maximum growth for various plants and crops.</para>
+          </item>
+          <item>
+            <para>All plants need certain <emphasis effect="bold">macronutrients</emphasis> (e.g. carbon, hydrogen, oxygen, potassium, nitrogen and phosphorus) and <emphasis effect="bold">micronutrients</emphasis> (e.g. iron, chlorine, copper and zinc) in order to survive. Fertilisers provide these nutrients.</para>
+          </item>
+          <item>
+            <para>In plants, essential nutrients are obtained from the atmosphere or from the soil.</para>
+          </item>
+          <item>
+            <para>Animals also need similar nutrients, but they obtain most of these from plants or plant products. They may also obtain them from other animals, which may have fed on plants during their life.</para>
+          </item>
+          <item>
+            <para><emphasis effect="bold">Fertilisers</emphasis> can be produced industrially using a number of chemical processes: the <emphasis effect="bold">Haber process</emphasis> reacts nitrogen and hydrogen to produce <emphasis effect="bold">ammonia</emphasis>; the <emphasis effect="bold">Ostwald process</emphasis> reacts oxygen and ammonia to produce <emphasis effect="bold">nitric acid</emphasis>; the <emphasis effect="bold">Contact process</emphasis> produces <emphasis effect="bold">sulfuric acid</emphasis>; sulfuric acid then reacts with phosphate rock to produce <emphasis effect="bold">phosphoric acid</emphasis>, after which phosphoric acid reacts with ground phosphate rock to produce fertilisers such as <emphasis effect="bold">triple superphosphate</emphasis>.</para>
+          </item>
+          <item>
+            <para>Potassium is obtained from <emphasis effect="bold">potash</emphasis> through a mineral salt extraction process.</para>
+          </item>
+          <item>
+            <para>Fertilisers can have a damaging effect on the environment when they are present in high quantities in ecosystems. This can lead to <emphasis effect="bold">eutrophication</emphasis>. A number of preventative actions can be taken to reduce these impacts.</para>
+          </item>
+        </list>
+      </section>
+      <exercises>
+	<title/>
+	<multi-part>
+	  <shortcode>Shortcode</shortcode>
+	  <header>
+	    <para>There is likely to be a gap between food production and demand in several parts of the world by 2020. Demand is influenced by population growth and urbanisation, as well as income levels and changes in dietary preferences. While there is an increasing world population to feed, most soils in the world used for large-scale, intensive production of crops lack the necessary nutrients for the crops. This is where fertilisers can play a role.</para>
+	    <para>The flow diagram below shows the main steps in the industrial preparation of two important solid fertilisers.</para>
+	      <pspicture style:width="0.6">
+		<code>
+		  (-3.5,-1.5)(7.5,9.5)
+		  \psline{&gt;}(-2,7)(-2,8)
+		  \psframe(-3,8)(-1,9)
+		  \rput(-2,8.5){Air}
+		  \psline{&gt;}(5,7)(5,8)
+		  \psframe(4,8)(6,9)
+		  \rput(5,8.5){Methane}
+		  \psline[linearc=0.2]{&gt;}(1,4)(1,5)(0.5,5)
+		  \psline[linearc=0.2](0.5,5)(-2,5)(-2,6)
+		  \rput(1,5.4){Haber process}
+		  \psframe(-3,6)(-1,7)
+		  \rput(-2,6.5){Nitrogen}
+		  \psline[linearc=0.2](5,6)(5,5)(1,5)(1,4.5)
+		  \psframe(4,6)(6,7)
+		  \rput(5,6.5){Hydrogen}
+		  
+		  \psframe(5,3)(7,4)
+		  \rput(6,3.5){Brown gas}
+		  \psline{-&gt;}(6,3)(6,2)
+		  \psline{-&gt;}(4,3.5)(5,3.5)
+		  \rput(3.5,3.5){NO}
+		  \psframe(3,3)(4,4)
+		  \rput(2.4,4){\small Process}
+		  \rput(2.4,3.7){\textbf{\small Y}}
+		  \psline{-&gt;}(1.8,3.5)(3,3.5)
+		  \rput(-2,3.5){Fertiliser {\textbf{C}}}
+		  \psframe(-3,3)(-1,4)
+		  \rput(-0.4,3.7){\small H$_{2}$SO$_{4}$}
+		  \psline{-&gt;}(0.2,3.5)(-1,3.5)
+		  \psframe(0,-1)(2,0)
+		  \rput(1,-0.5){Fertiliser {\textbf{D}}}
+		  \psline{&gt;}(1,0)(1,3)
+		  \psframe(0.2,3)(1.8,4)
+		  \rput(1,3.5){NH$_{3}$}
+		  \psline[linearc=0.2](5,1.5)(1,1.5)(1,1)
+		  \psframe(5,1)(7,2)
+		  \rput(6,1.5){Liquid {\textbf{E}}}
+		</code>
+	      </pspicture>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>How can fertilisers play a role in increasing the soil’s ability to produce crops?</para>
+	      </problem>
+	      <solution>
+		<para>Fertilisers supply nutrients to the soil in a soluble form which plants can then absorb.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Are the processes illustrated by the flow diagram above that of organic or inorganic fertilisers? Give a reason for your answer.</para>
+	      </problem>
+	      <solution>
+		<para><correct>Inorganic fertilisers</correct>. Industrial processes are involved in the formation of these fertilisers, and they did not come from natural sources or living organisms.</para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Write down the balanced chemical equation for the formation of the brown gas.</para>
+	      </problem>
+	      <solution>
+		<para><correct><chem_compound>2NO(g) + O_{2}(g)</chem_compound> <latex>\rightleftharpoons</latex> <chem_compound>2NO_{2}(g)</chem_compound></correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Write down the name of process <emphasis effect="bold">Y</emphasis>.</para>
+	      </problem>
+	      <solution>
+		<para><correct>Ostwald process</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Write down the chemical formula of liquid <emphasis effect="bold">E</emphasis>.</para>
+	      </problem>
+	      <solution>
+		<para><correct><chem_compound>HNO_{3}</chem_compound></correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Write down the chemical formulae of fertilisers <emphasis effect="bold">C</emphasis> and <emphasis effect="bold">D</emphasis> respectively.</para>
+	      </problem>
+	      <solution>
+		<correct>
+		<para><emphasis effect="bold">C</emphasis> - <chem_compound>(NH_{4})_{2}SO_{4}</chem_compound></para>
+		<para><emphasis effect="bold">D</emphasis> - <chem_compound>NH_{4}NO_{3}</chem_compound></para>
+		</correct>
+	      </solution>
+	    </entry>
+	  </multi-part>
+	  <entry>
+	    <problem>
+	      <para>The following extract comes from an article on fertilisers:</para>
+	      <para><emphasis effect="italics">A world without food for its people and a world with an environment poisoned through the actions of man are two contributing factors towards a disaster scenario.</emphasis></para>
+	      <para>Do you agree with this statement? Write down at least three arguments to substantiate your answer.</para>
+	    </problem>
+	    <solution>
+	      <para>Learners give their own opinion.</para>
+	    </solution>
+	    <correct/>
+	  </entry>
+	  <multi-part>
+	    <shortcode>01rx</shortcode>
+	    <header>
+	      <para>The production of nitric acid is very important in the manufacture of fertilisers. Look at the diagram below, which shows part of the fertiliser production process, and then answer the questions that follow.</para>
+	      <pspicture>
+		<code>
+		  (-2,-0.5)(8,6)
+		  \psframe(5.5,0)(6.5,1)
+		  \rput(6,0.5){\textbf{\red (4)}}
+		  \psline{&gt;}(6,1.1)(6,2.6)
+		  \rput(6.8,2){\textbf{Ostwald}}
+		  \rput(6.8,1.6){\textbf{Process}}
+		  \rput(6.05,2.85){\textbf{NO(g) + O$_{2}$(g)}}
+		  \psline{&gt;}(4.6,2.85)(3,2.85)
+		  \rput(2.5,2.85){\textbf{+ O$_{2}$}}
+		  \psframe(1,2.35)(2,3.35)
+		  \rput(1.5,2.85){\textbf{\red (2)}}
+		  \psline{&gt;}(1.5,3.45)(1.5,4.95)
+		  \rput(2.55,4.15){\textbf{+ H$_{2}$(g) \red (3)}}
+		  \rput(1.55,5.2){\textbf{N$_{2}$(g)}}
+		  \psline{&gt;}(1,5.2)(-0.6,5.2)
+		  \psframe(-1.7,4.7)(-0.7,5.7)
+		  \rput(-1.2,5.2){\textbf{\red (1)}}
+		</code>
+	      </pspicture>
+	    </header>
+	    <entry>
+	      <problem>
+		<para>Name the process at (1).</para>
+	      </problem>
+	      <solution>
+		<para><correct>Fractional distillation of air</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Name the gas at (2).</para>
+	      </problem>
+	      <solution>
+		<para><correct>Ammonia</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Name the process at (3) that produces gas (2).</para>
+	      </problem>
+	      <solution>
+		<para><correct>Haber process</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Name the immediate product at (4).</para>
+	      </problem>
+	      <solution>
+		<para><correct>nitrogen dioxide</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Name the final product of the Ostwald process (product (4) + <chem_compound>H_{2}O</chem_compound>).</para>
+	      </problem>
+	      <solution>
+		<para><correct>nitric acid</correct></para>
+	      </solution>
+	    </entry>
+	    <entry>
+	      <problem>
+		<para>Name two fertilisers that can be produced from nitric acid.</para>
+	      </problem>
+	      <solution>
+		<para>Nitrophosphates or ammonium nitrate.</para>
+	      </solution>
+	      <correct/>
+	    </entry>
+	  </multi-part>
+	</exercises>
+      </section>
+    </content>
+  </document>
